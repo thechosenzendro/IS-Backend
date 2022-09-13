@@ -15,17 +15,32 @@ var corsOptions = {
     optionsSuccessStatus: 200
 }
 
+//Setup časovače
+function Timestamp() {
+    let date = new Date();
+    let hh = date.getHours();
+    let mm = checkTime(date.getMinutes());
+    let ss = checkTime(date.getSeconds());
+    let time = "[" + hh + ":" + mm + ":" + ss + "]";
+    return time;
+}
+function checkTime(i) {
+    if (i < 10) { i = "0" + i };
+    return i;
+}
+
+
 //Request souboru z ./server
 app.get("/file/:filename", cors(corsOptions), (req, res) => {
     const { filename } = req.params
     fs.readFile("./server/" + filename, "utf8", (err, data) => {
         if (err) {
             res.status(400).send(err);
-            console.log("Error: " + err)
+            console.log(Timestamp() + " Error: " + err)
             return;
         }
         res.status(200).send(data)
-        console.log("Data poslána: " + filename)
+        console.log(Timestamp() + " Data poslána: " + filename)
 
     })
 })
