@@ -1,0 +1,27 @@
+[
+    {
+        "Book ID": "Tomik",
+        "Book Name": "Challenging Times",
+        "Category": "lol",
+        "Price": "125.60",
+        "Lol": "lolik"
+    },
+    {
+        "Book ID": "Tomik2",
+        "Book Name": "Learning JavaScript",
+        "Category": "Programming",
+        "Price": "56.00"
+    },
+    {
+        "Book ID": "Tomik3",
+        "Book Name": "Popular Science",
+        "Category": "Science",
+        "Price": "210.40"
+    },
+    {
+        "Book ID": "Tomik4",
+        "Book Name": "lol",
+        "Category": "Science",
+        "Price": "210.40"
+    }
+]

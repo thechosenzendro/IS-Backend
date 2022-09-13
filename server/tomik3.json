@@ -1,0 +1,27 @@
+[
+    {
+        "tag": "h1",
+        "innerHTML": "TEST"
+    },
+    {
+        "tag": "input",
+        "class": "Input",
+        "placeholder": "placeholder",
+        "id": "placeholder"
+    },
+    {
+        "tag": "input",
+        "placeholder": "lol",
+        "id": "placeholder1"
+    },
+    {
+        "tag": "br"
+    },
+    {
+        "tag": "button",
+        "class": "Prim",
+        "id": "placeholderbtn0",
+        "innerHTML": "SaveBtn",
+        "onclick": "alert('Lol')"
+    }
+]
