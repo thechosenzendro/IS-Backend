@@ -132,7 +132,8 @@ fs.readFile("./server/login.json", "utf8", (err, data) => {
     const name  = urlParams.get("name");
     const pass  = urlParams.get("pass");
     let ans = Login(name, pass, logindata)
-    res.status(200).send(ans)
+    const datinka = {"Auth": ans, "Role": logindata["role_" + name], "Jmeno": logindata["jmeno_" + name]} 
+    res.status(200).send(datinka)
     console.log(Timestamp() + " Uživatel " + name + " se snaží přihlásit. Povedlo se?: " + ans);
 
 })
