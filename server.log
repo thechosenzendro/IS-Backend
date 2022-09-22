@@ -1,0 +1,26 @@
+(4.8.2022) [20:42:19] ______________Inicializace MZISAPI(4.8.2022) [20:42:19] ______________
+(4.8.2022) [20:42:19] Vše funguje na localhost:8080
+(4.8.2022) [20:43:21] ______________Inicializace MZISAPI______________
+(4.8.2022) [20:43:21] Vše funguje na localhost:8080
+(4.8.2022) [20:43:32] Autorizační request přijat.
+(4.8.2022) [20:43:32] loginData přečtena.
+(4.8.2022) [20:43:32]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.8.2022) [20:43:32] Data poslána: dashinfo.json
+(4.8.2022) [20:43:41] ______________Inicializace MZISAPI______________
+(4.8.2022) [20:43:41] Vše funguje na localhost:8080
+(4.8.2022) [20:46:13] Autorizační request přijat.
+(4.8.2022) [20:46:13] loginData přečtena.
+(4.8.2022) [20:46:13]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.8.2022) [20:46:14] Data poslána: dashinfo.json
+(4.8.2022) [20:46:27] Data poslána: tomik3.json
+(4.8.2022) [20:51:23] ______________Inicializace MZISAPI______________
+(4.8.2022) [20:51:23] Vše funguje na localhost:8080
+(4.8.2022) [20:51:40] Autorizační request přijat.
+(4.8.2022) [20:51:40] loginData přečtena.
+(4.8.2022) [20:51:40]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.8.2022) [20:51:41] Data poslána: dashinfo.json
+(4.8.2022) [20:52:03] Data poslána: tomik4.json
+(4.8.2022) [21:19:49] Autorizační request přijat.
+(4.8.2022) [21:19:49] loginData přečtena.
+(4.8.2022) [21:19:49]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.8.2022) [21:19:50] Data poslána: dashinfo.json
