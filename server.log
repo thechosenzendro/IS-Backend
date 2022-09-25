@@ -24,3 +24,621 @@
 (4.8.2022) [21:19:49] loginData přečtena.
 (4.8.2022) [21:19:49]  Uživatel l se snaží přihlásit. Povedlo se?: true
 (4.8.2022) [21:19:50] Data poslána: dashinfo.json
+(6.8.2022) [10:00:07] ______________Inicializace MZISAPI______________
+(6.8.2022) [10:00:07] Vše funguje na localhost:8080
+(6.8.2022) [10:00:25] Autorizační request přijat.
+(6.8.2022) [10:00:25]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(6.8.2022) [10:00:25] loginData přečtena.
+(6.8.2022) [10:00:25] Data poslána: dashinfo.json
+(6.8.2022) [10:08:53] ______________Inicializace MZISAPI______________
+(6.8.2022) [10:08:53] Vše funguje na localhost:8080
+(6.8.2022) [10:10:17] ______________Inicializace MZISAPI______________
+(6.8.2022) [10:10:17] Vše funguje na localhost:8080
+(6.8.2022) [10:10:30] Autorizační request přijat.
+(6.8.2022) [10:10:30] loginData přečtena.
+(6.8.2022) [10:10:30]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(6.8.2022) [10:10:30] Data poslána: dashinfo.json
+(6.8.2022) [10:11:18] Data poslána: dashinfo.json
+(6.8.2022) [10:11:32] Ping zaznamenán
+(6.8.2022) [10:11:32] Data poslána: dashinfo.json
+(6.8.2022) [10:11:36] Ping zaznamenán
+(6.8.2022) [10:21:03] ______________Inicializace MZISAPI______________
+(6.8.2022) [10:21:03] Vše funguje na localhost:8080
+(6.8.2022) [10:21:07] Data poslána: dashinfo.json
+(6.8.2022) [10:21:07] Ping zaznamenán
+(6.8.2022) [10:21:14] Autorizační request přijat.
+(6.8.2022) [10:21:14] loginData přečtena.
+(6.8.2022) [10:21:14]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(6.8.2022) [10:21:14] Ping zaznamenán
+(6.8.2022) [10:21:14] Data poslána: dashinfo.json
+(6.8.2022) [10:27:28] Ping zaznamenán
+(6.8.2022) [10:35:38] Ping zaznamenán
+(6.8.2022) [10:35:38] Data poslána: dashinfo.json
+(6.8.2022) [10:35:57] Ping zaznamenán
+(6.8.2022) [10:35:57] Data poslána: dashinfo.json
+(6.8.2022) [10:38:39] Ping zaznamenán
+(6.8.2022) [10:38:39] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\22\0004.json'
+(6.8.2022) [10:39:26] Ping zaznamenán
+(6.8.2022) [10:39:26] Data poslána: dashinfo.json
+(6.8.2022) [10:39:30] Ping zaznamenán
+(6.8.2022) [10:39:33] Ping zaznamenán
+(6.8.2022) [10:40:11] Ping zaznamenán
+(6.8.2022) [10:40:11] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\22\0001.json'
+(6.8.2022) [10:40:14] Ping zaznamenán
+(6.8.2022) [10:40:14] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\22\0001.json'
+(6.8.2022) [10:41:46] Ping zaznamenán
+(6.8.2022) [10:41:46] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\'22\0001.json''
+(6.8.2022) [10:41:48] Ping zaznamenán
+(6.8.2022) [10:41:48] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\'22\0004.json''
+(6.8.2022) [10:46:53] Ping zaznamenán
+(6.8.2022) [10:46:53] Data poslána: dashinfo.json
+(6.8.2022) [10:46:55] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\'220001.json''
+(6.8.2022) [10:46:55] Ping zaznamenán
+(6.8.2022) [11:45:02] Ping zaznamenán
+(6.8.2022) [11:45:02] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\'220004.json''
+(6.8.2022) [11:45:40] Data poslána: 220004.json
+(6.8.2022) [11:45:40] Ping zaznamenán
+(6.8.2022) [11:46:30] Ping zaznamenán
+(6.8.2022) [11:46:30] Data poslána: 220004.json
+(6.8.2022) [11:47:49] Ping zaznamenán
+(6.8.2022) [11:47:49] Data poslána: dashinfo.json
+(6.8.2022) [11:50:55] Ping zaznamenán
+(6.8.2022) [11:50:55] Data poslána: dashinfo.json
+(6.8.2022) [11:52:28] Ping zaznamenán
+(6.8.2022) [11:52:28] Data poslána: dashinfo.json
+(6.8.2022) [11:53:03] Ping zaznamenán
+(6.8.2022) [11:53:04] Data poslána: dashinfo.json
+(6.8.2022) [11:58:00] Ping zaznamenán
+(6.8.2022) [11:58:00] Data poslána: dashinfo.json
+(6.8.2022) [12:02:28] Ping zaznamenán
+(6.8.2022) [12:02:28] Data poslána: dashinfo.json
+(6.8.2022) [12:03:10] Ping zaznamenán
+(6.8.2022) [12:04:36] Ping zaznamenán
+(6.8.2022) [12:04:36] Data poslána: dashinfo.json
+(6.8.2022) [12:04:37] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\klienti.json'
+(6.8.2022) [12:04:37] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\faktury.json'
+(6.8.2022) [12:05:36] Ping zaznamenán
+(6.8.2022) [12:05:37] Data poslána: dashinfo.json
+(6.8.2022) [12:05:37] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\klienti.json'
+(6.8.2022) [12:05:37] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\faktury.json'
+(6.8.2022) [12:05:43] Ping zaznamenán
+(6.8.2022) [12:05:43] Data poslána: dashinfo.json
+(6.8.2022) [12:05:43] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\klienti.json'
+(6.8.2022) [12:05:43] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\faktury.json'
+(6.8.2022) [12:08:04] Ping zaznamenán
+(6.8.2022) [12:08:04] Data poslána: dashinfo.json
+(6.8.2022) [12:08:04] Data poslána: klienti.json
+(6.8.2022) [12:08:04] Data poslána: faktury.json
+(6.8.2022) [12:08:44] Ping zaznamenán
+(6.8.2022) [12:08:44] Data poslána: dashinfo.json
+(6.8.2022) [12:08:44] Data poslána: klienti.json
+(6.8.2022) [12:08:44] Data poslána: faktury.json
+(6.8.2022) [12:09:01] Ping zaznamenán
+(6.8.2022) [12:09:01] Data poslána: dashinfo.json
+(6.8.2022) [12:09:01] Data poslána: klienti.json
+(6.8.2022) [12:09:01] Data poslána: faktury.json
+(6.8.2022) [12:09:21] Ping zaznamenán
+(6.8.2022) [12:09:21] Data poslána: dashinfo.json
+(6.8.2022) [12:09:21] Data poslána: klienti.json
+(6.8.2022) [12:09:21] Data poslána: faktury.json
+(6.8.2022) [12:30:35] Ping zaznamenán
+(6.8.2022) [12:30:35] Data poslána: dashinfo.json
+(6.8.2022) [12:30:35] Data poslána: faktury.json
+(6.8.2022) [12:30:35] Data poslána: klienti.json
+(6.8.2022) [12:31:40] Ping zaznamenán
+(6.8.2022) [12:31:40] Data poslána: dashinfo.json
+(6.8.2022) [12:31:40] Data poslána: klienti.json
+(6.8.2022) [12:31:40] Data poslána: faktury.json
+(6.8.2022) [12:33:57] Ping zaznamenán
+(6.8.2022) [12:33:57] Data poslána: dashinfo.json
+(6.8.2022) [12:33:57] Data poslána: klienti.json
+(6.8.2022) [12:33:57] Data poslána: faktury.json
+(6.8.2022) [12:37:59] Ping zaznamenán
+(6.8.2022) [12:37:59] Data poslána: 220004.json
+(6.8.2022) [12:38:13] Ping zaznamenán
+(6.8.2022) [12:38:13] Data poslána: 220004.json
+(6.8.2022) [12:38:25] Ping zaznamenán
+(6.8.2022) [12:38:25] Data poslána: 220004.json
+(6.8.2022) [12:38:51] Ping zaznamenán
+(6.8.2022) [12:38:51] Data poslána: 220004.json
+(6.8.2022) [12:41:24] ______________Inicializace MZISAPI______________
+(6.8.2022) [12:41:24] Vše funguje na localhost:8080
+(6.8.2022) [12:41:28] Ping zaznamenán
+(6.8.2022) [12:42:19] Autorizační request přijat.
+(6.8.2022) [12:42:19] loginData přečtena.
+(6.8.2022) [12:42:19]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(6.8.2022) [12:42:19] Ping zaznamenán
+(6.8.2022) [12:42:19] Data poslána: dashinfo.json
+(6.8.2022) [12:42:19] Data poslána: klienti.json
+(6.8.2022) [12:42:19] Data poslána: faktury.json
+(6.8.2022) [12:46:36] Ping zaznamenán
+(6.8.2022) [12:46:36] Data poslána: dashinfo.json
+(6.8.2022) [12:46:36] Data poslána: klienti.json
+(6.8.2022) [12:46:36] Data poslána: faktury.json
+(6.8.2022) [12:46:57] Ping zaznamenán
+(6.8.2022) [12:46:57] Data poslána: dashinfo.json
+(6.8.2022) [12:46:57] Data poslána: klienti.json
+(6.8.2022) [12:46:57] Data poslána: faktury.json
+(6.8.2022) [12:53:47] Ping zaznamenán
+(6.8.2022) [12:53:47] Data poslána: dashinfo.json
+(6.8.2022) [12:53:47] Data poslána: klienti.json
+(6.8.2022) [12:53:47] Data poslána: faktury.json
+(6.8.2022) [12:55:41] Ping zaznamenán
+(6.8.2022) [12:55:41] Data poslána: dashinfo.json
+(6.8.2022) [12:55:41] Data poslána: klienti.json
+(6.8.2022) [12:55:41] Data poslána: faktury.json
+(6.8.2022) [12:56:20] Ping zaznamenán
+(6.8.2022) [12:56:21] Data poslána: dashinfo.json
+(6.8.2022) [12:56:21] Data poslána: klienti.json
+(6.8.2022) [12:56:21] Data poslána: faktury.json
+(6.8.2022) [12:56:49] Ping zaznamenán
+(6.8.2022) [12:56:49] Data poslána: dashinfo.json
+(6.8.2022) [12:56:49] Data poslána: klienti.json
+(6.8.2022) [12:56:49] Data poslána: faktury.json
+(6.8.2022) [12:57:15] Ping zaznamenán
+(6.8.2022) [12:57:15] Data poslána: dashinfo.json
+(6.8.2022) [12:57:15] Data poslána: klienti.json
+(6.8.2022) [12:57:15] Data poslána: faktury.json
+(6.8.2022) [12:58:24] Ping zaznamenán
+(6.8.2022) [12:58:24] Data poslána: dashinfo.json
+(6.8.2022) [12:58:24] Data poslána: klienti.json
+(6.8.2022) [12:58:24] Data poslána: faktury.json
+(6.8.2022) [12:59:19] Ping zaznamenán
+(6.8.2022) [12:59:19] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\220002.json'
+(6.8.2022) [12:59:39] Ping zaznamenán
+(6.8.2022) [12:59:39] Data poslána: dashinfo.json
+(6.8.2022) [12:59:39] Data poslána: klienti.json
+(6.8.2022) [12:59:39] Data poslána: faktury.json
+(6.8.2022) [13:00:36] Ping zaznamenán
+(6.8.2022) [13:00:36] Data poslána: dashinfo.json
+(6.8.2022) [13:00:36] Data poslána: klienti.json
+(6.8.2022) [13:00:36] Data poslána: faktury.json
+(6.8.2022) [13:04:17] Ping zaznamenán
+(6.8.2022) [13:04:17] Data poslána: dashinfo.json
+(6.8.2022) [13:04:17] Data poslána: klienti.json
+(6.8.2022) [13:04:17] Data poslána: faktury.json
+(6.8.2022) [13:06:15] Ping zaznamenán
+(6.8.2022) [13:06:15] Data poslána: dashinfo.json
+(6.8.2022) [13:06:15] Data poslána: klienti.json
+(6.8.2022) [13:06:15] Data poslána: faktury.json
+(6.8.2022) [13:06:17] Ping zaznamenán
+(6.8.2022) [13:06:17] Data poslána: 220004.json
+(6.8.2022) [13:13:47] Ping zaznamenán
+(6.8.2022) [13:13:47] Data poslána: 220004.json
+(6.8.2022) [13:14:21] Ping zaznamenán
+(6.8.2022) [13:14:21] Data poslána: 220004.json
+(6.8.2022) [13:15:53] Ping zaznamenán
+(6.8.2022) [13:15:53] Data poslána: 220004.json
+(6.8.2022) [13:16:41] Ping zaznamenán
+(6.8.2022) [13:16:41] Data poslána: 220004.json
+(6.8.2022) [13:18:34] Ping zaznamenán
+(6.8.2022) [13:18:34] Data poslána: 220004.json
+(6.8.2022) [13:23:45] Ping zaznamenán
+(6.8.2022) [13:23:45] Data poslána: 220004.json
+(6.8.2022) [13:24:15] Ping zaznamenán
+(6.8.2022) [13:24:15] Data poslána: 220004.json
+(6.8.2022) [13:30:56] Ping zaznamenán
+(6.8.2022) [13:30:57] Data poslána: 220004.json
+(6.8.2022) [13:31:12] Ping zaznamenán
+(6.8.2022) [13:31:13] Data poslána: 220004.json
+(6.8.2022) [13:37:42] Ping zaznamenán
+(6.8.2022) [13:37:42] Data poslána: 220004.json
+(6.8.2022) [13:46:37] Ping zaznamenán
+(6.8.2022) [13:46:37] Data poslána: 220004.json
+(6.8.2022) [13:46:46] Ping zaznamenán
+(6.8.2022) [13:46:46] Data poslána: 220004.json
+(6.8.2022) [13:47:06] Ping zaznamenán
+(6.8.2022) [13:47:06] Data poslána: 220004.json
+(6.8.2022) [13:50:11] Ping zaznamenán
+(6.8.2022) [13:50:11] Data poslána: 220004.json
+(6.8.2022) [13:51:10] Ping zaznamenán
+(6.8.2022) [13:51:10] Data poslána: 220004.json
+(6.8.2022) [13:51:31] Ping zaznamenán
+(6.8.2022) [13:51:31] Data poslána: 220004.json
+(6.8.2022) [13:51:34] Ping zaznamenán
+(6.8.2022) [13:51:34] Data poslána: dashinfo.json
+(6.8.2022) [13:51:34] Data poslána: klienti.json
+(6.8.2022) [13:51:34] Data poslána: faktury.json
+(6.8.2022) [13:51:39] Ping zaznamenán
+(6.8.2022) [13:51:39] Data poslána: 220004.json
+(6.8.2022) [13:51:57] Ping zaznamenán
+(6.8.2022) [13:51:57] Data poslána: 220004.json
+(6.8.2022) [13:51:59] Data poslána: 220004.json
+(6.8.2022) [13:51:59] Data poslána: 220004.json
+(6.8.2022) [13:52:00] Data poslána: 220004.json
+(6.8.2022) [13:52:01] Data poslána: 220004.json
+(6.8.2022) [13:52:01] Data poslána: 220004.json
+(6.8.2022) [13:52:02] Data poslána: 220004.json
+(6.8.2022) [13:52:04] Data poslána: 220004.json
+(6.8.2022) [18:35:53] Data poslána: 220004.json
+(6.8.2022) [18:35:54] Data poslána: 220004.json
+(6.8.2022) [18:35:54] Data poslána: 220004.json
+(6.8.2022) [18:35:55] Data poslána: 220004.json
+(6.8.2022) [18:35:55] Data poslána: 220004.json
+(6.8.2022) [18:37:18] Ping zaznamenán
+(6.8.2022) [18:37:18] Data poslána: 220004.json
+(6.8.2022) [18:37:19] Data poslána: 220004.json
+(6.8.2022) [18:37:21] Data poslána: 220004.json
+(6.8.2022) [18:37:22] Data poslána: 220004.json
+(6.8.2022) [18:37:22] Data poslána: 220004.json
+(6.8.2022) [18:38:07] Ping zaznamenán
+(6.8.2022) [18:38:07] Data poslána: 220004.json
+(6.8.2022) [18:38:08] Data poslána: 220004.json
+(6.8.2022) [18:38:09] Data poslána: 220004.json
+(6.8.2022) [18:39:56] Data poslána: 220004.json
+(6.8.2022) [18:39:57] Data poslána: 220004.json
+(6.8.2022) [18:39:57] Data poslána: 220004.json
+(6.8.2022) [18:39:57] Data poslána: 220004.json
+(6.8.2022) [18:39:58] Data poslána: 220004.json
+(6.8.2022) [18:40:18] Data poslána: 220004.json
+(6.8.2022) [18:57:20] Data poslána: 220004.json
+(6.8.2022) [18:57:21] Data poslána: 220004.json
+(6.8.2022) [19:02:58] Ping zaznamenán
+(6.8.2022) [19:02:58] Data poslána: 220004.json
+(6.8.2022) [19:03:47] Ping zaznamenán
+(6.8.2022) [19:03:47] Data poslána: 220004.json
+(6.8.2022) [19:03:49] Data poslána: 220004.json
+(6.8.2022) [19:03:50] Data poslána: 220004.json
+(6.8.2022) [19:03:51] Data poslána: 220004.json
+(6.8.2022) [19:03:52] Data poslána: 220004.json
+(6.8.2022) [19:03:52] Data poslána: 220004.json
+(6.8.2022) [19:04:09] Data poslána: 220004.json
+(6.8.2022) [19:04:10] Data poslána: 220004.json
+(6.8.2022) [19:06:25] Ping zaznamenán
+(6.8.2022) [19:06:25] Data poslána: 220004.json
+(6.8.2022) [19:06:26] Data poslána: 220004.json
+(6.8.2022) [19:06:27] Data poslána: 220004.json
+(6.8.2022) [19:06:27] Data poslána: 220004.json
+(6.8.2022) [19:06:28] Data poslána: 220004.json
+(6.8.2022) [19:06:28] Data poslána: 220004.json
+(6.8.2022) [19:06:29] Data poslána: 220004.json
+(6.8.2022) [19:06:32] Data poslána: 220004.json
+(6.8.2022) [19:10:39] Ping zaznamenán
+(6.8.2022) [19:10:39] Data poslána: 220004.json
+(6.8.2022) [19:16:53] Data poslána: 220004.json
+(6.8.2022) [19:17:16] Ping zaznamenán
+(6.8.2022) [19:17:16] Data poslána: 220004.json
+(6.8.2022) [19:18:27] Ping zaznamenán
+(6.8.2022) [19:18:27] Data poslána: 220004.json
+(6.8.2022) [19:19:37] Ping zaznamenán
+(6.8.2022) [19:19:37] Data poslána: 220004.json
+(6.8.2022) [19:20:07] Ping zaznamenán
+(6.8.2022) [19:20:07] Data poslána: 220004.json
+(6.8.2022) [19:20:53] Ping zaznamenán
+(6.8.2022) [19:20:53] Data poslána: 220004.json
+(6.8.2022) [19:22:07] Ping zaznamenán
+(6.8.2022) [19:22:07] Data poslána: 220004.json
+(6.8.2022) [19:23:16] Ping zaznamenán
+(6.8.2022) [19:23:16] Data poslána: 220004.json
+(6.8.2022) [19:28:32] Data poslána: 220004.json
+(6.8.2022) [19:28:32] Data poslána: 220004.json
+(6.8.2022) [19:28:33] Data poslána: 220004.json
+(6.8.2022) [19:28:33] Data poslána: 220004.json
+(6.8.2022) [19:28:34] Data poslána: 220004.json
+(6.8.2022) [19:28:35] Data poslána: 220004.json
+(6.8.2022) [19:31:15] Ping zaznamenán
+(6.8.2022) [19:31:15] Data poslána: 220004.json
+(6.8.2022) [19:31:16] Data poslána: 220004.json
+(6.8.2022) [19:31:17] Data poslána: 220004.json
+(6.8.2022) [19:31:18] Data poslána: 220004.json
+(6.8.2022) [19:31:19] Data poslána: 220004.json
+(6.8.2022) [19:31:20] Data poslána: 220004.json
+(6.8.2022) [19:31:21] Data poslána: 220004.json
+(6.8.2022) [19:31:23] Data poslána: 220004.json
+(6.8.2022) [19:33:16] Ping zaznamenán
+(6.8.2022) [19:33:16] Data poslána: 220004.json
+(6.8.2022) [19:33:18] Data poslána: 220004.json
+(6.8.2022) [19:33:18] Data poslána: 220004.json
+(6.8.2022) [19:33:19] Data poslána: 220004.json
+(6.8.2022) [19:37:14] Ping zaznamenán
+(6.8.2022) [19:37:14] Data poslána: 220004.json
+(6.8.2022) [19:37:16] Data poslána: 220004.json
+(6.8.2022) [19:37:18] Data poslána: 220004.json
+(6.8.2022) [19:37:18] Data poslána: 220004.json
+(6.8.2022) [19:37:19] Data poslána: 220004.json
+(6.8.2022) [19:37:19] Data poslána: 220004.json
+(6.8.2022) [19:38:46] Ping zaznamenán
+(6.8.2022) [19:38:46] Data poslána: 220004.json
+(6.8.2022) [19:38:47] Data poslána: 220004.json
+(6.8.2022) [19:38:52] Data poslána: 220004.json
+(6.8.2022) [19:38:52] Data poslána: 220004.json
+(6.8.2022) [19:38:53] Data poslána: 220004.json
+(6.8.2022) [19:38:53] Data poslána: 220004.json
+(6.8.2022) [19:39:04] Data poslána: 220004.json
+(6.8.2022) [19:40:45] Data poslána: 220004.json
+(6.8.2022) [19:41:50] Ping zaznamenán
+(6.8.2022) [19:41:50] Data poslána: 220004.json
+(6.8.2022) [19:41:55] Data poslána: 220004.json
+(6.8.2022) [19:42:19] Ping zaznamenán
+(6.8.2022) [19:42:19] Data poslána: 220004.json
+(6.8.2022) [19:42:20] Data poslána: 220004.json
+(6.8.2022) [19:42:42] Data poslána: 220004.json
+(6.8.2022) [19:42:50] Ping zaznamenán
+(6.8.2022) [19:42:50] Data poslána: 220004.json
+(6.8.2022) [19:42:52] Data poslána: 220004.json
+(6.8.2022) [19:43:00] Data poslána: 220004.json
+(6.8.2022) [19:43:43] Data poslána: 220004.json
+(6.8.2022) [19:44:15] Data poslána: 220004.json
+(6.8.2022) [19:44:15] Data poslána: 220004.json
+(6.8.2022) [19:44:16] Data poslána: 220004.json
+(6.8.2022) [19:44:21] Data poslána: 220004.json
+(6.8.2022) [19:44:22] Data poslána: 220004.json
+(6.8.2022) [19:44:24] Data poslána: 220004.json
+(6.8.2022) [19:44:24] Data poslána: 220004.json
+(6.8.2022) [19:44:25] Data poslána: 220004.json
+(6.8.2022) [19:44:26] Data poslána: 220004.json
+(6.8.2022) [19:45:17] Data poslána: 220004.json
+(6.8.2022) [19:45:18] Data poslána: 220004.json
+(6.8.2022) [19:45:18] Data poslána: 220004.json
+(6.8.2022) [19:46:53] Data poslána: 220004.json
+(6.8.2022) [19:46:54] Data poslána: 220004.json
+(6.8.2022) [19:47:09] Data poslána: 220004.json
+(6.8.2022) [19:47:10] Data poslána: 220004.json
+(6.8.2022) [19:47:30] Data poslána: 220004.json
+(6.8.2022) [19:51:15] Ping zaznamenán
+(6.8.2022) [19:51:15] Data poslána: 220004.json
+(6.8.2022) [19:51:15] Data poslána: 220004.json
+(6.8.2022) [19:51:16] Data poslána: 220004.json
+(6.8.2022) [19:51:17] Data poslána: 220004.json
+(6.8.2022) [19:51:18] Data poslána: 220004.json
+(6.8.2022) [19:51:19] Data poslána: 220004.json
+(6.8.2022) [19:51:40] Data poslána: 220004.json
+(6.8.2022) [19:51:41] Data poslána: 220004.json
+(6.8.2022) [19:51:59] Data poslána: 220004.json
+(6.8.2022) [19:52:00] Data poslána: 220004.json
+(6.8.2022) [19:52:00] Data poslána: 220004.json
+(6.8.2022) [19:52:01] Ping zaznamenán
+(6.8.2022) [19:52:01] Data poslána: dashinfo.json
+(6.8.2022) [19:52:03] Ping zaznamenán
+(6.8.2022) [19:52:03] Data poslána: 220004.json
+(6.8.2022) [19:58:36] Ping zaznamenán
+(6.8.2022) [19:58:36] Data poslána: 220004.json
+(6.8.2022) [19:58:37] Data poslána: 220004.json
+(6.8.2022) [20:03:54] Data poslána: 220004.json
+(6.8.2022) [20:03:55] Data poslána: 220004.json
+(6.8.2022) [20:03:56] Data poslána: 220004.json
+(6.8.2022) [20:03:57] Data poslána: 220004.json
+(6.8.2022) [20:03:58] Data poslána: 220004.json
+(6.8.2022) [20:03:59] Data poslána: 220004.json
+(6.8.2022) [20:04:00] Data poslána: 220004.json
+(6.8.2022) [20:04:00] Data poslána: 220004.json
+(6.8.2022) [20:04:01] Data poslána: 220004.json
+(6.8.2022) [20:04:02] Data poslána: 220004.json
+(6.8.2022) [20:04:05] Data poslána: 220004.json
+(6.8.2022) [20:04:06] Data poslána: 220004.json
+(6.8.2022) [20:04:08] Data poslána: 220004.json
+(6.8.2022) [20:04:38] Data poslána: 220004.json
+(6.8.2022) [20:05:02] Data poslána: 220004.json
+(6.8.2022) [20:05:04] Data poslána: 220004.json
+(6.8.2022) [20:05:07] Data poslána: 220004.json
+(6.8.2022) [20:05:08] Data poslána: 220004.json
+(6.8.2022) [20:05:09] Data poslána: 220004.json
+(6.8.2022) [20:05:12] Data poslána: 220004.json
+(6.8.2022) [20:14:29] Ping zaznamenán
+(6.8.2022) [20:14:29] Data poslána: dashinfo.json
+(6.8.2022) [20:14:31] Ping zaznamenán
+(6.8.2022) [20:14:39] Autorizační request přijat.
+(6.8.2022) [20:14:39] loginData přečtena.
+(6.8.2022) [20:14:39]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(6.8.2022) [20:14:39] Ping zaznamenán
+(6.8.2022) [20:14:39] Data poslána: dashinfo.json
+(6.8.2022) [20:14:46] Ping zaznamenán
+(6.8.2022) [20:14:46] Data poslána: 220004.json
+(6.8.2022) [20:14:50] Data poslána: 220004.json
+(6.8.2022) [20:14:51] Data poslána: 220004.json
+(6.8.2022) [20:14:52] Data poslána: 220004.json
+(6.8.2022) [20:14:53] Data poslána: 220004.json
+(6.8.2022) [20:14:59] Ping zaznamenán
+(6.8.2022) [20:14:59] Data poslána: dashinfo.json
+(6.8.2022) [20:15:09] Ping zaznamenán
+(6.8.2022) [20:15:09] Data poslána: 220004.json
+(6.8.2022) [20:15:28] Ping zaznamenán
+(6.8.2022) [20:15:28] Data poslána: dashinfo.json
+(6.8.2022) [20:15:34] Ping zaznamenán
+(6.8.2022) [20:15:34] Data poslána: 220004.json
+(6.8.2022) [20:31:38] ______________Inicializace MZISAPI______________
+(6.8.2022) [20:31:38] Vše funguje na localhost:8080
+(6.8.2022) [20:31:48] Ping zaznamenán
+(6.8.2022) [20:31:48] Data poslána: dashinfo.json
+(6.8.2022) [20:31:50] Ping zaznamenán
+(6.8.2022) [20:31:54] Autorizační request přijat.
+(6.8.2022) [20:31:54] loginData přečtena.
+(6.8.2022) [20:31:54]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(6.8.2022) [20:31:55] Ping zaznamenán
+(6.8.2022) [20:31:55] Data poslána: dashinfo.json
+(6.8.2022) [20:59:11] ______________Inicializace MZISAPI______________
+(6.8.2022) [20:59:11] Vše funguje na localhost:8080
+(6.8.2022) [20:59:58] Ping zaznamenán
+(6.8.2022) [20:59:58] Data poslána: dashinfo.json
+(6.8.2022) [21:04:34] Ping zaznamenán
+(6.8.2022) [21:04:34] Data poslána: dashinfo.json
+(6.8.2022) [21:05:29] ______________Inicializace MZISAPI______________
+(6.8.2022) [21:05:29] Vše funguje na localhost:8080
+(6.8.2022) [21:06:52] Ping zaznamenán
+(6.8.2022) [21:06:52] Data poslána: dashinfo.json
+(6.8.2022) [21:09:12] ______________Inicializace MZISAPI______________
+(6.8.2022) [21:09:12] Vše funguje na localhost:8080
+(6.8.2022) [21:09:16] Ping zaznamenán
+(6.8.2022) [21:09:16] Data poslána: dashinfo.json
+(6.8.2022) [21:16:23] ______________Inicializace MZISAPI______________
+(6.8.2022) [21:16:23] Vše funguje na localhost:8080
+(6.8.2022) [21:17:53] ______________Inicializace MZISAPI______________
+(6.8.2022) [21:17:53] Vše funguje na localhost:8080
+(6.8.2022) [21:17:55] Ping zaznamenán
+(6.8.2022) [21:17:55] Data poslána: dashinfo.json
+(6.8.2022) [21:22:19] ______________Inicializace MZISAPI______________
+(6.8.2022) [21:22:19] Vše funguje na localhost:8080
+(6.8.2022) [21:22:42] ______________Inicializace MZISAPI______________
+(6.8.2022) [21:22:42] Vše funguje na localhost:8080
+(6.8.2022) [21:22:44] Ping zaznamenán
+(6.8.2022) [21:22:44] Data poslána: dashinfo.json
+(6.8.2022) [21:25:15] ______________Inicializace MZISAPI______________
+(6.8.2022) [21:25:15] Vše funguje na localhost:8080
+(6.8.2022) [21:25:18] Ping zaznamenán
+(6.8.2022) [21:25:18] Data poslána: dashinfo.json
+(6.8.2022) [21:25:33] Ping zaznamenán
+(6.8.2022) [21:25:33] Data poslána: 220002.json
+(6.8.2022) [21:55:19] ______________Inicializace MZISAPI______________
+(6.8.2022) [21:55:19] Vše funguje na localhost:8080
+(6.8.2022) [21:55:50] Ping zaznamenán
+(6.8.2022) [21:55:50] Data poslána: dashinfo.json
+(6.8.2022) [21:56:37] ______________Inicializace MZISAPI______________
+(6.8.2022) [21:56:37] Vše funguje na localhost:8080
+(6.8.2022) [21:56:41] Ping zaznamenán
+(6.8.2022) [21:56:41] Data poslána: dashinfo.json
+(6.8.2022) [21:58:37] ______________Inicializace MZISAPI______________
+(6.8.2022) [21:58:37] Vše funguje na localhost:8080
+(6.8.2022) [21:58:40] Ping zaznamenán
+(6.8.2022) [21:58:40] Data poslána: dashinfo.json
+(6.8.2022) [22:07:52] ______________Inicializace MZISAPI______________
+(6.8.2022) [22:07:52] Vše funguje na localhost:8080
+(6.8.2022) [22:07:57] Ping zaznamenán
+(6.8.2022) [22:07:57] Data poslána: dashinfo.json
+(0.8.2022) [10:04:12] ______________Inicializace MZISAPI______________
+(0.8.2022) [10:04:12] Vše funguje na localhost:8080
+(0.8.2022) [10:04:18] Ping zaznamenán
+(0.8.2022) [10:05:04] Autorizační request přijat.
+(0.8.2022) [10:05:04] loginData přečtena.
+(0.8.2022) [10:05:04]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.8.2022) [10:05:05] Ping zaznamenán
+(0.8.2022) [10:05:05] Data poslána: dashinfo.json
+(0.8.2022) [10:05:52] Ping zaznamenán
+(0.8.2022) [10:05:52] Data poslána: dashinfo.json
+(0.8.2022) [10:06:49] Ping zaznamenán
+(0.8.2022) [10:06:53] Autorizační request přijat.
+(0.8.2022) [10:06:53] loginData přečtena.
+(0.8.2022) [10:06:53]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.8.2022) [10:06:53] Ping zaznamenán
+(0.8.2022) [10:06:53] Data poslána: dashinfo.json
+(0.8.2022) [10:06:55] Ping zaznamenán
+(0.8.2022) [10:07:16] Ping zaznamenán
+(0.8.2022) [10:07:16] Data poslána: 220004.json
+(0.8.2022) [10:09:06] ______________Inicializace MZISAPI______________
+(0.8.2022) [10:09:06] Vše funguje na localhost:8080
+(0.8.2022) [10:09:09] Ping zaznamenán
+(0.8.2022) [10:09:09] Data poslána: dashinfo.json
+(0.8.2022) [10:09:42] ______________Inicializace MZISAPI______________
+(0.8.2022) [10:09:42] Vše funguje na localhost:8080
+(0.8.2022) [10:09:45] Ping zaznamenán
+(0.8.2022) [10:09:45] Data poslána: dashinfo.json
+(0.8.2022) [10:10:31] Ping zaznamenán
+(0.8.2022) [10:10:31] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\220004.json'
+(0.8.2022) [10:10:32] Ping zaznamenán
+(0.8.2022) [10:10:32] Data poslána: dashinfo.json
+(0.8.2022) [10:10:50] Ping zaznamenán
+(0.8.2022) [10:10:50] Data poslána: 220002.json
+(0.8.2022) [10:18:00] Ping zaznamenán
+(0.8.2022) [10:18:00] Data poslána: 220001.json
+(0.8.2022) [10:18:11] Ping zaznamenán
+(0.8.2022) [10:18:11] Data poslána: dashinfo.json
+(0.8.2022) [10:18:15] Ping zaznamenán
+(0.8.2022) [10:18:15] Data poslána: dashinfo.json
+(0.8.2022) [10:20:11] ______________Inicializace MZISAPI______________
+(0.8.2022) [10:20:11] Vše funguje na localhost:8080
+(0.8.2022) [10:20:19] Ping zaznamenán
+(0.8.2022) [10:20:19] Data poslána: dashinfo.json
+(0.8.2022) [10:21:53] ______________Inicializace MZISAPI______________
+(0.8.2022) [10:21:53] Vše funguje na localhost:8080
+(0.8.2022) [10:21:59] Ping zaznamenán
+(0.8.2022) [10:21:59] Data poslána: dashinfo.json
+(0.8.2022) [10:22:04] Ping zaznamenán
+(0.8.2022) [10:22:04] Data poslána: 220001.json
+(0.8.2022) [10:22:18] Ping zaznamenán
+(0.8.2022) [10:22:18] Data poslána: dashinfo.json
+(0.8.2022) [10:26:10] Ping zaznamenán
+(0.8.2022) [10:26:10] Data poslána: dashinfo.json
+(0.8.2022) [10:26:26] Ping zaznamenán
+(0.8.2022) [10:26:26] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\220004.json'
+(0.8.2022) [11:56:04] Ping zaznamenán
+(0.8.2022) [11:56:05] Data poslána: dashinfo.json
+(0.8.2022) [11:56:06] Ping zaznamenán
+(0.8.2022) [11:56:06] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\220004.json'
+(0.8.2022) [11:56:34] Ping zaznamenán
+(0.8.2022) [11:56:34] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\220004.json'
+(0.8.2022) [11:56:35] Ping zaznamenán
+(0.8.2022) [11:56:35] Data poslána: dashinfo.json
+(0.8.2022) [11:56:38] Ping zaznamenán
+(0.8.2022) [11:57:23] Autorizační request přijat.
+(0.8.2022) [11:57:23] loginData přečtena.
+(0.8.2022) [11:57:23]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.8.2022) [11:57:23] Ping zaznamenán
+(0.8.2022) [11:57:23] Data poslána: dashinfo.json
+(0.8.2022) [11:57:29] Ping zaznamenán
+(0.8.2022) [11:57:30] Data poslána: 220001.json
+(0.8.2022) [11:58:23] Data poslána: 220001.json
+(0.8.2022) [11:58:25] Data poslána: 220001.json
+(0.8.2022) [11:58:29] Ping zaznamenán
+(0.8.2022) [11:58:29] Data poslána: dashinfo.json
+(0.8.2022) [11:58:43] Ping zaznamenán
+(0.8.2022) [11:58:43] Data poslána: 220001.json
+(0.8.2022) [11:58:50] Data poslána: 220001.json
+(0.8.2022) [11:58:51] Data poslána: 220001.json
+(0.8.2022) [12:00:11] Ping zaznamenán
+(0.8.2022) [12:00:11] Data poslána: dashinfo.json
+(0.8.2022) [12:00:15] Ping zaznamenán
+(0.8.2022) [12:00:15] Data poslána: 220002.json
+(0.8.2022) [12:00:18] Ping zaznamenán
+(0.8.2022) [12:00:18] Data poslána: dashinfo.json
+(0.8.2022) [12:01:29] Ping zaznamenán
+(0.8.2022) [12:01:29] Data poslána: 220001.json
+(0.8.2022) [12:01:42] Ping zaznamenán
+(0.8.2022) [12:01:42] Data poslána: dashinfo.json
+(0.8.2022) [12:01:44] Ping zaznamenán
+(0.8.2022) [12:01:44] Data poslána: 220001.json
+(0.8.2022) [12:03:15] Data poslána: 220001.json
+(0.8.2022) [12:03:17] Data poslána: 220001.json
+(0.8.2022) [12:03:21] Data poslána: 220001.json
+(0.8.2022) [12:03:45] Data poslána: 220001.json
+(0.8.2022) [12:03:46] Data poslána: 220001.json
+(0.8.2022) [12:03:47] Data poslána: 220001.json
+(0.8.2022) [12:03:47] Data poslána: 220001.json
+(0.8.2022) [12:03:48] Data poslána: 220001.json
+(0.8.2022) [12:03:59] Data poslána: 220001.json
+(0.8.2022) [12:04:57] Ping zaznamenán
+(0.8.2022) [12:04:57] Data poslána: dashinfo.json
+(0.8.2022) [12:06:07] Ping zaznamenán
+(0.8.2022) [12:06:17] Autorizační request přijat.
+(0.8.2022) [12:06:17] loginData přečtena.
+(0.8.2022) [12:06:17]  Uživatel zendříček se snaží přihlásit. Povedlo se?: true
+(0.8.2022) [12:06:17] Ping zaznamenán
+(0.8.2022) [12:06:17] Data poslána: dashinfo.json
+(0.8.2022) [12:10:06] Ping zaznamenán
+(0.8.2022) [12:10:06] Data poslána: dashinfo.json
+(0.8.2022) [12:10:30] Ping zaznamenán
+(0.8.2022) [12:10:34] Autorizační request přijat.
+(0.8.2022) [12:10:34] loginData přečtena.
+(0.8.2022) [12:10:34]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.8.2022) [12:10:34] Ping zaznamenán
+(0.8.2022) [12:10:34] Data poslána: dashinfo.json
+(0.8.2022) [12:11:45] Ping zaznamenán
+(0.8.2022) [12:12:00] Autorizační request přijat.
+(0.8.2022) [12:12:00] loginData přečtena.
+(0.8.2022) [12:12:00]  Uživatel zendříček se snaží přihlásit. Povedlo se?: true
+(0.8.2022) [12:12:00] Ping zaznamenán
+(0.8.2022) [12:12:00] Data poslána: dashinfo.json
+(0.8.2022) [12:12:19] Ping zaznamenán
+(0.8.2022) [12:12:28] Autorizační request přijat.
+(0.8.2022) [12:12:28] loginData přečtena.
+(0.8.2022) [12:12:28]  Uživatel martinzaoral se snaží přihlásit. Povedlo se?: true
+(0.8.2022) [12:12:29] Ping zaznamenán
+(0.8.2022) [12:12:29] Data poslána: dashinfo.json
+(0.8.2022) [12:36:40] Ping zaznamenán
+(0.8.2022) [12:36:40] Data poslána: dashinfo.json
+(0.8.2022) [12:38:21] Ping zaznamenán
+(0.8.2022) [12:38:21] Data poslána: dashinfo.json
+(0.8.2022) [12:38:41] Ping zaznamenán
+(0.8.2022) [12:38:41] Data poslána: dashinfo.json
+(0.8.2022) [12:39:45] ______________Inicializace MZISAPI______________
+(0.8.2022) [12:39:45] Vše funguje na localhost:8080
+(0.8.2022) [12:44:36] ______________Inicializace MZISAPI______________
+(0.8.2022) [12:44:37] Vše funguje na localhost:8080
+(0.8.2022) [12:45:31] ______________Inicializace MZISAPI______________
+(0.8.2022) [12:45:31] Vše funguje na localhost:8080
+(0.8.2022) [12:45:34] Ping zaznamenán
+(0.8.2022) [12:45:34] Data poslána: dashinfo.json
+(0.8.2022) [12:45:41] Ping zaznamenán
+(0.8.2022) [12:45:41] Data poslána: 220001.json
+(0.8.2022) [12:45:43] Ping zaznamenán
+(0.8.2022) [12:45:43] Data poslána: dashinfo.json
+(0.8.2022) [12:46:55] Ping zaznamenán
+(0.8.2022) [12:46:55] Data poslána: dashinfo.json
