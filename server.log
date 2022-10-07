@@ -642,3 +642,63 @@
 (0.8.2022) [12:45:43] Data poslána: dashinfo.json
 (0.8.2022) [12:46:55] Ping zaznamenán
 (0.8.2022) [12:46:55] Data poslána: dashinfo.json
+(5.9.2022) [18:40:59] ______________Inicializace MZISAPI______________
+(5.9.2022) [18:40:59] Vše funguje na localhost:8080
+(5.9.2022) [18:49:37] ______________Inicializace MZISAPI______________
+(5.9.2022) [18:49:37] Vše funguje na localhost:8080
+(5.9.2022) [18:50:03] Ping zaznamenán
+(5.9.2022) [18:50:11] Autorizační request přijat.
+(5.9.2022) [18:50:11] loginData přečtena.
+(5.9.2022) [18:50:11]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(5.9.2022) [18:50:12] Ping zaznamenán
+(5.9.2022) [18:50:12] Data poslána: dashinfo.json
+(5.9.2022) [18:50:31] Ping zaznamenán
+(5.9.2022) [18:50:31] Data poslána: dashinfo.json
+(5.9.2022) [18:51:58] ______________Inicializace MZISAPI______________
+(5.9.2022) [18:51:58] Vše funguje na localhost:8080
+(5.9.2022) [18:52:00] Ping zaznamenán
+(5.9.2022) [18:52:00] Data poslána: dashinfo.json
+(5.9.2022) [18:54:44] ______________Inicializace MZISAPI______________
+(5.9.2022) [18:54:44] Vše funguje na localhost:8080
+(5.9.2022) [18:54:51] Ping zaznamenán
+(5.9.2022) [18:54:51] Data poslána: dashinfo.json
+(5.9.2022) [18:56:33] ______________Inicializace MZISAPI______________
+(5.9.2022) [18:56:33] Vše funguje na localhost:8080
+(5.9.2022) [18:56:37] Ping zaznamenán
+(5.9.2022) [18:56:37] Data poslána: dashinfo.json
+(5.9.2022) [18:57:46] ______________Inicializace MZISAPI______________
+(5.9.2022) [18:57:46] Vše funguje na localhost:8080
+(5.9.2022) [18:57:50] Ping zaznamenán
+(5.9.2022) [18:57:50] Data poslána: dashinfo.json
+(5.9.2022) [18:57:52] Ping zaznamenán
+(5.9.2022) [18:57:52] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\220001.json'
+(5.9.2022) [18:57:55] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\220001.json'
+(5.9.2022) [18:57:56] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\220001.json'
+(5.9.2022) [18:59:22] Ping zaznamenán
+(5.9.2022) [18:59:22] Data poslána: dashinfo.json
+(5.9.2022) [18:59:24] Ping zaznamenán
+(5.9.2022) [18:59:24] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\220001.json'
+(5.9.2022) [19:42:45] Ping zaznamenán
+(5.9.2022) [19:42:45] Data poslána: dashinfo.json
+(5.9.2022) [19:42:56] Ping zaznamenán
+(5.9.2022) [19:42:56] Data poslána: dashinfo.json
+(5.9.2022) [19:43:00] Ping zaznamenán
+(5.9.2022) [19:43:07] Ping zaznamenán
+(5.9.2022) [19:49:48] ______________Inicializace MZISAPI______________
+(5.9.2022) [19:49:48] Vše funguje na localhost:8080
+(5.9.2022) [19:50:28] ______________Inicializace MZISAPI______________
+(5.9.2022) [19:50:28] Vše funguje na localhost:8080
+(5.9.2022) [19:50:59] Ping zaznamenán
+(5.9.2022) [19:50:59] Data poslána: dashinfo.json
+(5.9.2022) [19:51:28] Ping zaznamenán
+(5.9.2022) [19:51:28] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\220001\ui.json'
+(5.9.2022) [19:51:41] Ping zaznamenán
+(5.9.2022) [19:51:41] Data poslána: dashinfo.json
+(5.9.2022) [19:51:42] Ping zaznamenán
+(5.9.2022) [19:51:42] Zakázka poslána: 220001
+(5.9.2022) [19:52:08] Zakázka poslána: 220001
+(5.9.2022) [19:52:09] Zakázka poslána: 220001
+(5.9.2022) [19:52:09] Zakázka poslána: 220001
+(5.9.2022) [19:52:10] Zakázka poslána: 220001
+(5.9.2022) [19:52:16] Ping zaznamenán
+(5.9.2022) [19:52:16] Data poslána: dashinfo.json

@@ -67,6 +67,20 @@ app.get("/file/:filename", (req, res) => {
 
     })
 })
+//Request zakázky z ./server/-----/ui.json
+app.get("/getcontract/:id/", (req, res) => {
+    const { id } = req.params
+    fs.readFile("./server/" + id + "/ui.json", "utf8", (err, data) => {
+        if (err) {
+            res.status(400).send(err);
+            WriteToLog("Error: " + err)
+            return;
+        }
+        res.status(200).send(data)
+        WriteToLog("Zakázka poslána: " + id)
+
+    })
+})
 
 //Autorizace uživatele
 app.post("/auth", (req, res) => {
@@ -138,8 +152,10 @@ app.post("/newcontract/", (req, res) => {
             fs.writeFile('./templates/idname.json', JSON.stringify(parsedata), function (err) {
                 if (err) throw err;
             });
-            wowfile = './server/' + newid.toString() + '.json'
-            fs.open(wowfile, 'w', function (err, file) { if (err) throw err; });
+            wowfile = './server/' + newid.toString() + '/ui.json'
+            if (!fs.existsSync("./server/" + newid.toString())) {
+                fs.mkdirSync("./server/" + newid.toString(), { recursive: true });
+            }
             fs.writeFile(wowfile, psdata, function (err) { if (err) throw err; });
             fs.readFile("./server/dashinfo.json", "utf8", (err, data) => {
                 if (err) throw err
