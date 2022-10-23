@@ -139,6 +139,7 @@ app.post("/auth", (req, res) => {
     WriteToLog("Autorizační request přijat.")
 
 })
+//Vytvoření nové zakázky
 app.post("/newcontract/", (req, res) => {
     fs.readFile("./templates/newcontract.json", "utf8", (err, data) => {
         psdata = data
@@ -153,10 +154,12 @@ app.post("/newcontract/", (req, res) => {
                 if (err) throw err;
             });
             wowfile = './server/' + newid.toString() + '/ui.json'
+            wowfile2 = './server/' + newid.toString() + '/data.json'
             if (!fs.existsSync("./server/" + newid.toString())) {
                 fs.mkdirSync("./server/" + newid.toString(), { recursive: true });
             }
             fs.writeFile(wowfile, psdata, function (err) { if (err) throw err; });
+            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar" }), function (err) { if (err) throw err; });
             fs.readFile("./server/dashinfo.json", "utf8", (err, data) => {
                 if (err) throw err
                 dashdata = JSON.parse(data)
@@ -174,13 +177,38 @@ app.post("/newcontract/", (req, res) => {
         })
     })
 })
-app.patch("/changecontractdata/:project/:element", (req, res) => {
+//Vytvoření či změna dat v zakázce
+app.patch("/newdata/:project/:element/:value", (req, res) => {
     const { project } = req.params
     const { element } = req.params
-    fs.readFile("./server/" + project + ".json", "utf8", (err, data) => {
+    const { value } = req.params
+    file = "./server/" + project + "/data.json"
+    fs.readFile(file, "utf8", (err, data) => {
         if (err) throw err
-        res.status(200).send(JSON.parse(data))
+        filedata = JSON.parse(data)
+        filedata[element] = value
+        fs.writeFile(file, JSON.stringify(filedata), function (err) {
+            if (err) throw err;
+            res.status(200).send()
+        })
 
     })
 
+
+})
+app.get("/getprojectdata/:project/:id/", (req, res) => {
+    const { id } = req.params;
+    const { project } = req.params;
+    fs.readFile("./server/" + project + "/data.json", "utf8", (err, data) => {
+        if (err) {
+            res.status(400).send(err);
+            WriteToLog("Error: " + err)
+            return;
+        }
+        obj = JSON.parse(data)
+        senddata = { "id": id, "data": obj[id] }
+        res.status(200).send(senddata)
+        WriteToLog("Data ze zakázky " + project + " poslána: " + id)
+
+    })
 })

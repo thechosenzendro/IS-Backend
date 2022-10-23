@@ -1,199 +1,30 @@
 {
     "udajeostavbe": [
         {
-            "tag": "h1",
-            "innerHTML": "Údaje o stavbě"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Název zakázky"
-        },
-        {
             "tag": "input",
-            "placeholder": "Název zakázky",
-            "class": "Input"
+            "id": "test",
+            "class": "Input",
+            "placeholder": "Test",
+            "onchange": "ChangeContractData(this.id)"
         },
-        {
-            "tag": "h3",
-            "innerHTML": "Katastrální území"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Katastrální území",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Číslo parcely (p.p.č.)"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Číslo parcely (p.p.č.)",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Obec"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Obec",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Ulice a číslo orientační (příp. soused)"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Ulice a číslo orientační (příp. soused)",
-            "class": "Input"
-        }
-    ],
-    "udajeostavebnikovi": [
         {
             "tag": "h1",
-            "innerHTML": "Údaje o stavebníkovi"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Jméno, příjmení, titul"
+            "id": "h1",
+            "innerHTML": "Test"
         },
         {
             "tag": "input",
-            "placeholder": "Jméno, příjmení, titul",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Bydliště"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Bydliště",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Rodné číslo"
+            "id": "test1",
+            "class": "Input",
+            "placeholder": "Test1",
+            "onchange": "ChangeContractData(this.id)"
         },
         {
             "tag": "input",
-            "placeholder": "Rodné číslo",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Kontakt - spojení"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Kontakt - spojení",
-            "class": "Input"
-        },
-        {
-            "tag": "br"
-        },
-        {
-            "tag": "button",
-            "innerHTML": "Vytvořit nového stavebníka",
-            "class": "Prim Auto"
-        }
-    ],
-    "udajeoterminech": [
-        {
-            "tag": "h1",
-            "innerHTML": "Údaje o termínech"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Datum sos"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Datum sos",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Cena stavby"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Cena stavby",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Typ domu"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Typ domu",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Datum zahájení"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Datum zahájení",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Předpokládaný termín ukončení"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Předpokládaný termín ukončení",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Skutečný termín ukončení"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Skutečný termín ukončení",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Projektant studie"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Projektant studie",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Projektant PD"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Projektant PD",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Zajištění povolení stavby"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Zajištění povolení stavby",
-            "class": "Input"
-        },
-        {
-            "tag": "h3",
-            "innerHTML": "Kontakt - spojení"
-        },
-        {
-            "tag": "input",
-            "placeholder": "Kontakt - spojení",
-            "class": "Input"
+            "id": "test2",
+            "class": "Input",
+            "placeholder": "Test2",
+            "onchange": "ChangeContractData(this.id)"
         }
     ]
 }
