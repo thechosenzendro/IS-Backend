@@ -196,19 +196,3 @@ app.patch("/newdata/:project/:element/:value", (req, res) => {
 
 
 })
-app.get("/getprojectdata/:project/:id/", (req, res) => {
-    const { id } = req.params;
-    const { project } = req.params;
-    fs.readFile("./server/" + project + "/data.json", "utf8", (err, data) => {
-        if (err) {
-            res.status(400).send(err);
-            WriteToLog("Error: " + err)
-            return;
-        }
-        obj = JSON.parse(data)
-        senddata = { "id": id, "data": obj[id] }
-        res.status(200).send(senddata)
-        WriteToLog("Data ze zakázky " + project + " poslána: " + id)
-
-    })
-})
