@@ -8,10 +8,22 @@
             "onchange": "ChangeContractData(this.id)"
         },
         {
+            "tag": "h1",
+            "id": "h1",
+            "innerHTML": "Test"
+        },
+        {
             "tag": "input",
             "id": "test1",
             "class": "Input",
             "placeholder": "Test1",
+            "onchange": "ChangeContractData(this.id)"
+        },
+        {
+            "tag": "input",
+            "id": "test2",
+            "class": "Input",
+            "placeholder": "Test2",
             "onchange": "ChangeContractData(this.id)"
         }
     ]
