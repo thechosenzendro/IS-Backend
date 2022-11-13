@@ -642,3 +642,18 @@
 (0.8.2022) [12:45:43] Data poslána: dashinfo.json
 (0.8.2022) [12:46:55] Ping zaznamenán
 (0.8.2022) [12:46:55] Data poslána: dashinfo.json
+(2.9.2022) [19:11:58] ______________Inicializace MZISAPI______________
+(2.9.2022) [19:11:58] Vše funguje na localhost:8080
+(2.9.2022) [19:13:18] Ping zaznamenán
+(2.9.2022) [19:13:29] Autorizační request přijat.
+(2.9.2022) [19:13:29] loginData přečtena.
+(2.9.2022) [19:13:29]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(2.9.2022) [19:13:29] Ping zaznamenán
+(2.9.2022) [19:13:29] Data poslána: dashinfo.json
+(2.9.2022) [19:14:27] Ping zaznamenán
+(2.9.2022) [19:14:27] Data poslána: 220001.json
+(2.9.2022) [19:14:31] Data poslána: 220001.json
+(2.9.2022) [19:14:32] Data poslána: 220001.json
+(2.9.2022) [19:14:33] Data poslána: 220001.json
+(2.9.2022) [19:14:34] Data poslána: 220001.json
+(2.9.2022) [19:14:34] Data poslána: 220001.json
