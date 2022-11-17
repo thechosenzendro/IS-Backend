@@ -1596,3 +1596,13 @@
 (4.10.2022) [13:15:24] ______________Inicializace MZISAPI______________
 (4.10.2022) [13:15:24] Vše funguje na localhost:8080
 (4.10.2022) [13:15:29] Ping zaznamenán
+(4.10.2022) [13:18:49] Autorizační request přijat.
+(4.10.2022) [13:18:49] loginData přečtena.
+(4.10.2022) [13:18:49]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.10.2022) [13:18:49] Ping zaznamenán
+(4.10.2022) [13:18:49] Data poslána: dashinfo.json
+(4.10.2022) [13:19:56] Ping zaznamenán
+(4.10.2022) [13:19:56] Data poslána: dashinfo.json
+(4.10.2022) [13:19:58] Ping zaznamenán
+(4.10.2022) [13:19:58] Zakázka poslána: 220001
+(4.10.2022) [13:19:59] Zakázka poslána: 220001
