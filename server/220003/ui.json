@@ -1,0 +1,18 @@
+{
+    "udajeostavbe": [
+        {
+            "tag": "input",
+            "id": "test",
+            "class": "Input",
+            "placeholder": "Test",
+            "onchange": "ChangeContractData(this.id)"
+        },
+        {
+            "tag": "input",
+            "id": "test1",
+            "class": "Input",
+            "placeholder": "Test1",
+            "onchange": "ChangeContractData(this.id)"
+        }
+    ]
+}

@@ -1427,3 +1427,169 @@
 (6.9.2022) [13:55:04] Data ze zakázky 220001 poslána: test
 (6.9.2022) [13:55:04] Data ze zakázky 220001 poslána: test1
 (6.9.2022) [13:55:04] Data ze zakázky 220001 poslána: test2
+(6.10.2022) [15:35:39] ______________Inicializace MZISAPI______________
+(6.10.2022) [15:35:39] Vše funguje na localhost:8080
+(6.10.2022) [15:35:42] Ping zaznamenán
+(6.10.2022) [15:35:42] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\editor.html\ui.json'
+(6.10.2022) [15:35:49] Ping zaznamenán
+(6.10.2022) [15:35:49] Data poslána: dashinfo.json
+(6.10.2022) [15:35:51] Ping zaznamenán
+(6.10.2022) [15:35:57] Ping zaznamenán
+(6.10.2022) [15:35:57] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\editor.html\ui.json'
+(6.10.2022) [15:35:59] Ping zaznamenán
+(6.10.2022) [15:36:00] Data poslána: dashinfo.json
+(6.10.2022) [15:36:00] Ping zaznamenán
+(6.10.2022) [15:37:54] Ping zaznamenán
+(6.10.2022) [15:38:06] Autorizační request přijat.
+(6.10.2022) [15:38:06]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(6.10.2022) [15:38:06] loginData přečtena.
+(6.10.2022) [15:38:06] Ping zaznamenán
+(6.10.2022) [15:38:06] Data poslána: dashinfo.json
+(6.10.2022) [15:38:22] Ping zaznamenán
+(6.10.2022) [15:38:29] Ping zaznamenán
+(6.10.2022) [15:38:29] Data poslána: dashinfo.json
+(6.10.2022) [15:38:51] Ping zaznamenán
+(6.10.2022) [15:38:51] Data poslána: dashinfo.json
+(6.10.2022) [15:39:03] Ping zaznamenán
+(6.10.2022) [15:39:03] Data poslána: dashinfo.json
+(6.10.2022) [15:39:07] Ping zaznamenán
+(6.10.2022) [15:39:44] Ping zaznamenán
+(6.10.2022) [15:39:52] Autorizační request přijat.
+(6.10.2022) [15:39:52] loginData přečtena.
+(6.10.2022) [15:39:52]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(6.10.2022) [15:39:52] Ping zaznamenán
+(6.10.2022) [15:39:52] Data poslána: dashinfo.json
+(6.10.2022) [15:39:56] Ping zaznamenán
+(6.10.2022) [15:40:26] Ping zaznamenán
+(6.10.2022) [15:41:20] Ping zaznamenán
+(6.10.2022) [15:41:25] Ping zaznamenán
+(6.10.2022) [15:41:25] Error: Error: ENOENT: no such file or directory, open 'C:\Users\uzivatel\Documents\IS\IS-Backend\IS-Backend\server\editor.html\ui.json'
+(6.10.2022) [15:41:25] Ping zaznamenán
+(6.10.2022) [15:41:39] Ping zaznamenán
+(6.10.2022) [15:41:48] Ping zaznamenán
+(6.10.2022) [15:41:48] Data poslána: dashinfo.json
+(6.10.2022) [15:41:48] Ping zaznamenán
+(6.10.2022) [15:41:53] Autorizační request přijat.
+(6.10.2022) [15:41:53] loginData přečtena.
+(6.10.2022) [15:41:53]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(6.10.2022) [15:41:53] Ping zaznamenán
+(6.10.2022) [15:41:54] Data poslána: dashinfo.json
+(6.10.2022) [15:42:12] Ping zaznamenán
+(6.10.2022) [15:42:23] Ping zaznamenán
+(6.10.2022) [15:42:23] Zakázka poslána: 220001
+(6.10.2022) [15:42:25] Zakázka poslána: 220001
+(6.10.2022) [15:42:25] Data ze zakázky 220001 poslána: test
+(6.10.2022) [15:42:25] Data ze zakázky 220001 poslána: test1
+(6.10.2022) [15:42:25] Data ze zakázky 220001 poslána: test2
+(6.10.2022) [15:56:23] Ping zaznamenán
+(6.10.2022) [15:56:23] Zakázka poslána: 220001
+(6.10.2022) [15:56:39] Zakázka poslána: 220001
+(6.10.2022) [15:56:47] ______________Inicializace MZISAPI______________
+(6.10.2022) [15:56:47] Vše funguje na localhost:8080
+(6.10.2022) [15:56:52] Ping zaznamenán
+(6.10.2022) [15:57:25] ______________Inicializace MZISAPI______________
+(6.10.2022) [15:57:25] Vše funguje na localhost:8080
+(6.10.2022) [15:57:29] Ping zaznamenán
+(6.10.2022) [15:57:29] Zakázka poslána: 220001
+(6.10.2022) [15:57:30] Zakázka poslána: 220001
+(6.10.2022) [15:57:54] Ping zaznamenán
+(6.10.2022) [15:57:54] Zakázka poslána: 220001
+(6.10.2022) [15:58:06] Ping zaznamenán
+(6.10.2022) [15:58:06] Zakázka poslána: 220001
+(6.10.2022) [15:58:32] Ping zaznamenán
+(6.10.2022) [15:58:32] Zakázka poslána: 220001
+(6.10.2022) [15:58:35] Zakázka poslána: 220001
+(6.10.2022) [15:58:35] Data ze zakázky 220001 poslána: test
+(6.10.2022) [15:58:35] Data ze zakázky 220001 poslána: test1
+(6.10.2022) [15:58:35] Data ze zakázky 220001 poslána: test2
+(6.10.2022) [16:01:27] Ping zaznamenán
+(6.10.2022) [16:01:27] Zakázka poslána: 220001
+(6.10.2022) [16:01:30] Zakázka poslána: 220001
+(6.10.2022) [16:04:11] Ping zaznamenán
+(6.10.2022) [16:04:11] Zakázka poslána: 220001
+(6.10.2022) [16:15:14] Ping zaznamenán
+(6.10.2022) [16:15:14] Zakázka poslána: 220001
+(6.10.2022) [16:15:16] Zakázka poslána: 220001
+(6.10.2022) [16:16:30] Ping zaznamenán
+(6.10.2022) [16:16:30] Zakázka poslána: 220001
+(6.10.2022) [16:16:33] Zakázka poslána: 220001
+(6.10.2022) [16:17:32] Ping zaznamenán
+(6.10.2022) [16:17:32] Zakázka poslána: 220001
+(6.10.2022) [16:17:35] Zakázka poslána: 220001
+(6.10.2022) [16:18:42] Ping zaznamenán
+(6.10.2022) [16:18:42] Zakázka poslána: 220001
+(6.10.2022) [16:18:45] Zakázka poslána: 220001
+(6.10.2022) [16:19:55] Ping zaznamenán
+(6.10.2022) [16:19:55] Zakázka poslána: 220001
+(6.10.2022) [16:19:56] Zakázka poslána: 220001
+(6.10.2022) [16:22:30] Ping zaznamenán
+(6.10.2022) [16:22:30] Zakázka poslána: 220001
+(6.10.2022) [16:22:37] Zakázka poslána: 220001
+(6.10.2022) [16:23:48] Ping zaznamenán
+(6.10.2022) [16:23:49] Zakázka poslána: 220001
+(6.10.2022) [16:23:50] Zakázka poslána: 220001
+(6.10.2022) [16:24:03] Zakázka poslána: 220001
+(6.10.2022) [16:24:03] Zakázka poslána: 220001
+(6.10.2022) [16:24:04] Zakázka poslána: 220001
+(6.10.2022) [16:24:39] Ping zaznamenán
+(6.10.2022) [16:24:39] Zakázka poslána: 220001
+(6.10.2022) [16:24:41] Zakázka poslána: 220001
+(6.10.2022) [16:25:45] Ping zaznamenán
+(6.10.2022) [16:25:45] Data poslána: dashinfo.json
+(6.10.2022) [16:25:46] Ping zaznamenán
+(6.10.2022) [16:25:46] Zakázka poslána: 220001
+(6.10.2022) [16:25:48] Zakázka poslána: 220001
+(6.10.2022) [16:37:25] Zakázka poslána: 220001
+(6.10.2022) [16:37:55] Ping zaznamenán
+(6.10.2022) [16:37:55] Zakázka poslána: 220001
+(6.10.2022) [16:37:56] Zakázka poslána: 220001
+(6.10.2022) [16:39:41] Ping zaznamenán
+(6.10.2022) [16:39:41] Zakázka poslána: 220001
+(6.10.2022) [16:39:41] Zakázka poslána: 220001
+(6.10.2022) [16:41:48] Zakázka poslána: 220001
+(6.10.2022) [16:41:50] Zakázka poslána: 220001
+(6.10.2022) [16:41:51] Zakázka poslána: 220001
+(6.10.2022) [16:41:52] Zakázka poslána: 220001
+(6.10.2022) [16:41:52] Zakázka poslána: 220001
+(6.10.2022) [16:43:54] Ping zaznamenán
+(6.10.2022) [16:43:54] Zakázka poslána: 220001
+(6.10.2022) [16:43:54] Zakázka poslána: 220001
+(6.10.2022) [16:44:15] Zakázka poslána: 220001
+(6.10.2022) [16:44:15] Zakázka poslána: 220001
+(6.10.2022) [16:50:43] ______________Inicializace MZISAPI______________
+(6.10.2022) [16:50:44] Vše funguje na localhost:8080
+(6.10.2022) [16:50:50] Ping zaznamenán
+(6.10.2022) [16:50:51] Zakázka poslána: 220001
+(6.10.2022) [16:50:53] Zakázka poslána: 220001
+(6.10.2022) [16:51:07] Zakázka poslána: 220001
+(6.10.2022) [16:51:49] Zakázka poslána: 220001
+(6.10.2022) [16:51:50] Zakázka poslána: 220001
+(6.10.2022) [17:07:36] Ping zaznamenán
+(6.10.2022) [17:07:37] Data poslána: dashinfo.json
+(6.10.2022) [17:07:40] Ping zaznamenán
+(6.10.2022) [17:07:40] Zakázka poslána: 220001
+(6.10.2022) [17:07:42] Zakázka poslána: 220001
+(6.10.2022) [17:08:21] Ping zaznamenán
+(6.10.2022) [17:08:21] Data poslána: dashinfo.json
+(6.10.2022) [17:09:45] Ping zaznamenán
+(6.10.2022) [17:10:02] Ping zaznamenán
+(6.10.2022) [17:10:35] Ping zaznamenán
+(6.10.2022) [17:11:54] Autorizační request přijat.
+(6.10.2022) [17:11:54] loginData přečtena.
+(6.10.2022) [17:11:54]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(6.10.2022) [17:11:54] Ping zaznamenán
+(6.10.2022) [17:11:54] Data poslána: dashinfo.json
+(6.10.2022) [17:11:56] Ping zaznamenán
+(6.10.2022) [17:11:56] Zakázka poslána: 220001
+(6.10.2022) [17:12:10] Zakázka poslána: 220001
+(6.10.2022) [17:12:23] Ping zaznamenán
+(6.10.2022) [17:12:23] Data poslána: dashinfo.json
+(6.10.2022) [17:12:27] Zakázka poslána: 220003
+(6.10.2022) [17:12:27] Ping zaznamenán
+(6.10.2022) [17:12:31] Ping zaznamenán
+(6.10.2022) [17:12:31] Data poslána: dashinfo.json
+(6.10.2022) [18:30:43] Ping zaznamenán
+(6.10.2022) [18:30:44] Zakázka poslána: 220001
+(6.10.2022) [18:30:45] Zakázka poslána: 220001
+(6.10.2022) [21:40:03] Zakázka poslána: 220001
+(6.10.2022) [21:40:03] Zakázka poslána: 220001

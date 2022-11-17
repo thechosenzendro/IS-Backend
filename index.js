@@ -70,15 +70,21 @@ app.get("/file/:filename", (req, res) => {
 //Request zakázky z ./server/-----/ui.json
 app.get("/getcontract/:id/", (req, res) => {
     const { id } = req.params
-    fs.readFile("./server/" + id + "/ui.json", "utf8", (err, data) => {
+    fs.readFile("./server/" + id + "/ui.json", "utf8", (err, uidata) => {
         if (err) {
             res.status(400).send(err);
             WriteToLog("Error: " + err)
             return;
         }
-        res.status(200).send(data)
+        fs.readFile("./server/" + id + "/data.json", "utf8", (err, data) => {
+            if (err) {
+                res.status(400).send(err);
+                WriteToLog("Error: " + err)
+                return;
+            }
+            res.status(200).send({ "ui": uidata, "data": data })
+        })
         WriteToLog("Zakázka poslána: " + id)
-
     })
 })
 

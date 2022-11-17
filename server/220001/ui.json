@@ -1,29 +1,16 @@
 {
     "udajeostavbe": [
         {
-            "tag": "input",
-            "id": "test",
-            "class": "Input",
-            "placeholder": "Test",
-            "onchange": "ChangeContractData(this.id)"
-        },
-        {
-            "tag": "h1",
-            "id": "h1",
-            "innerHTML": "Test"
+            "tag": "label",
+            "for": "jmenoprijmenititul",
+            "innerHTML": "Jméno, přijmení, titul:",
+            "class": "Text"
         },
         {
             "tag": "input",
-            "id": "test1",
             "class": "Input",
-            "placeholder": "Test1",
-            "onchange": "ChangeContractData(this.id)"
-        },
-        {
-            "tag": "input",
-            "id": "test2",
-            "class": "Input",
-            "placeholder": "Test2",
+            "id": "jmenoprijmenititul",
+            "placeholder": "např. Ing. Jan Novák",
             "onchange": "ChangeContractData(this.id)"
         }
     ]
