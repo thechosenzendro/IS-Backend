@@ -1,5 +1,8 @@
+
 //Inicializace všech potřebných modulů + proměnných
+import { Octokit, App } from "octokit";
 var express = require("express");
+const octokit = new Octokit({ auth: `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` });
 var app = express();
 var fs = require('fs');
 var cors = require('cors')
@@ -201,4 +204,59 @@ app.patch("/newdata/:project/:element/:value", (req, res) => {
     })
 
 
+})
+app.patch("/newactivity/:project/:value", (req, res) => {
+    WriteToLog('New activity')
+    const { project } = req.params
+    const { value } = req.params
+    file = "./server/" + project + "/data.json"
+    Check()
+    function Check() {
+        fs.readFile(file, "utf8", (err, data) => {
+            if (err) throw err
+            parsedata = JSON.parse(data)
+            if (parsedata.hasOwnProperty('provedenecinnosti')) {
+                let date = new Date();
+                let day = date.getDay()
+                let month = date.getMonth()
+                let year = date.getFullYear()
+                let datum = day + '.' + month + '.' + year
+                obj = decodeURIComponent(value).split('-')
+                newactivity = {}
+                newactivity['Datum'] = datum
+                newactivity['Popis činnosti'] = obj[0]
+                newactivity['Zapisovatel'] = obj[1]
+                console.log('Newactivity vytvořeno')
+                parsedata['provedenecinnosti'][parsedata['provedenecinnosti'].length] = newactivity
+                fs.writeFile(file, JSON.stringify(parsedata), err => {
+                    if (err) {
+                        WriteToLog(err);
+                    }
+                    WriteToLog('Přidána nová činnost pro projekt ' + project + ' od uživatele ' + obj[1])
+                    res.status(200).send()
+                });
+            }
+            else {
+                parsedata['provedenecinnosti'] = []
+                console.log(parsedata)
+                fs.writeFile(file, JSON.stringify(parsedata), err => {
+                    if (err) {
+                        WriteToLog(err);
+                    }
+                    Check()
+                });
+            }
+        })
+    }
+})
+app.post("/issue/:title/:body", (req, res) => {
+    const { title } = req.params
+    const { body } = req.params
+    MakeIssue()
+    async function MakeIssue() {
+        await octokit.request("POST /repos/thechosenzendro/IS/issues", {
+            title: title,
+            body: body,
+        });
+    }
 })

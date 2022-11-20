@@ -1,17 +1,400 @@
 {
-    "udajeostavbe": [
+    "udajeostavebnikovi": [
+        {
+            "tag": "h1",
+            "innerHTML": "Údaje o stavebníkovi"
+        },
+        {
+            "tag": "br"
+        },
         {
             "tag": "label",
-            "for": "jmenoprijmenititul",
-            "innerHTML": "Jméno, přijmení, titul:",
-            "class": "Text"
+            "for": "tituljmenoprijmeni",
+            "innerHTML": "Titul, jméno, příjmení:"
         },
         {
             "tag": "input",
             "class": "Input",
-            "id": "jmenoprijmenititul",
-            "placeholder": "např. Ing. Jan Novák",
-            "onchange": "ChangeContractData(this.id)"
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Ing. Jan Novák",
+            "id": "tituljmenoprijmeni"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "bydliste",
+            "innerHTML": "Bydliště:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Novákova 14, 602 00, Brno",
+            "id": "bydliste"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "datumnarozeni",
+            "innerHTML": "Datum narození:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "01.01.1900",
+            "id": "datumnarozeni",
+            "type": "date"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "rodnecislo",
+            "innerHTML": "Rodné číslo:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "123456/7890",
+            "id": "rodnecislo"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "cisloobcanskehoprukazu",
+            "innerHTML": "Číslo občanského průkazu:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "123 456 789",
+            "id": "cisloobcanskehoprukazu"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "kontakt-telefon",
+            "innerHTML": "Kontakt - Telefon:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "+420 123 456 789",
+            "id": "kontakt-telefon"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "kontakt-email",
+            "innerHTML": "Kontakt - Email:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "jan.novak@seznam.cz",
+            "id": "kontakt-email"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "button",
+            "class": "Prim Auto",
+            "innerHTML": "Přidat nového stavebníka",
+            "id": "vytvoritstavebnika"
+        }
+    ],
+    "udajeoterminech": [
+        {
+            "tag": "h1",
+            "innerHTML": "Údaje o termínech"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "datumsos",
+            "innerHTML": "Datum sos:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "01.01.1900",
+            "id": "datumsos",
+            "type": "date"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "cenastavby",
+            "innerHTML": "Cena stavby:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "1 000 000 Kč",
+            "id": "cenastavby"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "typdomu",
+            "innerHTML": "Typ domu:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Galileo 14",
+            "id": "typdomu"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "datumzahajeni",
+            "innerHTML": "Datum zahájení:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "01.01.1900",
+            "id": "datumzahajeni",
+            "type": "date"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "predpokladanyterminukonceni",
+            "innerHTML": "Předpokládaný termín ukončení:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "01.01.1900",
+            "id": "predpokladanyterminukonceni",
+            "type": "date"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "skutecnyterminukonceni",
+            "innerHTML": "Skutečný termín ukončení:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "01.01.1900",
+            "id": "skutecnyterminukonceni",
+            "type": "date"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "projektantstudie",
+            "innerHTML": "Projektant studie:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Ing. Jan Novák, Ing. Jana Nováková",
+            "id": "projektantstudie"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "projektantpd",
+            "innerHTML": "Projektant PD:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Ing. Jan Novák",
+            "id": "projektantpd"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "zajistenipovolenistavby",
+            "innerHTML": "Zajištění povolení stavby:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "???",
+            "id": "zajistenipovolenistavby"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "manazerprojektu",
+            "innerHTML": "Manažer projektu:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Jan Novák",
+            "id": "manazerprojektu"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "manazerstavby",
+            "innerHTML": "Manažer stavby:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Jan Novák",
+            "id": "manazerstavby"
+        },
+        {
+            "tag": "br"
+        }
+    ],
+    "udajeostavbe": [
+        {
+            "tag": "h1",
+            "innerHTML": "Údaje o stavbě"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "katastralniuzemi",
+            "innerHTML": "Katastrální území:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Černovice",
+            "id": "katastralniuzemi"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "cisloparcely",
+            "innerHTML": "Číslo parcely(p.p.č.):"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "123/4",
+            "id": "cisloparcely"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "obec",
+            "innerHTML": "Obec:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Černovice",
+            "id": "obec"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "okres",
+            "innerHTML": "Okres:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Blansko",
+            "id": "okres"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "kraj",
+            "innerHTML": "Kraj:"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Jihomoravský kraj",
+            "id": "kraj"
+        },
+        {
+            "tag": "br"
+        },
+        {
+            "tag": "label",
+            "for": "cisloorientacni",
+            "innerHTML": "Ulice a číslo orientační (příp. soused):"
+        },
+        {
+            "tag": "input",
+            "class": "Input",
+            "onchange": "ChangeContractData(this.id)",
+            "placeholder": "Obecní humno 1018, 696 15 Čejkovice - p.č.st.1582",
+            "id": "cisloorientacni"
+        },
+        {
+            "tag": "br"
         }
     ]
 }
