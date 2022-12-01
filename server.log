@@ -2255,3 +2255,41 @@
 (6.10.2022) [21:57:08] Vše funguje na localhost:8080
 (6.10.2022) [21:59:26] Ping zaznamenán
 (6.10.2022) [22:14:33] Ping zaznamenán
+(0.10.2022) [20:07:19] ______________Inicializace MZISAPI______________
+(0.10.2022) [20:07:19] Vše funguje na localhost:8080
+(0.10.2022) [20:07:25] Ping zaznamenán
+(0.10.2022) [20:07:35] Autorizační request přijat.
+(0.10.2022) [20:07:35] loginData přečtena.
+(0.10.2022) [20:07:35]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.10.2022) [20:07:35] Ping zaznamenán
+(0.10.2022) [20:07:35] Data poslána: dashinfo.json
+(0.10.2022) [20:07:39] Ping zaznamenán
+(0.10.2022) [20:07:52] Data poslána: dashinfo.json
+(0.10.2022) [20:12:17] Ping zaznamenán
+(0.10.2022) [20:12:17] Data poslána: dashinfo.json
+(0.10.2022) [20:12:25] ______________Inicializace MZISAPI______________
+(0.10.2022) [20:12:25] Vše funguje na localhost:8080
+(0.10.2022) [20:14:33] ______________Inicializace MZISAPI______________
+(0.10.2022) [20:14:33] Vše funguje na localhost:8080
+(0.10.2022) [20:14:41] Ping zaznamenán
+(0.10.2022) [20:14:41] Data poslána: dashinfo.json
+(0.10.2022) [20:14:44] Ping zaznamenán
+(0.10.2022) [20:14:51] Data poslána: dashinfo.json
+(0.10.2022) [20:15:28] Ping zaznamenán
+(0.10.2022) [20:15:28] Data poslána: dashinfo.json
+(0.10.2022) [20:15:55] Ping zaznamenán
+(0.10.2022) [20:15:55] Data poslána: dashinfo.json
+(0.10.2022) [20:17:01] Ping zaznamenán
+(0.10.2022) [20:17:01] Data poslána: dashinfo.json
+(0.10.2022) [20:17:09] Ping zaznamenán
+(0.10.2022) [20:17:09] Data poslána: dashinfo.json
+(0.10.2022) [20:17:25] ______________Inicializace MZISAPI______________
+(0.10.2022) [20:17:25] Vše funguje na localhost:8080
+(0.10.2022) [20:17:45] Ping zaznamenán
+(0.10.2022) [20:27:42] Ping zaznamenán
+(0.10.2022) [20:27:49] Ping zaznamenán
+(0.10.2022) [20:28:52] Ping zaznamenán
+(0.10.2022) [20:32:42] Ping zaznamenán
+(0.10.2022) [20:32:51] Ping zaznamenán
+(0.10.2022) [20:32:55] Přidán nový problém
+(0.10.2022) [20:32:58] Data poslána: dashinfo.json

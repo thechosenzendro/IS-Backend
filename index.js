@@ -1,8 +1,6 @@
 
 //Inicializace všech potřebných modulů + proměnných
-import { Octokit, App } from "octokit";
 var express = require("express");
-const octokit = new Octokit({ auth: `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` });
 var app = express();
 var fs = require('fs');
 var cors = require('cors')
@@ -249,14 +247,13 @@ app.patch("/newactivity/:project/:value", (req, res) => {
         })
     }
 })
-app.post("/issue/:title/:body", (req, res) => {
+app.post("/issue/:name/:title/:body", (req, res) => {
+    const { name } = req.params
     const { title } = req.params
     const { body } = req.params
-    MakeIssue()
-    async function MakeIssue() {
-        await octokit.request("POST /repos/thechosenzendro/IS/issues", {
-            title: title,
-            body: body,
-        });
-    }
+    const data = "Jméno: " + name + "\nTitle:" + decodeURIComponent(title) + "\nBody:" + decodeURIComponent(body) + "\n"
+    fs.appendFile( "./issues.json", data, () => {
+        WriteToLog('Přidán nový problém od ' + name)
+        res.status(200).send('Ok')
+    })
 })
