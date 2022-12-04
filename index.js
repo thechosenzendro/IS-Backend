@@ -1,6 +1,7 @@
 
 //Inicializace všech potřebných modulů + proměnných
 var express = require("express");
+require("dotenv").config();
 var app = express();
 var fs = require('fs');
 var cors = require('cors')
@@ -39,6 +40,7 @@ function WriteToLog(msg) {
     const msgwts = Timestamp() + msg + "\n";
     fs.appendFile('server.log', msgwts, function (err) {
         if (err) throw err;
+        if (err) { WriteToLog('Error! Nejde psát do logu! Error: ' + err) }
     });
     console.log(msgwts)
 
@@ -46,7 +48,7 @@ function WriteToLog(msg) {
 
 app.get("/ping", (req, res) => {
     res.status(200).send("pong")
-    WriteToLog("Ping zaznamenán");
+    WriteToLog("Ping zaznamenán z IP Adresy " + req.ip);
 })
 
 
@@ -60,11 +62,25 @@ app.get("/file/:filename", (req, res) => {
     fs.readFile("./server/" + filename, "utf8", (err, data) => {
         if (err) {
             res.status(400).send(err);
-            WriteToLog("Error: " + err)
+            WriteToLog("Error při čtení souboru: " + filename + "\n Error: " + err)
             return;
         }
         res.status(200).send(data)
         WriteToLog("Data poslána: " + filename)
+
+    })
+})
+//Request templatu z ./template
+app.get("/template/:templatename", (req, res) => {
+    const { templatename } = req.params
+    fs.readFile("./templates/" + templatename, "utf8", (err, data) => {
+        if (err) {
+            res.status(400).send(err);
+            WriteToLog("Error při čtení templatu: " + templatename + "\n Error: " + err)
+            return;
+        }
+        res.status(200).send(data)
+        WriteToLog("Template poslán: " + templatename)
 
     })
 })
@@ -74,13 +90,13 @@ app.get("/getcontract/:id/", (req, res) => {
     fs.readFile("./server/" + id + "/ui.json", "utf8", (err, uidata) => {
         if (err) {
             res.status(400).send(err);
-            WriteToLog("Error: " + err)
+            WriteToLog("Error při čtení UI zakázky: " + id + "\n Error: " + err)
             return;
         }
         fs.readFile("./server/" + id + "/data.json", "utf8", (err, data) => {
             if (err) {
                 res.status(400).send(err);
-                WriteToLog("Error: " + err)
+                WriteToLog("Error při čtení dat zakázky: " + id + "\n Error: " + err)
                 return;
             }
             res.status(200).send({ "ui": uidata, "data": data })
@@ -116,7 +132,7 @@ app.post("/auth", (req, res) => {
     fs.readFile("./server/login.json", "utf8", (err, data) => {
         if (err) {
             res.status(500).send(err);
-            WriteToLog("Auth Read Error: " + err)
+            WriteToLog("Error při přečtení LOGIN dat: " + err)
             return;
         }
         daticka = data;
@@ -159,14 +175,15 @@ app.post("/newcontract/", (req, res) => {
             parsedata["id"] = id
             fs.writeFile('./templates/idname.json', JSON.stringify(parsedata), function (err) {
                 if (err) throw err;
+                WriteToLog("Error při přečtení IDNAME. Error: " + err)
             });
             wowfile = './server/' + newid.toString() + '/ui.json'
             wowfile2 = './server/' + newid.toString() + '/data.json'
             if (!fs.existsSync("./server/" + newid.toString())) {
                 fs.mkdirSync("./server/" + newid.toString(), { recursive: true });
             }
-            fs.writeFile(wowfile, psdata, function (err) { if (err) throw err; });
-            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar" }), function (err) { if (err) throw err; });
+            fs.writeFile(wowfile, psdata, function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení UI nové zakázky. Error: " + err) }; });
+            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar" }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
             fs.readFile("./server/dashinfo.json", "utf8", (err, data) => {
                 if (err) throw err
                 dashdata = JSON.parse(data)
@@ -204,7 +221,6 @@ app.patch("/newdata/:project/:element/:value", (req, res) => {
 
 })
 app.patch("/newactivity/:project/:value", (req, res) => {
-    WriteToLog('New activity')
     const { project } = req.params
     const { value } = req.params
     file = "./server/" + project + "/data.json"
@@ -224,7 +240,6 @@ app.patch("/newactivity/:project/:value", (req, res) => {
                 newactivity['Datum'] = datum
                 newactivity['Popis činnosti'] = obj[0]
                 newactivity['Zapisovatel'] = obj[1]
-                console.log('Newactivity vytvořeno')
                 parsedata['provedenecinnosti'][parsedata['provedenecinnosti'].length] = newactivity
                 fs.writeFile(file, JSON.stringify(parsedata), err => {
                     if (err) {
@@ -252,7 +267,7 @@ app.post("/issue/:name/:title/:body", (req, res) => {
     const { title } = req.params
     const { body } = req.params
     const data = "Jméno: " + name + "\nTitle:" + decodeURIComponent(title) + "\nBody:" + decodeURIComponent(body) + "\n"
-    fs.appendFile( "./issues.json", data, () => {
+    fs.appendFile("./issues.json", data, () => {
         WriteToLog('Přidán nový problém od ' + name)
         res.status(200).send('Ok')
     })
