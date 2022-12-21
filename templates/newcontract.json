@@ -1,18 +1,4 @@
 {
-    "udajeostavbe": [
-        {
-            "tag": "input",
-            "id": "test",
-            "class": "Input",
-            "placeholder": "Test",
-            "onchange": "ChangeContractData(this.id)"
-        },
-        {
-            "tag": "input",
-            "id": "test1",
-            "class": "Input",
-            "placeholder": "Test1",
-            "onchange": "ChangeContractData(this.id)"
-        }
-    ]
+    "udajeoterminech": "<h1>Údaje o termínech</h1><br><div class='ParentAlignDiv'><div class='ChildAlignDiv'><label for='datumsos'>Datum sos:</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='01.01.1900' id='datumsos' type='date'><br></div><div class='ChildAlignDiv'><label for='cenastavby'>Cena stavby:</label><input class='Input' onchange='ChangeContractData(this.id)'placeholder='1 000 000 Kč' id='cenastavby'><br></div><div class='ChildAlignDiv'><label for='typdomu'>Typ domu:</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='Galileo 14' id='typdomu'><br></div><div class='ChildAlignDiv'><label for='datumzahajeni'>Datum zahájení:</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='01.01.1900' id='datumzahajeni' type='date'><br></div><div class='ChildAlignDiv'><label for='predpokladanyterminukonceni'>Předpokládaný termín ukončení:</label><input class='Input' onchange='ChangeContractData(this.id)' placeholder='01.01.1900' id='predpokladanyterminukonceni'type='date'><br></div><div class='ChildAlignDiv'><label for='skutecnyterminukonceni'>Skutečný termín ukončení:</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='01.01.1900' id='skutecnyterminukonceni' type='date'><br></div><div class='ChildAlignDiv'><label for='projektantstudie'>Projektant studie:</label><inputclass='Input' onchange='ChangeContractData(this.id)' placeholder='Ing. Jan Novák, Ing. Jana Nováková'id='projektantstudie'><br></div><div class='ChildAlignDiv'><label for='projektantpd'>Projektant PD:</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='Ing. Jan Novák' id='projektantpd'><br></div><div class='ChildAlignDiv'><label for='zajistenipovolenistavby'>Zajištění povolení stavby:</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='Jan Novák' id='zajistenipovolenistavby'><br></div><div class='ChildAlignDiv'><label for='manazerprojektu'>Manažer projektu:</label><input class='Input' onchange='ChangeContractData(this.id)'placeholder='Jan Novák' id='manazerprojektu'><br></div><div class='ChildAlignDiv'><label for='manazerstavby'>Manažer stavby:</label><input class='Input' onchange='ChangeContractData(this.id)' placeholder='Jan Novák' id='manazerstavby'><br></div></div>",
+    "udajeostavbe": "<h1>Údaje o stavbě</h1><br><div class='ParentAlignDiv'><div class='ChildAlignDiv'><label for='katastralniuzemi'>Katastrální území:</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='Černovice' id='katastralniuzemi'><br></div><div class='ChildAlignDiv'><label for='cisloparcely'>Číslo pozemku (parc.č.):</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='123/4' id='cisloparcely'><br></div><div class='ChildAlignDiv'><label for='obec'>Obec:</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='Černovice' id='obec'><br></div><div class='ChildAlignDiv'><label for='okres'>Okres:</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='Blansko' id='okres'><br></div><div class='ChildAlignDiv'><label for='kraj'>Kraj:</label><input class='Input'onchange='ChangeContractData(this.id)' placeholder='Jihomoravský kraj' id='kraj'><br></div><div class='ChildAlignDiv'><label for='cisloorientacni'>Ulice a číslo orientační (příp. soused):</label><input class='Input' onchange='ChangeContractData(this.id)'placeholder='Obecní humno 1018, 696 15 Čejkovice - p.č.st.1582' id='cisloorientacni'><br></div></div>"
 }

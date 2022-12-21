@@ -1,6 +1,34 @@
 {
     "options": [
-        "test1",
-        "test2"
+        "Přijaté podklady k pozemku",
+        "Podané žádosti k existenci sítí - ČEZ",
+        "Podané žádosti k existenci sítí - CETIN",
+        "Podané žádosti k existenci sítí - GASNET",
+        "Podané žádosti k existenci sítí - SmVak automat",
+        "Podané žádosti k existenci sítí - odpověď nedoručena",
+        "Odesláno vyjádření MP",
+        "Zaměření pozemku, jednání s klientem",
+        "Odeslána fotodokumentace ze zadání",
+        "Zahájení studie č. - zadání",
+        "Doručená plná moc",
+        "Dokončení studie č. - zadání stavby",
+        "Odeslání studie č. - zadání stavby MP",
+        "Schválená studie klientem",
+        "Odeslány podklady pro subdodávky",
+        "Odeslány podklady pro subdodávky (kromě statiky)",
+        "Zahájení PD",
+        "Objednána subdodávka na IGP po odsouhlasení klientem",
+        "Doručení IGP",
+        "Dokončená PD",
+        "Odeslány podklady pro subdodávky",
+        "Odeslání PD (pare č.) na rozpočet",
+        "Odeslání PD (v PDF) MP",
+        "Inženýring - zahájení",
+        "Inženýring - dokončení",
+        "Odeslání PD na SÚ",
+        "Vydání 'povolení stavby'",
+        "Odeslání PD v PDF (FINAL) MP",
+        "Ukončení a archivace zakázky",
+        "Předání PD (pare) na ES"
     ]
 }

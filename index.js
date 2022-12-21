@@ -45,16 +45,15 @@ function WriteToLog(msg) {
     console.log(msgwts)
 
 }
-
+//Počítání objektů v JSONu
+function countObjectKeys(obj) {
+    return Object.keys(obj).length;
+}
+//Ping
 app.get("/ping", (req, res) => {
     res.status(200).send("pong")
     WriteToLog("Ping zaznamenán z IP Adresy " + req.ip);
 })
-
-
-
-
-
 
 //Request souboru z ./server
 app.get("/file/:filename", (req, res) => {
@@ -129,13 +128,13 @@ app.post("/auth", (req, res) => {
     }
     //Přečtení logindata
     let logindata;
-    fs.readFile("./server/login.json", "utf8", (err, data) => {
+    fs.readFile("./server/login.json", "utf8", (err, loginjsondata) => {
         if (err) {
             res.status(500).send(err);
             WriteToLog("Error při přečtení LOGIN dat: " + err)
             return;
         }
-        daticka = data;
+        daticka = loginjsondata;
         //Logika která převede formát login.json na formát který se dá přečíst Login().
         daticka = JSON.parse(daticka)
         temparrlog = {}
@@ -150,16 +149,51 @@ app.post("/auth", (req, res) => {
         }
         logindata = temparrlog
         WriteToLog("loginData přečtena.");
-        const name = urlParams.get("name");
+        const name = urlParams.get("name").toLowerCase().replace(/\s/g, '');
         const pass = urlParams.get("pass");
         let ans = Login(name, pass, logindata)
-        const datinka = { "Auth": ans, "Role": logindata["role_" + name], "Jmeno": logindata["jmeno_" + name] }
-        res.status(200).send(datinka)
         WriteToLog(" Uživatel " + name + " se snaží přihlásit. Povedlo se?: " + ans);
+        if (ans == true) {
+            datinka = { "Auth": ans, "Role": logindata["role_" + name], "Jmeno": logindata["jmeno_" + name] }
+            easteregg = logindata["jmeno_" + name]
 
+            fs.readFile("./server/loggedusers.json", "utf8", (err, data) => {
+                obj = JSON.parse(data);
+                loggedusers = obj
+                newuserlogged = {}
+                newuserlogged['Přihlášení uživatelé (uživatelské jméno)'] = easteregg
+                console.log(newuserlogged)
+                loggedusers.push(newuserlogged)
+                fs.writeFile("./server/loggedusers.json", JSON.stringify(loggedusers), (err) => {
+                    res.status(200).send(datinka)
+                })
+            })
+        }
+        if (ans == false) {
+            datinka = { "Auth": ans }
+            res.status(200).send(datinka)
+        }
     })
 
     WriteToLog("Autorizační request přijat.")
+
+})
+//Odhlášení uživatele
+app.post("/userlogout/:jmeno", (req, res) => {
+    const { jmeno } = req.params
+    fs.readFile("./server/loggedusers.json", "utf8", (err, data) => {
+        loggeddata = JSON.parse(data)
+        for (var i = 0; i < loggeddata.length; i++) {
+            ld = loggeddata[i]['Přihlášení uživatelé (uživatelské jméno)']
+            if (ld == jmeno) {
+                loggeddata.splice(i)
+            }
+            fs.writeFile("./server/loggedusers.json", JSON.stringify(loggeddata), (err) => {
+                res.status(200).send("Ok")
+            })
+        }
+
+    })
 
 })
 //Vytvoření nové zakázky
@@ -183,7 +217,7 @@ app.post("/newcontract/", (req, res) => {
                 fs.mkdirSync("./server/" + newid.toString(), { recursive: true });
             }
             fs.writeFile(wowfile, psdata, function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení UI nové zakázky. Error: " + err) }; });
-            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar" }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
+            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar", "stavebnici": [] }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
             fs.readFile("./server/dashinfo.json", "utf8", (err, data) => {
                 if (err) throw err
                 dashdata = JSON.parse(data)
@@ -266,9 +300,78 @@ app.post("/issue/:name/:title/:body", (req, res) => {
     const { name } = req.params
     const { title } = req.params
     const { body } = req.params
-    const data = "Jméno: " + name + "\nTitle:" + decodeURIComponent(title) + "\nBody:" + decodeURIComponent(body) + "\n"
-    fs.appendFile("./issues.json", data, () => {
+    const data = "Jméno: " + name + "\nTitle:" + decodeURIComponent(title) + "\nBody:" + decodeURIComponent(body) + "\n" + "______________________\n"
+    fs.appendFile("./issues.txt", data, () => {
         WriteToLog('Přidán nový problém od ' + name)
         res.status(200).send('Ok')
+    })
+})
+app.post("/datasync/", (req, res) => {
+    index = ["nazevzakazky", "katastralniuzemi", "stavebnik", "status", "studie", "projekt", "inzenyring", "archivace"]
+    formattedindex = ["Název Zakázky", "Katastr", "Stavebník", "Status", "Studie", "Projekt", "Inženýring", "Archivace"]
+    fs.readFile("./templates/idname.json", "utf8", (err, data) => {
+        obj = JSON.parse(data)
+        object = obj['id']
+        for (var i = 1; i < object.length; i++) {
+            jmeno = './server/' + object[i] + '/data.json'
+            bruh = object[i]
+            RF1(jmeno, bruh)
+            function RF1(jmeno, bruh) {
+                fs.readFile(jmeno, "utf8", (err, obsah) => {
+                    objekt = JSON.parse(obsah)
+                    RF2(jmeno, bruh)
+                    function RF2(jmeno, bruh) {
+                        for (var u = 0; u < countObjectKeys(objekt); u++) {
+                            RF3(jmeno, bruh)
+                            function RF3(jmeno, bruh) {
+                                compare = Object.keys(objekt)[u]
+                                if (index.indexOf(compare) > -1) {
+                                    val = objekt[compare]
+                                    RF4(bruh, val)
+                                    function RF4(bruh, val) {
+                                        result = compare;
+                                        fs.readFile("./server/dashinfo.json", "utf8", (err, dashdata) => {
+                                            object = JSON.parse(dashdata)
+                                            tag = formattedindex[index.indexOf(result)]
+                                            for (var i = 0; i < object.length; i++) {
+                                                otc = object[i]
+                                                if (otc["Číslo zakázky"] == bruh) {
+                                                    otc[tag] = val;
+                                                    fs.writeFile('./server/dashinfo.json', JSON.stringify(object), err => {
+                                                        if (err) {
+                                                            WriteToLog("Error při psaní do DASHINFO. Err: " + err)
+                                                        }
+                                                        res.status(200).send('Ok')
+                                                    });
+                                                }
+                                            }
+                                        })
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                })
+            }
+        }
+    })
+})
+app.post("/newuser/:jmeno/:role/:heslo", (req, res) => {
+    const { jmeno } = req.params
+    const { role } = req.params
+    const { heslo } = req.params
+    fs.readFile("./server/login.json", "utf8", (err, data) => {
+        obj = JSON.parse(data)
+        newuser = {}
+        newjmeno = jmeno.toLowerCase().replace(/\s/g, '')
+        newheslo = crypto.SHA256(heslo.toString()).toString()
+        newuser[newjmeno] = newheslo
+        newuser['role_' + newjmeno] = role
+        newuser['jmeno_' + newjmeno] = jmeno
+        obj.push(newuser)
+        fs.writeFile('./server/login.json', JSON.stringify(obj), err => {
+            res.status(200).send("Ok")
+        })
     })
 })

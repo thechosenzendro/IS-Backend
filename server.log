@@ -2984,3 +2984,1549 @@
 (0.11.2022) [13:13:56] Zakázka poslána: 220001
 (0.11.2022) [13:14:09] Ping zaznamenán z IP Adresy ::1
 (0.11.2022) [13:14:09] Zakázka poslána: 220001
+(0.11.2022) [19:49:16] ______________Inicializace MZISAPI______________
+(0.11.2022) [19:49:16] Vše funguje na localhost:8080
+(0.11.2022) [19:51:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:51:23] Autorizační request přijat.
+(0.11.2022) [19:51:23] loginData přečtena.
+(0.11.2022) [19:51:23]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [19:51:23] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:51:23] Data poslána: dashinfo.json
+(0.11.2022) [19:51:25] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:51:25] Zakázka poslána: 220001
+(0.11.2022) [19:51:28] Template poslán: optpc.json
+(0.11.2022) [19:51:28] Template poslán: optpc.json
+(0.11.2022) [19:51:29] Template poslán: optpc.json
+(0.11.2022) [19:51:30] Template poslán: optpc.json
+(0.11.2022) [19:51:32] Template poslán: optpc.json
+(0.11.2022) [19:51:34] Template poslán: optpc.json
+(0.11.2022) [19:51:35] Template poslán: optpc.json
+(0.11.2022) [19:53:10] Zakázka poslána: 220001
+(0.11.2022) [19:53:10] Zakázka poslána: 220001
+(0.11.2022) [19:53:11] Zakázka poslána: 220001
+(0.11.2022) [19:58:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:58:01] Zakázka poslána: 220001
+(0.11.2022) [19:58:01] Zakázka poslána: 220001
+(0.11.2022) [19:58:06] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:58:07] Zakázka poslána: 220001
+(0.11.2022) [19:58:07] Zakázka poslána: 220001
+(0.11.2022) [19:59:11] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:59:11] Zakázka poslána: 220001
+(0.11.2022) [19:59:11] Zakázka poslána: 220001
+(0.11.2022) [19:59:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:59:47] Zakázka poslána: 220001
+(0.11.2022) [19:59:47] Zakázka poslána: 220001
+(0.11.2022) [20:00:16] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [20:00:16] Zakázka poslána: 220001
+(0.11.2022) [20:00:16] Zakázka poslána: 220001
+(0.11.2022) [20:02:13] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [20:02:13] Zakázka poslána: 220001
+(0.11.2022) [20:02:13] Zakázka poslána: 220001
+(1.11.2022) [18:03:24] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:03:24] Zakázka poslána: 220001
+(1.11.2022) [18:03:24] Zakázka poslána: 220001
+(1.11.2022) [18:04:05] Zakázka poslána: 220001
+(1.11.2022) [18:06:19] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:06:19] Zakázka poslána: 220001
+(1.11.2022) [18:06:19] Zakázka poslána: 220001
+(1.11.2022) [18:06:24] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:06:24] Zakázka poslána: 220001
+(1.11.2022) [18:06:24] Zakázka poslána: 220001
+(1.11.2022) [18:06:26] Zakázka poslána: 220001
+(1.11.2022) [18:06:33] Zakázka poslána: 220001
+(1.11.2022) [18:06:33] Zakázka poslána: 220001
+(1.11.2022) [18:07:29] Zakázka poslána: 220001
+(1.11.2022) [18:07:33] Zakázka poslána: 220001
+(1.11.2022) [18:07:33] Zakázka poslána: 220001
+(1.11.2022) [18:07:35] Zakázka poslána: 220001
+(1.11.2022) [18:07:39] Zakázka poslána: 220001
+(1.11.2022) [18:07:39] Zakázka poslána: 220001
+(1.11.2022) [18:07:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:07:55] Data poslána: dashinfo.json
+(1.11.2022) [18:07:56] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:08:01] Autorizační request přijat.
+(1.11.2022) [18:08:01] loginData přečtena.
+(1.11.2022) [18:08:01]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [18:08:02] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:08:02] Data poslána: dashinfo.json
+(1.11.2022) [18:08:21] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:08:24] Data poslána: dashinfo.json
+(1.11.2022) [18:08:26] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:08:30] Data poslána: dashinfo.json
+(1.11.2022) [18:08:34] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:08:34] Zakázka poslána: 220001
+(1.11.2022) [18:08:34] Zakázka poslána: 220001
+(1.11.2022) [18:08:38] Zakázka poslána: 220001
+(1.11.2022) [18:08:39] Zakázka poslána: 220001
+(1.11.2022) [18:08:40] Zakázka poslána: 220001
+(1.11.2022) [18:08:50] Zakázka poslána: 220001
+(1.11.2022) [18:08:52] Zakázka poslána: 220001
+(1.11.2022) [18:08:55] Zakázka poslána: 220001
+(1.11.2022) [18:08:55] Zakázka poslána: 220001
+(1.11.2022) [18:08:55] Zakázka poslána: 220001
+(1.11.2022) [18:09:08] Template poslán: optpc.json
+(1.11.2022) [18:09:10] Template poslán: optpc.json
+(1.11.2022) [18:09:11] Template poslán: optpc.json
+(1.11.2022) [18:09:21] Template poslán: optpc.json
+(1.11.2022) [18:09:22] Template poslán: optpc.json
+(1.11.2022) [18:09:22] Template poslán: optpc.json
+(1.11.2022) [18:09:22] Template poslán: optpc.json
+(1.11.2022) [18:09:23] Template poslán: optpc.json
+(1.11.2022) [18:09:23] Template poslán: optpc.json
+(1.11.2022) [18:09:24] Template poslán: optpc.json
+(1.11.2022) [18:09:25] Template poslán: optpc.json
+(1.11.2022) [18:09:25] Template poslán: optpc.json
+(1.11.2022) [18:09:26] Template poslán: optpc.json
+(1.11.2022) [18:09:27] Template poslán: optpc.json
+(1.11.2022) [18:09:29] Template poslán: optpc.json
+(1.11.2022) [18:09:35] Template poslán: optpc.json
+(1.11.2022) [18:09:35] Template poslán: optpc.json
+(1.11.2022) [18:09:35] Template poslán: optpc.json
+(1.11.2022) [18:09:35] Template poslán: optpc.json
+(1.11.2022) [18:09:36] Template poslán: optpc.json
+(1.11.2022) [18:09:36] Template poslán: optpc.json
+(1.11.2022) [18:09:36] Template poslán: optpc.json
+(1.11.2022) [18:09:36] Template poslán: optpc.json
+(1.11.2022) [18:09:36] Template poslán: optpc.json
+(1.11.2022) [18:09:45] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:09:45] Data poslána: dashinfo.json
+(1.11.2022) [20:24:33] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [20:24:33] Data poslána: dashinfo.json
+(1.11.2022) [20:40:26] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [20:40:26] Data poslána: dashinfo.json
+(1.11.2022) [20:40:40] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [20:40:41] Data poslána: dashinfo.json
+(1.11.2022) [20:41:02] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [20:41:02] Data poslána: dashinfo.json
+(1.11.2022) [20:43:10] ______________Inicializace MZISAPI______________
+(1.11.2022) [20:43:10] Vše funguje na localhost:8080
+(1.11.2022) [20:43:18] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [20:43:18] Data poslána: dashinfo.json
+(1.11.2022) [21:02:45] ______________Inicializace MZISAPI______________
+(1.11.2022) [21:02:45] Vše funguje na localhost:8080
+(1.11.2022) [21:02:50] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:02:50] Data poslána: dashinfo.json
+(1.11.2022) [21:05:18] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:05:19] Data poslána: dashinfo.json
+(1.11.2022) [21:06:03] ______________Inicializace MZISAPI______________
+(1.11.2022) [21:06:03] Vše funguje na localhost:8080
+(1.11.2022) [21:06:09] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:06:09] Data poslána: dashinfo.json
+(1.11.2022) [21:06:21] ______________Inicializace MZISAPI______________
+(1.11.2022) [21:06:21] Vše funguje na localhost:8080
+(1.11.2022) [21:06:30] Data poslána: dashinfo.json
+(1.11.2022) [21:06:34] Zakázka poslána: 220001
+(1.11.2022) [21:06:34] Zakázka poslána: 220001
+(1.11.2022) [21:06:35] Data poslána: dashinfo.json
+(1.11.2022) [21:06:39] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:07:07] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:07:08] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:15:00] ______________Inicializace MZISAPI______________
+(1.11.2022) [21:15:00] Vše funguje na localhost:8080
+(1.11.2022) [21:15:06] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:15:10] Autorizační request přijat.
+(1.11.2022) [21:15:10] loginData přečtena.
+(1.11.2022) [21:15:10]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [21:15:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:15:10] Data poslána: dashinfo.json
+(1.11.2022) [21:17:09] ______________Inicializace MZISAPI______________
+(1.11.2022) [21:17:09] Vše funguje na localhost:8080
+(1.11.2022) [21:17:14] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:17:14] Data poslána: dashinfo.json
+(1.11.2022) [21:21:57] ______________Inicializace MZISAPI______________
+(1.11.2022) [21:21:57] Vše funguje na localhost:8080
+(1.11.2022) [21:22:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:22:01] Data poslána: dashinfo.json
+(1.11.2022) [21:50:39] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:50:40] Data poslána: dashinfo.json
+(1.11.2022) [21:50:40] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:55:13] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:55:13] Zakázka poslána: 220001
+(1.11.2022) [21:55:13] Zakázka poslána: 220001
+(1.11.2022) [21:55:15] Zakázka poslána: 220001
+(1.11.2022) [22:03:08] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [22:03:08] Zakázka poslána: 220001
+(1.11.2022) [22:03:08] Zakázka poslána: 220001
+(1.11.2022) [22:04:16] ______________Inicializace MZISAPI______________
+(1.11.2022) [22:04:16] Vše funguje na localhost:8080
+(1.11.2022) [22:04:24] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [22:04:24] Data poslána: dashinfo.json
+(1.11.2022) [22:05:11] ______________Inicializace MZISAPI______________
+(1.11.2022) [22:05:11] Vše funguje na localhost:8080
+(1.11.2022) [22:05:15] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [22:05:15] Data poslána: dashinfo.json
+(1.11.2022) [22:05:44] ______________Inicializace MZISAPI______________
+(1.11.2022) [22:05:44] Vše funguje na localhost:8080
+(1.11.2022) [22:05:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [22:05:47] Data poslána: dashinfo.json
+(1.11.2022) [22:06:53] ______________Inicializace MZISAPI______________
+(1.11.2022) [22:06:53] Vše funguje na localhost:8080
+(1.11.2022) [22:06:56] Data poslána: dashinfo.json
+(1.11.2022) [22:06:58] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [22:06:58] Zakázka poslána: 220001
+(1.11.2022) [22:06:58] Zakázka poslána: 220001
+(1.11.2022) [22:07:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [22:07:01] Data poslána: dashinfo.json
+(1.11.2022) [22:07:25] ______________Inicializace MZISAPI______________
+(1.11.2022) [22:07:25] Vše funguje na localhost:8080
+(1.11.2022) [22:07:30] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [22:07:30] Data poslána: dashinfo.json
+(1.11.2022) [22:11:50] ______________Inicializace MZISAPI______________
+(1.11.2022) [22:11:50] Vše funguje na localhost:8080
+(1.11.2022) [22:11:57] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [22:11:57] Data poslána: dashinfo.json
+(2.11.2022) [18:21:38] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:21:38] Data poslána: dashinfo.json
+(2.11.2022) [18:21:40] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:21:43] Autorizační request přijat.
+(2.11.2022) [18:21:43] loginData přečtena.
+(2.11.2022) [18:21:43]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(2.11.2022) [18:21:43] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:21:44] Data poslána: dashinfo.json
+(2.11.2022) [18:46:31] ______________Inicializace MZISAPI______________
+(2.11.2022) [18:46:32] Vše funguje na localhost:8080
+(2.11.2022) [18:46:37] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:46:37] Data poslána: dashinfo.json
+(2.11.2022) [18:52:05] ______________Inicializace MZISAPI______________
+(2.11.2022) [18:52:05] Vše funguje na localhost:8080
+(2.11.2022) [18:52:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:52:10] Data poslána: dashinfo.json
+(2.11.2022) [18:56:04] ______________Inicializace MZISAPI______________
+(2.11.2022) [18:56:04] Vše funguje na localhost:8080
+(2.11.2022) [18:56:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:56:10] Data poslána: dashinfo.json
+(2.11.2022) [18:56:57] ______________Inicializace MZISAPI______________
+(2.11.2022) [18:56:57] Vše funguje na localhost:8080
+(2.11.2022) [18:57:02] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:57:02] Data poslána: dashinfo.json
+(2.11.2022) [18:57:29] ______________Inicializace MZISAPI______________
+(2.11.2022) [18:57:29] Vše funguje na localhost:8080
+(2.11.2022) [18:57:33] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:57:33] Data poslána: dashinfo.json
+(2.11.2022) [18:58:21] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:58:21] Data poslána: dashinfo.json
+(2.11.2022) [18:58:57] ______________Inicializace MZISAPI______________
+(2.11.2022) [18:58:57] Vše funguje na localhost:8080
+(2.11.2022) [18:59:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:59:01] Data poslána: dashinfo.json
+(2.11.2022) [18:59:54] ______________Inicializace MZISAPI______________
+(2.11.2022) [18:59:54] Vše funguje na localhost:8080
+(2.11.2022) [18:59:58] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [18:59:58] Data poslána: dashinfo.json
+(2.11.2022) [19:00:48] ______________Inicializace MZISAPI______________
+(2.11.2022) [19:00:48] Vše funguje na localhost:8080
+(2.11.2022) [19:00:51] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [19:00:51] Data poslána: dashinfo.json
+(2.11.2022) [19:03:57] ______________Inicializace MZISAPI______________
+(2.11.2022) [19:03:58] Vše funguje na localhost:8080
+(2.11.2022) [19:04:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [19:04:01] Data poslána: dashinfo.json
+(2.11.2022) [19:06:32] ______________Inicializace MZISAPI______________
+(2.11.2022) [19:06:32] Vše funguje na localhost:8080
+(2.11.2022) [19:06:35] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [19:06:35] Data poslána: dashinfo.json
+(2.11.2022) [19:07:16] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [19:07:16] Data poslána: dashinfo.json
+(2.11.2022) [19:08:08] ______________Inicializace MZISAPI______________
+(2.11.2022) [19:08:08] Vše funguje na localhost:8080
+(2.11.2022) [19:08:11] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [19:08:11] Data poslána: dashinfo.json
+(2.11.2022) [19:08:49] ______________Inicializace MZISAPI______________
+(2.11.2022) [19:08:49] Vše funguje na localhost:8080
+(2.11.2022) [19:08:52] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [19:08:52] Data poslána: dashinfo.json
+(2.11.2022) [21:53:28] ______________Inicializace MZISAPI______________
+(2.11.2022) [21:53:28] Vše funguje na localhost:8080
+(2.11.2022) [21:53:31] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [21:53:32] Data poslána: dashinfo.json
+(2.11.2022) [21:54:02] ______________Inicializace MZISAPI______________
+(2.11.2022) [21:54:02] Vše funguje na localhost:8080
+(2.11.2022) [21:54:06] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [21:54:06] Data poslána: dashinfo.json
+(2.11.2022) [21:54:24] ______________Inicializace MZISAPI______________
+(2.11.2022) [21:54:24] Vše funguje na localhost:8080
+(2.11.2022) [21:54:26] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [21:57:11] ______________Inicializace MZISAPI______________
+(2.11.2022) [21:57:11] Vše funguje na localhost:8080
+(2.11.2022) [21:57:15] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [21:57:15] Data poslána: dashinfo.json
+(2.11.2022) [21:58:48] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [21:58:48] Data poslána: dashinfo.json
+(2.11.2022) [22:06:32] ______________Inicializace MZISAPI______________
+(2.11.2022) [22:06:32] Vše funguje na localhost:8080
+(2.11.2022) [22:06:37] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [22:06:37] Data poslána: dashinfo.json
+(2.11.2022) [22:07:36] ______________Inicializace MZISAPI______________
+(2.11.2022) [22:07:36] Vše funguje na localhost:8080
+(2.11.2022) [22:07:46] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [22:07:46] Data poslána: dashinfo.json
+(2.11.2022) [22:09:01] ______________Inicializace MZISAPI______________
+(2.11.2022) [22:09:01] Vše funguje na localhost:8080
+(2.11.2022) [22:09:05] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(2.11.2022) [22:09:05] Data poslána: dashinfo.json
+(3.11.2022) [18:08:43] ______________Inicializace MZISAPI______________
+(3.11.2022) [18:08:43] Vše funguje na localhost:8080
+(3.11.2022) [18:08:46] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:08:46] Data poslána: dashinfo.json
+(3.11.2022) [18:16:28] ______________Inicializace MZISAPI______________
+(3.11.2022) [18:16:28] Vše funguje na localhost:8080
+(3.11.2022) [18:16:33] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:16:33] Data poslána: dashinfo.json
+(3.11.2022) [18:16:49] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:16:49] Data poslána: dashinfo.json
+(3.11.2022) [18:16:50] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:16:50] Data poslána: dashinfo.json
+(3.11.2022) [18:16:53] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:16:53] Zakázka poslána: 220001
+(3.11.2022) [18:16:53] Zakázka poslána: 220001
+(3.11.2022) [18:16:56] Data poslána: dashinfo.json
+(3.11.2022) [18:17:44] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:17:44] Data poslána: dashinfo.json
+(3.11.2022) [18:17:46] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:17:46] Data poslána: dashinfo.json
+(3.11.2022) [18:21:52] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:21:52] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:21:59] Autorizační request přijat.
+(3.11.2022) [18:21:59] loginData přečtena.
+(3.11.2022) [18:21:59]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(3.11.2022) [18:21:59] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:21:59] Data poslána: dashinfo.json
+(3.11.2022) [18:24:01] ______________Inicializace MZISAPI______________
+(3.11.2022) [18:24:01] Vše funguje na localhost:8080
+(3.11.2022) [18:24:04] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:24:05] Data poslána: dashinfo.json
+(3.11.2022) [18:37:03] ______________Inicializace MZISAPI______________
+(3.11.2022) [18:37:04] Vše funguje na localhost:8080
+(3.11.2022) [18:37:06] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [18:37:07] Data poslána: dashinfo.json
+(3.11.2022) [19:22:53] ______________Inicializace MZISAPI______________
+(3.11.2022) [19:22:53] Vše funguje na localhost:8080
+(3.11.2022) [19:23:00] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [19:23:00] Data poslána: dashinfo.json
+(3.11.2022) [19:24:37] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [19:24:38] Zakázka poslána: 220001
+(3.11.2022) [19:24:38] Zakázka poslána: 220001
+(3.11.2022) [19:24:43] Zakázka poslána: 220001
+(3.11.2022) [19:24:51] Zakázka poslána: 220001
+(3.11.2022) [19:24:53] Zakázka poslána: 220001
+(3.11.2022) [19:25:16] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [19:25:16] Data poslána: dashinfo.json
+(3.11.2022) [19:25:22] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [19:25:22] Zakázka poslána: 220001
+(3.11.2022) [19:25:22] Zakázka poslána: 220001
+(3.11.2022) [19:25:24] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [19:25:24] Data poslána: dashinfo.json
+(3.11.2022) [19:31:00] ______________Inicializace MZISAPI______________
+(3.11.2022) [19:31:00] Vše funguje na localhost:8080
+(3.11.2022) [19:31:07] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [19:31:07] Data poslána: dashinfo.json
+(3.11.2022) [19:31:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [19:31:54] Data poslána: dashinfo.json
+(3.11.2022) [20:55:29] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:55:29] Data poslána: dashinfo.json
+(3.11.2022) [20:56:25] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:56:35] ______________Inicializace MZISAPI______________
+(3.11.2022) [20:56:35] Vše funguje na localhost:8080
+(3.11.2022) [20:56:39] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:56:42] Autorizační request přijat.
+(3.11.2022) [20:56:42] loginData přečtena.
+(3.11.2022) [20:56:42]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(3.11.2022) [20:56:43] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:56:43] Data poslána: dashinfo.json
+(3.11.2022) [20:56:44] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:56:44] Zakázka poslána: 220001
+(3.11.2022) [20:56:44] Zakázka poslána: 220001
+(3.11.2022) [20:56:46] Zakázka poslána: 220001
+(3.11.2022) [20:56:50] Zakázka poslána: 220001
+(3.11.2022) [20:58:23] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:58:23] Zakázka poslána: 220001
+(3.11.2022) [20:58:23] Zakázka poslána: 220001
+(3.11.2022) [20:58:31] Zakázka poslána: 220001
+(3.11.2022) [20:58:37] Zakázka poslána: 220001
+(3.11.2022) [20:58:41] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:58:41] Data poslána: dashinfo.json
+(3.11.2022) [20:58:50] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:58:50] Zakázka poslána: 220001
+(3.11.2022) [20:58:50] Zakázka poslána: 220001
+(3.11.2022) [20:58:51] Data poslána: dashinfo.json
+(3.11.2022) [20:59:05] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:59:05] Zakázka poslána: 220001
+(3.11.2022) [20:59:05] Zakázka poslána: 220001
+(3.11.2022) [20:59:06] Zakázka poslána: 220001
+(3.11.2022) [20:59:08] Zakázka poslána: 220001
+(3.11.2022) [20:59:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:59:10] Data poslána: dashinfo.json
+(3.11.2022) [20:59:13] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:59:13] Zakázka poslána: 220001
+(3.11.2022) [20:59:13] Zakázka poslána: 220001
+(3.11.2022) [20:59:36] Zakázka poslána: 220001
+(3.11.2022) [20:59:39] Zakázka poslána: 220001
+(3.11.2022) [20:59:41] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:59:41] Data poslána: dashinfo.json
+(3.11.2022) [20:59:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:59:54] Data poslána: dashinfo.json
+(3.11.2022) [20:59:58] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [20:59:58] Zakázka poslána: 220001
+(3.11.2022) [20:59:58] Zakázka poslána: 220001
+(3.11.2022) [20:59:59] Zakázka poslána: 220001
+(3.11.2022) [21:00:04] Zakázka poslána: 220001
+(3.11.2022) [21:00:06] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:00:06] Data poslána: dashinfo.json
+(3.11.2022) [21:00:08] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:00:08] Data poslána: dashinfo.json
+(3.11.2022) [21:02:14] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:02:14] Zakázka poslána: 220001
+(3.11.2022) [21:02:14] Zakázka poslána: 220001
+(3.11.2022) [21:02:16] Zakázka poslána: 220001
+(3.11.2022) [21:02:19] Zakázka poslána: 220001
+(3.11.2022) [21:02:22] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:02:22] Data poslána: dashinfo.json
+(3.11.2022) [21:07:18] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:07:18] Data poslána: dashinfo.json
+(3.11.2022) [21:07:42] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:07:44] Zakázka poslána: 220001
+(3.11.2022) [21:07:55] Zakázka poslána: 220001
+(3.11.2022) [21:08:05] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:08:05] Data poslána: dashinfo.json
+(3.11.2022) [21:08:51] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:08:52] Zakázka poslána: 220001
+(3.11.2022) [21:08:58] Zakázka poslána: 220001
+(3.11.2022) [21:09:00] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:09:00] Data poslána: dashinfo.json
+(3.11.2022) [21:09:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:09:50] Zakázka poslána: 220001
+(3.11.2022) [21:09:52] Zakázka poslána: 220001
+(3.11.2022) [21:09:52] Zakázka poslána: 220001
+(3.11.2022) [21:10:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:10:01] Data poslána: dashinfo.json
+(3.11.2022) [21:10:02] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:10:07] Zakázka poslána: 220001
+(3.11.2022) [21:10:32] Zakázka poslána: 220001
+(3.11.2022) [21:10:32] Zakázka poslána: 220001
+(3.11.2022) [21:11:16] Template poslán: optpc.json
+(3.11.2022) [21:11:16] Template poslán: optpc.json
+(3.11.2022) [21:11:16] Template poslán: optpc.json
+(3.11.2022) [21:11:19] Template poslán: optpc.json
+(3.11.2022) [21:11:22] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:11:22] Data poslána: dashinfo.json
+(3.11.2022) [21:11:27] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:11:33] Autorizační request přijat.
+(3.11.2022) [21:11:33] loginData přečtena.
+(3.11.2022) [21:11:33]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(3.11.2022) [21:11:33] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:11:34] Data poslána: dashinfo.json
+(3.11.2022) [21:11:39] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:11:40] Zakázka poslána: 220001
+(3.11.2022) [21:11:40] Zakázka poslána: 220001
+(3.11.2022) [21:11:55] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:11:55] Data poslána: dashinfo.json
+(3.11.2022) [21:11:57] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:11:58] Zakázka poslána: 220001
+(3.11.2022) [21:11:58] Zakázka poslána: 220001
+(3.11.2022) [21:12:02] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:12:02] Data poslána: dashinfo.json
+(3.11.2022) [21:12:04] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:12:08] Zakázka poslána: 220001
+(3.11.2022) [21:12:08] Zakázka poslána: 220001
+(3.11.2022) [21:12:13] Template poslán: optpc.json
+(3.11.2022) [21:12:14] Template poslán: optpc.json
+(3.11.2022) [21:12:14] Template poslán: optpc.json
+(3.11.2022) [21:12:23] Zakázka poslána: 220001
+(3.11.2022) [21:12:24] Zakázka poslána: 220001
+(3.11.2022) [21:12:25] Zakázka poslána: 220001
+(3.11.2022) [21:12:29] Zakázka poslána: 220001
+(3.11.2022) [21:12:30] Zakázka poslána: 220001
+(3.11.2022) [21:12:30] Zakázka poslána: 220001
+(3.11.2022) [21:12:30] Zakázka poslána: 220001
+(3.11.2022) [21:12:31] Zakázka poslána: 220001
+(3.11.2022) [21:12:31] Zakázka poslána: 220001
+(3.11.2022) [21:12:32] Zakázka poslána: 220001
+(3.11.2022) [21:12:35] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:12:35] Data poslána: dashinfo.json
+(3.11.2022) [21:12:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:12:48] Data poslána: dashinfo.json
+(3.11.2022) [21:12:52] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:12:55] Data poslána: dashinfo.json
+(3.11.2022) [21:14:32] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:14:32] Data poslána: dashinfo.json
+(3.11.2022) [21:14:40] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:14:40] Data poslána: dashinfo.json
+(3.11.2022) [21:14:41] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:14:41] Zakázka poslána: 220001
+(3.11.2022) [21:14:41] Zakázka poslána: 220001
+(3.11.2022) [21:27:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:27:01] Zakázka poslána: 220001
+(3.11.2022) [21:27:01] Zakázka poslána: 220001
+(3.11.2022) [21:29:57] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:29:57] Zakázka poslána: 220001
+(3.11.2022) [21:29:57] Zakázka poslána: 220001
+(3.11.2022) [21:30:08] Template poslán: optpc.json
+(3.11.2022) [21:30:10] Template poslán: optpc.json
+(3.11.2022) [21:34:07] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:34:07] Zakázka poslána: 220001
+(3.11.2022) [21:34:07] Zakázka poslána: 220001
+(3.11.2022) [21:34:21] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(3.11.2022) [21:34:21] Zakázka poslána: 220001
+(3.11.2022) [21:34:21] Zakázka poslána: 220001
+(3.11.2022) [21:34:41] Template poslán: optpc.json
+(3.11.2022) [21:34:43] Přidána nová činnost pro projekt 220001 od uživatele Testovací uživatel L
+(3.11.2022) [21:34:43] Zakázka poslána: 220001
+(3.11.2022) [21:34:43] Zakázka poslána: 220001
+(4.11.2022) [19:28:51] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:28:51] Zakázka poslána: 220001
+(4.11.2022) [19:28:51] Zakázka poslána: 220001
+(4.11.2022) [19:28:53] Zakázka poslána: 220001
+(4.11.2022) [19:28:54] Zakázka poslána: 220001
+(4.11.2022) [19:28:56] Zakázka poslána: 220001
+(4.11.2022) [19:29:11] Zakázka poslána: 220001
+(4.11.2022) [19:29:11] Zakázka poslána: 220001
+(4.11.2022) [19:29:13] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:29:14] Data poslána: dashinfo.json
+(4.11.2022) [19:29:20] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:29:20] Zakázka poslána: 220001
+(4.11.2022) [19:29:20] Zakázka poslána: 220001
+(4.11.2022) [19:29:23] Template poslán: optpc.json
+(4.11.2022) [19:29:24] Template poslán: optpc.json
+(4.11.2022) [19:29:24] Template poslán: optpc.json
+(4.11.2022) [19:29:24] Template poslán: optpc.json
+(4.11.2022) [19:29:24] Template poslán: optpc.json
+(4.11.2022) [19:29:25] Template poslán: optpc.json
+(4.11.2022) [19:29:25] Template poslán: optpc.json
+(4.11.2022) [19:29:25] Template poslán: optpc.json
+(4.11.2022) [19:29:30] Template poslán: optpc.json
+(4.11.2022) [19:29:30] Template poslán: optpc.json
+(4.11.2022) [19:29:31] Template poslán: optpc.json
+(4.11.2022) [19:29:31] Template poslán: optpc.json
+(4.11.2022) [19:29:32] Template poslán: optpc.json
+(4.11.2022) [19:29:32] Template poslán: optpc.json
+(4.11.2022) [19:29:34] Template poslán: optpc.json
+(4.11.2022) [19:29:35] Template poslán: optpc.json
+(4.11.2022) [19:29:35] Template poslán: optpc.json
+(4.11.2022) [19:29:36] Template poslán: optpc.json
+(4.11.2022) [19:29:40] Template poslán: optpc.json
+(4.11.2022) [19:29:40] Template poslán: optpc.json
+(4.11.2022) [19:29:42] Template poslán: optpc.json
+(4.11.2022) [19:30:23] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:30:23] Zakázka poslána: 220001
+(4.11.2022) [19:30:23] Zakázka poslána: 220001
+(4.11.2022) [19:30:27] Template poslán: optpc.json
+(4.11.2022) [19:30:27] Template poslán: optpc.json
+(4.11.2022) [19:30:29] Template poslán: optpc.json
+(4.11.2022) [19:30:29] Template poslán: optpc.json
+(4.11.2022) [19:30:35] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:30:36] Data poslána: dashinfo.json
+(4.11.2022) [19:40:43] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:40:43] Data poslána: dashinfo.json
+(4.11.2022) [19:40:48] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:40:48] Data poslána: dashinfo.json
+(4.11.2022) [19:40:49] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:40:49] Zakázka poslána: 220001
+(4.11.2022) [19:40:49] Zakázka poslána: 220001
+(4.11.2022) [19:44:49] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:44:49] Zakázka poslána: 220001
+(4.11.2022) [19:44:49] Zakázka poslána: 220001
+(4.11.2022) [19:45:07] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:45:07] Zakázka poslána: 220001
+(4.11.2022) [19:45:07] Zakázka poslána: 220001
+(4.11.2022) [19:47:37] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:47:37] Zakázka poslána: 220001
+(4.11.2022) [19:47:37] Zakázka poslána: 220001
+(4.11.2022) [19:50:56] Template poslán: optpc.json
+(4.11.2022) [19:50:57] Template poslán: optpc.json
+(4.11.2022) [19:50:57] Template poslán: optpc.json
+(4.11.2022) [19:50:57] Template poslán: optpc.json
+(4.11.2022) [19:50:58] Template poslán: optpc.json
+(4.11.2022) [19:50:58] Template poslán: optpc.json
+(4.11.2022) [19:50:58] Template poslán: optpc.json
+(4.11.2022) [19:50:58] Template poslán: optpc.json
+(4.11.2022) [19:51:00] Template poslán: optpc.json
+(4.11.2022) [19:51:01] Template poslán: optpc.json
+(4.11.2022) [19:51:01] Template poslán: optpc.json
+(4.11.2022) [19:51:01] Template poslán: optpc.json
+(4.11.2022) [19:51:01] Template poslán: optpc.json
+(4.11.2022) [19:51:02] Template poslán: optpc.json
+(4.11.2022) [19:51:02] Template poslán: optpc.json
+(4.11.2022) [19:51:02] Template poslán: optpc.json
+(4.11.2022) [19:51:02] Template poslán: optpc.json
+(4.11.2022) [19:51:02] Template poslán: optpc.json
+(4.11.2022) [19:51:03] Template poslán: optpc.json
+(4.11.2022) [19:51:04] Template poslán: optpc.json
+(4.11.2022) [19:51:05] Template poslán: optpc.json
+(4.11.2022) [19:51:08] Template poslán: optpc.json
+(4.11.2022) [19:53:06] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [19:53:07] Zakázka poslána: 220001
+(4.11.2022) [19:53:07] Zakázka poslána: 220001
+(4.11.2022) [20:52:56] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [20:52:56] Zakázka poslána: 220001
+(4.11.2022) [20:52:56] Zakázka poslána: 220001
+(4.11.2022) [20:54:14] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [20:54:14] Zakázka poslána: 220001
+(4.11.2022) [20:54:14] Zakázka poslána: 220001
+(4.11.2022) [20:55:39] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [20:55:39] Data poslána: dashinfo.json
+(4.11.2022) [20:56:13] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [20:56:51] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:06:39] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:06:48] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:07:13] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:07:23] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:08:05] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:09:59] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:11:32] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:14:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:14:48] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:14:55] Autorizační request přijat.
+(4.11.2022) [21:14:55] loginData přečtena.
+(4.11.2022) [21:14:55]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [21:14:55] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:14:55] Data poslána: dashinfo.json
+(4.11.2022) [21:14:57] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:14:57] Zakázka poslána: 220001
+(4.11.2022) [21:14:57] Zakázka poslána: 220001
+(4.11.2022) [21:15:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:15:10] Data poslána: dashinfo.json
+(4.11.2022) [21:15:12] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:16:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:19:41] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:19:41] Error při čtení souboru: loggedusers.json
+ Error: Error: ENOENT: no such file or directory, open './server/loggedusers.json'
+(4.11.2022) [21:20:53] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:20:53] Data poslána: loggedusers.json
+(4.11.2022) [21:21:12] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:21:12] Data poslána: loggedusers.json
+(4.11.2022) [21:21:29] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:21:29] Data poslána: loggedusers.json
+(4.11.2022) [21:22:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:22:10] Data poslána: loggedusers.json
+(4.11.2022) [21:24:02] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:24:02] Data poslána: loggedusers.json
+(4.11.2022) [21:25:07] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:25:07] Data poslána: loggedusers.json
+(4.11.2022) [21:25:10] Data poslána: dashinfo.json
+(4.11.2022) [21:25:11] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:25:11] Data poslána: loggedusers.json
+(4.11.2022) [21:34:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:34:02] Data poslána: loggedusers.json
+(4.11.2022) [21:34:08] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:34:08] Data poslána: loggedusers.json
+(4.11.2022) [21:34:27] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:34:27] Data poslána: loggedusers.json
+(4.11.2022) [21:34:49] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:34:49] Data poslána: loggedusers.json
+(4.11.2022) [21:35:49] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:35:49] Data poslána: loggedusers.json
+(4.11.2022) [21:46:16] Data poslána: dashinfo.json
+(4.11.2022) [21:46:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:46:21] Autorizační request přijat.
+(4.11.2022) [21:46:21] loginData přečtena.
+(4.11.2022) [21:46:21]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [21:46:21] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [21:46:22] Data poslána: dashinfo.json
+(4.11.2022) [22:00:42] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:00:42] Vše funguje na localhost:8080
+(4.11.2022) [22:00:46] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:00:51] Autorizační request přijat.
+(4.11.2022) [22:00:51] loginData přečtena.
+(4.11.2022) [22:00:51]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:00:51] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:00:51] Data poslána: dashinfo.json
+(4.11.2022) [22:02:03] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:02:07] Autorizační request přijat.
+(4.11.2022) [22:02:07] loginData přečtena.
+(4.11.2022) [22:02:07]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:02:57] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:02:57] Vše funguje na localhost:8080
+(4.11.2022) [22:03:00] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:03:06] Autorizační request přijat.
+(4.11.2022) [22:03:06] loginData přečtena.
+(4.11.2022) [22:03:06]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:04:20] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:04:20] Vše funguje na localhost:8080
+(4.11.2022) [22:04:24] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:04:29] Autorizační request přijat.
+(4.11.2022) [22:04:29] loginData přečtena.
+(4.11.2022) [22:04:29]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:06:17] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:06:17] Vše funguje na localhost:8080
+(4.11.2022) [22:06:26] Autorizační request přijat.
+(4.11.2022) [22:06:26] loginData přečtena.
+(4.11.2022) [22:06:26]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:08:30] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:08:30] Vše funguje na localhost:8080
+(4.11.2022) [22:08:36] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:08:41] Autorizační request přijat.
+(4.11.2022) [22:08:41] loginData přečtena.
+(4.11.2022) [22:08:41]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:08:41] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:08:41] Data poslána: dashinfo.json
+(4.11.2022) [22:09:03] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:09:03] Data poslána: loggedusers.json
+(4.11.2022) [22:09:15] Data poslána: dashinfo.json
+(4.11.2022) [22:09:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:09:21] Autorizační request přijat.
+(4.11.2022) [22:09:21] loginData přečtena.
+(4.11.2022) [22:09:21]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:10:33] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:10:33] Vše funguje na localhost:8080
+(4.11.2022) [22:10:40] Autorizační request přijat.
+(4.11.2022) [22:10:40] loginData přečtena.
+(4.11.2022) [22:10:40]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:10:41] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:10:41] Data poslána: dashinfo.json
+(4.11.2022) [22:12:15] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:12:16] Vše funguje na localhost:8080
+(4.11.2022) [22:12:20] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:12:26] Autorizační request přijat.
+(4.11.2022) [22:12:26] loginData přečtena.
+(4.11.2022) [22:12:26]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:12:27] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:12:27] Data poslána: dashinfo.json
+(4.11.2022) [22:13:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:13:14] Autorizační request přijat.
+(4.11.2022) [22:13:14] loginData přečtena.
+(4.11.2022) [22:13:14]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:13:14] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:13:14] Data poslána: dashinfo.json
+(4.11.2022) [22:13:26] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:13:26] Vše funguje na localhost:8080
+(4.11.2022) [22:13:30] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:13:35] Autorizační request přijat.
+(4.11.2022) [22:13:35] loginData přečtena.
+(4.11.2022) [22:13:35]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:13:35] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:13:35] Data poslána: dashinfo.json
+(4.11.2022) [22:13:53] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:13:53] Data poslána: loggedusers.json
+(4.11.2022) [22:14:50] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:14:50] Vše funguje na localhost:8080
+(4.11.2022) [22:14:53] Data poslána: dashinfo.json
+(4.11.2022) [22:14:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:14:57] Autorizační request přijat.
+(4.11.2022) [22:14:57] loginData přečtena.
+(4.11.2022) [22:14:57]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:15:27] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:15:27] Vše funguje na localhost:8080
+(4.11.2022) [22:15:30] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:15:34] Autorizační request přijat.
+(4.11.2022) [22:15:34] loginData přečtena.
+(4.11.2022) [22:15:34]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:16:23] ______________Inicializace MZISAPI______________
+(4.11.2022) [22:16:23] Vše funguje na localhost:8080
+(4.11.2022) [22:16:27] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:16:31] Autorizační request přijat.
+(4.11.2022) [22:16:31] loginData přečtena.
+(4.11.2022) [22:16:31]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(4.11.2022) [22:16:31] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:16:31] Data poslána: dashinfo.json
+(4.11.2022) [22:16:40] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(4.11.2022) [22:16:40] Data poslána: loggedusers.json
+(4.11.2022) [22:16:44] Data poslána: dashinfo.json
+(0.11.2022) [14:23:30] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:23:30] Data poslána: loggedusers.json
+(0.11.2022) [14:23:30] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:23:39] Autorizační request přijat.
+(0.11.2022) [14:23:39] loginData přečtena.
+(0.11.2022) [14:23:39]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [14:23:39] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:23:39] Data poslána: dashinfo.json
+(0.11.2022) [14:23:43] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:23:43] Data poslána: loggedusers.json
+(0.11.2022) [14:23:47] Data poslána: dashinfo.json
+(0.11.2022) [14:26:28] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:26:28] Data poslána: loggedusers.json
+(0.11.2022) [14:26:46] Data poslána: dashinfo.json
+(0.11.2022) [14:29:10] ______________Inicializace MZISAPI______________
+(0.11.2022) [14:29:10] Vše funguje na localhost:8080
+(0.11.2022) [14:29:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:29:17] Data poslána: dashinfo.json
+(0.11.2022) [14:29:20] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:29:26] Autorizační request přijat.
+(0.11.2022) [14:29:26] loginData přečtena.
+(0.11.2022) [14:29:26]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [14:32:48] ______________Inicializace MZISAPI______________
+(0.11.2022) [14:32:48] Vše funguje na localhost:8080
+(0.11.2022) [14:32:53] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:32:58] Autorizační request přijat.
+(0.11.2022) [14:32:58] loginData přečtena.
+(0.11.2022) [14:32:58]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [14:32:58] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:32:58] Data poslána: dashinfo.json
+(0.11.2022) [14:33:11] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:33:11] Data poslána: loggedusers.json
+(0.11.2022) [14:38:33] Data poslána: dashinfo.json
+(0.11.2022) [14:38:34] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:38:38] Autorizační request přijat.
+(0.11.2022) [14:38:38] loginData přečtena.
+(0.11.2022) [14:38:38]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [14:38:38] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:38:38] Data poslána: dashinfo.json
+(0.11.2022) [14:38:51] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:38:51] Data poslána: loggedusers.json
+(0.11.2022) [14:39:00] ______________Inicializace MZISAPI______________
+(0.11.2022) [14:39:00] Vše funguje na localhost:8080
+(0.11.2022) [14:39:08] Data poslána: dashinfo.json
+(0.11.2022) [14:39:09] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:39:15] Autorizační request přijat.
+(0.11.2022) [14:39:15] loginData přečtena.
+(0.11.2022) [14:39:15]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [14:39:15] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:39:15] Data poslána: dashinfo.json
+(0.11.2022) [14:39:21] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:39:21] Data poslána: loggedusers.json
+(0.11.2022) [14:41:49] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:41:49] Data poslána: loggedusers.json
+(0.11.2022) [14:42:08] Data poslána: dashinfo.json
+(0.11.2022) [14:45:15] ______________Inicializace MZISAPI______________
+(0.11.2022) [14:45:15] Vše funguje na localhost:8080
+(0.11.2022) [14:45:21] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:45:21] Data poslána: dashinfo.json
+(0.11.2022) [14:45:23] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:45:23] Data poslána: loggedusers.json
+(0.11.2022) [14:45:30] Data poslána: dashinfo.json
+(0.11.2022) [14:45:31] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:45:31] Data poslána: loggedusers.json
+(0.11.2022) [14:45:33] Data poslána: dashinfo.json
+(0.11.2022) [14:45:34] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:45:37] Autorizační request přijat.
+(0.11.2022) [14:45:37] loginData přečtena.
+(0.11.2022) [14:45:37]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [14:45:38] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:45:38] Data poslána: dashinfo.json
+(0.11.2022) [14:45:39] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:45:39] Data poslána: loggedusers.json
+(0.11.2022) [14:47:54] ______________Inicializace MZISAPI______________
+(0.11.2022) [14:47:54] Vše funguje na localhost:8080
+(0.11.2022) [14:48:07] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:48:07] Data poslána: loggedusers.json
+(0.11.2022) [14:48:08] Data poslána: dashinfo.json
+(0.11.2022) [14:48:09] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:48:17] Autorizační request přijat.
+(0.11.2022) [14:48:17] loginData přečtena.
+(0.11.2022) [14:48:17]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [14:48:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:48:17] Data poslána: dashinfo.json
+(0.11.2022) [14:48:20] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:48:20] Data poslána: loggedusers.json
+(0.11.2022) [14:49:34] ______________Inicializace MZISAPI______________
+(0.11.2022) [14:49:34] Vše funguje na localhost:8080
+(0.11.2022) [14:49:37] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:49:37] Data poslána: loggedusers.json
+(0.11.2022) [14:49:40] Data poslána: dashinfo.json
+(0.11.2022) [14:49:41] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:49:46] Autorizační request přijat.
+(0.11.2022) [14:49:46] loginData přečtena.
+(0.11.2022) [14:49:46]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [14:49:46] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:49:46] Data poslána: dashinfo.json
+(0.11.2022) [14:50:40] ______________Inicializace MZISAPI______________
+(0.11.2022) [14:50:40] Vše funguje na localhost:8080
+(0.11.2022) [14:58:06] ______________Inicializace MZISAPI______________
+(0.11.2022) [14:58:06] Vše funguje na localhost:8080
+(0.11.2022) [14:58:09] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:58:12] Autorizační request přijat.
+(0.11.2022) [14:58:12] loginData přečtena.
+(0.11.2022) [14:58:12]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [14:58:12] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:58:13] Data poslána: dashinfo.json
+(0.11.2022) [14:58:27] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [14:58:27] Data poslána: dashinfo.json
+(0.11.2022) [15:00:15] ______________Inicializace MZISAPI______________
+(0.11.2022) [15:00:15] Vše funguje na localhost:8080
+(0.11.2022) [15:00:18] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:00:23] Autorizační request přijat.
+(0.11.2022) [15:00:23] loginData přečtena.
+(0.11.2022) [15:00:23]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:00:23] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:00:23] Data poslána: dashinfo.json
+(0.11.2022) [15:01:47] ______________Inicializace MZISAPI______________
+(0.11.2022) [15:01:47] Vše funguje na localhost:8080
+(0.11.2022) [15:01:50] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:01:50] Data poslána: loggedusers.json
+(0.11.2022) [15:01:53] Data poslána: dashinfo.json
+(0.11.2022) [15:01:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:01:58] Autorizační request přijat.
+(0.11.2022) [15:01:58] loginData přečtena.
+(0.11.2022) [15:01:58]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:01:58] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:01:58] Data poslána: dashinfo.json
+(0.11.2022) [15:02:35] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:02:35] Data poslána: dashinfo.json
+(0.11.2022) [15:02:38] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:02:38] Data poslána: dashinfo.json
+(0.11.2022) [15:07:45] ______________Inicializace MZISAPI______________
+(0.11.2022) [15:07:45] Vše funguje na localhost:8080
+(0.11.2022) [15:07:48] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:07:57] Autorizační request přijat.
+(0.11.2022) [15:07:57] loginData přečtena.
+(0.11.2022) [15:07:57]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:07:57] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:07:57] Data poslána: dashinfo.json
+(0.11.2022) [15:08:00] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:08:00] Data poslána: loggedusers.json
+(0.11.2022) [15:32:42] ______________Inicializace MZISAPI______________
+(0.11.2022) [15:32:42] Vše funguje na localhost:8080
+(0.11.2022) [15:33:22] ______________Inicializace MZISAPI______________
+(0.11.2022) [15:33:22] Vše funguje na localhost:8080
+(0.11.2022) [15:33:35] Data poslána: dashinfo.json
+(0.11.2022) [15:34:19] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:34:20] Data poslána: dashinfo.json
+(0.11.2022) [15:34:31] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:34:31] Data poslána: dashinfo.json
+(0.11.2022) [15:35:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:35:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:35:22] Autorizační request přijat.
+(0.11.2022) [15:35:22] loginData přečtena.
+(0.11.2022) [15:35:22]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:35:22] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:35:22] Data poslána: dashinfo.json
+(0.11.2022) [15:35:25] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:35:25] Data poslána: loggedusers.json
+(0.11.2022) [15:35:46] Data poslána: dashinfo.json
+(0.11.2022) [15:35:48] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:36:42] ______________Inicializace MZISAPI______________
+(0.11.2022) [15:36:42] Vše funguje na localhost:8080
+(0.11.2022) [15:36:49] Autorizační request přijat.
+(0.11.2022) [15:36:49] loginData přečtena.
+(0.11.2022) [15:36:49]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:36:49] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:36:49] Data poslána: dashinfo.json
+(0.11.2022) [15:36:53] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:42:53] ______________Inicializace MZISAPI______________
+(0.11.2022) [15:42:53] Vše funguje na localhost:8080
+(0.11.2022) [15:43:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:43:10] Autorizační request přijat.
+(0.11.2022) [15:43:10] loginData přečtena.
+(0.11.2022) [15:43:10]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:43:11] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:43:11] Data poslána: dashinfo.json
+(0.11.2022) [15:43:20] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:48:23] ______________Inicializace MZISAPI______________
+(0.11.2022) [15:48:24] Vše funguje na localhost:8080
+(0.11.2022) [15:48:30] Autorizační request přijat.
+(0.11.2022) [15:48:30] loginData přečtena.
+(0.11.2022) [15:48:30]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:48:30] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:48:30] Data poslána: dashinfo.json
+(0.11.2022) [15:48:33] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:48:33] Data poslána: loggedusers.json
+(0.11.2022) [15:48:36] Data poslána: dashinfo.json
+(0.11.2022) [15:48:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:50:36] ______________Inicializace MZISAPI______________
+(0.11.2022) [15:50:36] Vše funguje na localhost:8080
+(0.11.2022) [15:50:53] Autorizační request přijat.
+(0.11.2022) [15:50:53] loginData přečtena.
+(0.11.2022) [15:50:53]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:50:53] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:50:53] Data poslána: dashinfo.json
+(0.11.2022) [15:50:58] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:51:10] Autorizační request přijat.
+(0.11.2022) [15:51:10] loginData přečtena.
+(0.11.2022) [15:51:10]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:51:11] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:51:11] Data poslána: dashinfo.json
+(0.11.2022) [15:51:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:51:17] Data poslána: loggedusers.json
+(0.11.2022) [15:51:21] Data poslána: dashinfo.json
+(0.11.2022) [15:51:22] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:58:00] ______________Inicializace MZISAPI______________
+(0.11.2022) [15:58:00] Vše funguje na localhost:8080
+(0.11.2022) [15:58:12] Autorizační request přijat.
+(0.11.2022) [15:58:12] loginData přečtena.
+(0.11.2022) [15:58:12]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:58:12] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:58:12] Data poslána: dashinfo.json
+(0.11.2022) [15:58:14] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:58:14] Data poslána: loggedusers.json
+(0.11.2022) [15:58:16] Data poslána: dashinfo.json
+(0.11.2022) [15:58:19] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:58:32] Autorizační request přijat.
+(0.11.2022) [15:58:32] loginData přečtena.
+(0.11.2022) [15:58:32]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [15:58:32] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [15:58:32] Data poslána: dashinfo.json
+(0.11.2022) [15:59:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:00:22] Autorizační request přijat.
+(0.11.2022) [16:00:22] loginData přečtena.
+(0.11.2022) [16:00:22]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [16:00:22] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:00:22] Data poslána: dashinfo.json
+(0.11.2022) [16:00:36] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:00:37] Data poslána: loggedusers.json
+(0.11.2022) [16:06:57] Data poslána: dashinfo.json
+(0.11.2022) [16:06:58] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:06:58] Error při čtení UI zakázky: 220000
+ Error: Error: ENOENT: no such file or directory, open './server/220000/ui.json'
+(0.11.2022) [16:06:58] Error při čtení UI zakázky: 220000
+ Error: Error: ENOENT: no such file or directory, open './server/220000/ui.json'
+(0.11.2022) [16:09:57] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:09:57] Error při čtení UI zakázky: 220000
+ Error: Error: ENOENT: no such file or directory, open './server/220000/ui.json'
+(0.11.2022) [16:09:57] Error při čtení UI zakázky: 220000
+ Error: Error: ENOENT: no such file or directory, open './server/220000/ui.json'
+(0.11.2022) [16:10:03] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:10:04] Data poslána: dashinfo.json
+(0.11.2022) [16:10:05] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:10:07] Autorizační request přijat.
+(0.11.2022) [16:10:07] loginData přečtena.
+(0.11.2022) [16:10:07]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [16:10:08] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:10:08] Data poslána: dashinfo.json
+(0.11.2022) [16:10:09] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:10:09] Data poslána: loggedusers.json
+(0.11.2022) [16:48:31] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:48:31] Data poslána: loggedusers.json
+(0.11.2022) [16:49:45] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:49:45] Data poslána: loggedusers.json
+(0.11.2022) [16:50:40] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:50:40] Data poslána: loggedusers.json
+(0.11.2022) [16:50:49] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:50:49] Data poslána: loggedusers.json
+(0.11.2022) [16:51:39] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:51:39] Data poslána: loggedusers.json
+(0.11.2022) [16:52:23] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:52:23] Data poslána: loggedusers.json
+(0.11.2022) [16:53:04] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:53:04] Data poslána: loggedusers.json
+(0.11.2022) [16:54:19] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:54:19] Data poslána: loggedusers.json
+(0.11.2022) [16:55:30] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:55:30] Data poslána: loggedusers.json
+(0.11.2022) [16:57:06] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:57:06] Data poslána: loggedusers.json
+(0.11.2022) [16:57:25] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:57:25] Data poslána: loggedusers.json
+(0.11.2022) [16:58:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:58:54] Data poslána: loggedusers.json
+(0.11.2022) [16:59:27] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [16:59:27] Data poslána: loggedusers.json
+(0.11.2022) [17:07:04] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:07:08] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:07:26] Autorizační request přijat.
+(0.11.2022) [17:07:26] loginData přečtena.
+(0.11.2022) [17:07:26]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [17:07:26] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:07:26] Data poslána: dashinfo.json
+(0.11.2022) [17:07:28] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:07:28] Data poslána: loggedusers.json
+(0.11.2022) [17:08:00] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:08:00] Data poslána: loggedusers.json
+(0.11.2022) [17:08:06] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:08:07] Data poslána: loggedusers.json
+(0.11.2022) [17:09:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:09:10] Error při čtení souboru: roles.json
+ Error: Error: ENOENT: no such file or directory, open './server/roles.json'
+(0.11.2022) [17:09:10] Data poslána: loggedusers.json
+(0.11.2022) [17:09:14] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:09:14] Error při čtení souboru: roles.json
+ Error: Error: ENOENT: no such file or directory, open './server/roles.json'
+(0.11.2022) [17:09:14] Data poslána: loggedusers.json
+(0.11.2022) [17:11:40] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:11:40] Data poslána: loggedusers.json
+(0.11.2022) [17:11:40] Data poslána: roles.json
+(0.11.2022) [17:12:02] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:12:02] Data poslána: loggedusers.json
+(0.11.2022) [17:12:02] Data poslána: roles.json
+(0.11.2022) [17:21:09] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:21:09] Data poslána: loggedusers.json
+(0.11.2022) [17:21:09] Data poslána: roles.json
+(0.11.2022) [17:21:22] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [17:21:22] Data poslána: loggedusers.json
+(0.11.2022) [17:21:22] Data poslána: roles.json
+(0.11.2022) [17:26:25] Ping zaznamenán z IP Adresy ::1
+(0.11.2022) [17:26:34] Autorizační request přijat.
+(0.11.2022) [17:26:34] loginData přečtena.
+(0.11.2022) [17:26:34]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [17:26:34] Ping zaznamenán z IP Adresy ::1
+(0.11.2022) [17:26:34] Data poslána: dashinfo.json
+(0.11.2022) [17:26:46] Ping zaznamenán z IP Adresy ::1
+(0.11.2022) [17:26:46] Data poslána: loggedusers.json
+(0.11.2022) [17:26:46] Data poslána: roles.json
+(0.11.2022) [19:44:16] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:44:16] Data poslána: loggedusers.json
+(0.11.2022) [19:44:16] Data poslána: roles.json
+(0.11.2022) [19:44:38] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:44:38] Data poslána: dashinfo.json
+(0.11.2022) [19:44:40] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:44:43] Autorizační request přijat.
+(0.11.2022) [19:44:43] loginData přečtena.
+(0.11.2022) [19:44:43]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [19:44:44] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:44:44] Data poslána: dashinfo.json
+(0.11.2022) [19:44:45] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:44:45] Data poslána: loggedusers.json
+(0.11.2022) [19:44:45] Data poslána: roles.json
+(0.11.2022) [19:46:32] Ping zaznamenán z IP Adresy ::1
+(0.11.2022) [19:46:32] Data poslána: loggedusers.json
+(0.11.2022) [19:46:32] Data poslána: roles.json
+(0.11.2022) [19:46:32] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:46:32] Data poslána: loggedusers.json
+(0.11.2022) [19:46:32] Data poslána: roles.json
+(0.11.2022) [19:50:11] Ping zaznamenán z IP Adresy ::1
+(0.11.2022) [19:50:11] Data poslána: loggedusers.json
+(0.11.2022) [19:50:11] Data poslána: roles.json
+(0.11.2022) [19:50:11] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:50:11] Data poslána: loggedusers.json
+(0.11.2022) [19:50:11] Data poslána: roles.json
+(0.11.2022) [19:50:53] Ping zaznamenán z IP Adresy ::1
+(0.11.2022) [19:50:53] Data poslána: loggedusers.json
+(0.11.2022) [19:50:53] Data poslána: roles.json
+(0.11.2022) [19:50:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:50:54] Data poslána: loggedusers.json
+(0.11.2022) [19:50:54] Data poslána: roles.json
+(0.11.2022) [19:51:43] Ping zaznamenán z IP Adresy ::1
+(0.11.2022) [19:51:43] Data poslána: loggedusers.json
+(0.11.2022) [19:51:43] Data poslána: roles.json
+(0.11.2022) [19:51:43] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:51:43] Data poslána: loggedusers.json
+(0.11.2022) [19:51:43] Data poslána: roles.json
+(0.11.2022) [19:52:53] Ping zaznamenán z IP Adresy ::1
+(0.11.2022) [19:52:53] Data poslána: loggedusers.json
+(0.11.2022) [19:52:53] Data poslána: roles.json
+(0.11.2022) [19:52:53] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:52:53] Data poslána: loggedusers.json
+(0.11.2022) [19:52:53] Data poslána: roles.json
+(0.11.2022) [19:56:22] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:56:22] Data poslána: loggedusers.json
+(0.11.2022) [19:56:22] Data poslána: roles.json
+(0.11.2022) [19:57:46] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:57:46] Data poslána: loggedusers.json
+(0.11.2022) [19:57:46] Data poslána: roles.json
+(0.11.2022) [19:57:55] Data poslána: dashinfo.json
+(0.11.2022) [19:57:57] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [19:57:57] Data poslána: loggedusers.json
+(0.11.2022) [19:57:57] Data poslána: roles.json
+(0.11.2022) [19:58:20] Data poslána: dashinfo.json
+(0.11.2022) [19:58:21] Data poslána: dashinfo.json
+(0.11.2022) [19:58:28] Data poslána: dashinfo.json
+(0.11.2022) [19:58:30] Data poslána: dashinfo.json
+(0.11.2022) [19:58:31] Data poslána: loggedusers.json
+(0.11.2022) [19:58:31] Data poslána: roles.json
+(0.11.2022) [19:58:37] Data poslána: dashinfo.json
+(0.11.2022) [19:58:51] Data poslána: dashinfo.json
+(0.11.2022) [19:58:52] Data poslána: loggedusers.json
+(0.11.2022) [19:58:52] Data poslána: roles.json
+(0.11.2022) [20:03:46] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [20:03:46] Data poslána: loggedusers.json
+(0.11.2022) [20:03:46] Data poslána: roles.json
+(0.11.2022) [20:24:11] ______________Inicializace MZISAPI______________
+(0.11.2022) [20:24:11] Vše funguje na localhost:8080
+(0.11.2022) [20:24:23] Data poslána: dashinfo.json
+(0.11.2022) [20:24:24] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [20:24:35] Autorizační request přijat.
+(0.11.2022) [20:24:35] loginData přečtena.
+(0.11.2022) [20:24:35]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [20:24:35] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [20:24:36] Data poslána: dashinfo.json
+(0.11.2022) [20:24:52] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [20:24:53] Data poslána: loggedusers.json
+(0.11.2022) [20:24:53] Data poslána: roles.json
+(0.11.2022) [20:26:31] ______________Inicializace MZISAPI______________
+(0.11.2022) [20:26:31] Vše funguje na localhost:8080
+(0.11.2022) [20:28:10] ______________Inicializace MZISAPI______________
+(0.11.2022) [20:28:10] Vše funguje na localhost:8080
+(0.11.2022) [20:33:42] ______________Inicializace MZISAPI______________
+(0.11.2022) [20:33:42] Vše funguje na localhost:8080
+(0.11.2022) [20:34:41] ______________Inicializace MZISAPI______________
+(0.11.2022) [20:34:41] Vše funguje na localhost:8080
+(0.11.2022) [20:35:25] ______________Inicializace MZISAPI______________
+(0.11.2022) [20:35:25] Vše funguje na localhost:8080
+(0.11.2022) [20:36:34] ______________Inicializace MZISAPI______________
+(0.11.2022) [20:36:34] Vše funguje na localhost:8080
+(0.11.2022) [20:38:30] ______________Inicializace MZISAPI______________
+(0.11.2022) [20:38:30] Vše funguje na localhost:8080
+(0.11.2022) [20:40:49] ______________Inicializace MZISAPI______________
+(0.11.2022) [20:40:49] Vše funguje na localhost:8080
+(0.11.2022) [20:40:55] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [20:40:55] Data poslána: loggedusers.json
+(0.11.2022) [20:40:55] Data poslána: roles.json
+(0.11.2022) [20:43:44] Data poslána: dashinfo.json
+(0.11.2022) [20:43:51] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [20:43:51] Data poslána: loggedusers.json
+(0.11.2022) [20:43:51] Data poslána: roles.json
+(0.11.2022) [20:44:05] ______________Inicializace MZISAPI______________
+(0.11.2022) [20:44:05] Vše funguje na localhost:8080
+(0.11.2022) [20:44:39] Data poslána: dashinfo.json
+(0.11.2022) [20:44:40] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [20:44:54] Autorizační request přijat.
+(0.11.2022) [20:44:54] loginData přečtena.
+(0.11.2022) [20:44:54]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(0.11.2022) [20:44:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(0.11.2022) [20:44:54] Data poslána: dashinfo.json
+(1.11.2022) [17:30:51] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [17:31:09] Autorizační request přijat.
+(1.11.2022) [17:31:09] loginData přečtena.
+(1.11.2022) [17:31:09]  Uživatel adamzaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [17:31:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [17:31:11] Data poslána: dashinfo.json
+(1.11.2022) [17:31:32] Vše funguje na localhost:8080
+(1.11.2022) [17:31:32] ______________Inicializace MZISAPI______________
+(1.11.2022) [17:31:49] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [17:32:04] Autorizační request přijat.
+(1.11.2022) [17:32:04] loginData přečtena.
+(1.11.2022) [17:32:04]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [17:32:05] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [17:32:06] Data poslána: dashinfo.json
+(1.11.2022) [17:34:09] ______________Inicializace MZISAPI______________
+(1.11.2022) [17:34:10] Vše funguje na localhost:8080
+(1.11.2022) [17:39:08] ______________Inicializace MZISAPI______________
+(1.11.2022) [17:39:08] Vše funguje na localhost:8080
+(1.11.2022) [17:39:36] Autorizační request přijat.
+(1.11.2022) [17:39:36] loginData přečtena.
+(1.11.2022) [17:39:36]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [17:39:37] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [17:39:37] Data poslána: dashinfo.json
+(1.11.2022) [18:41:02] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:41:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:41:50] Autorizační request přijat.
+(1.11.2022) [18:41:50] loginData přečtena.
+(1.11.2022) [18:41:50]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [18:41:50] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:41:50] Data poslána: dashinfo.json
+(1.11.2022) [18:44:23] ______________Inicializace MZISAPI______________
+(1.11.2022) [18:44:23] Vše funguje na localhost:8080
+(1.11.2022) [18:44:42] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:45:47] Autorizační request přijat.
+(1.11.2022) [18:45:47] loginData přečtena.
+(1.11.2022) [18:45:47]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [18:45:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:45:47] Data poslána: dashinfo.json
+(1.11.2022) [18:46:32] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:46:44] Autorizační request přijat.
+(1.11.2022) [18:46:44] loginData přečtena.
+(1.11.2022) [18:46:44]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [18:46:44] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:46:44] Data poslána: dashinfo.json
+(1.11.2022) [18:47:57] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:48:02] Autorizační request přijat.
+(1.11.2022) [18:48:02] loginData přečtena.
+(1.11.2022) [18:48:02]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [18:48:02] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:48:02] Data poslána: dashinfo.json
+(1.11.2022) [18:48:04] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:48:44] Autorizační request přijat.
+(1.11.2022) [18:48:44] loginData přečtena.
+(1.11.2022) [18:48:44]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [18:48:44] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:48:44] Data poslána: dashinfo.json
+(1.11.2022) [18:50:56] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:50:56] Data poslána: dashinfo.json
+(1.11.2022) [18:51:07] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:51:12] Autorizační request přijat.
+(1.11.2022) [18:51:12] loginData přečtena.
+(1.11.2022) [18:51:12]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [18:51:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:51:17] Data poslána: dashinfo.json
+(1.11.2022) [18:51:47] ______________Inicializace MZISAPI______________
+(1.11.2022) [18:51:47] Vše funguje na localhost:8080
+(1.11.2022) [18:51:52] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:52:14] Autorizační request přijat.
+(1.11.2022) [18:52:14] loginData přečtena.
+(1.11.2022) [18:52:14]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [18:52:19] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:52:19] Data poslána: dashinfo.json
+(1.11.2022) [19:12:43] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:13:03] Autorizační request přijat.
+(1.11.2022) [19:13:03] loginData přečtena.
+(1.11.2022) [19:13:03]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:14:09] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:14:09] Vše funguje na localhost:8080
+(1.11.2022) [19:14:13] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:14:13] Data poslána: dashinfo.json
+(1.11.2022) [19:14:14] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:14:52] Autorizační request přijat.
+(1.11.2022) [19:14:52] loginData přečtena.
+(1.11.2022) [19:14:52]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:15:15] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:15:15] Vše funguje na localhost:8080
+(1.11.2022) [19:15:25] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:15:25] Data poslána: dashinfo.json
+(1.11.2022) [19:15:26] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:15:42] Autorizační request přijat.
+(1.11.2022) [19:16:01] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:16:01] Vše funguje na localhost:8080
+(1.11.2022) [19:16:16] Autorizační request přijat.
+(1.11.2022) [19:16:16] loginData přečtena.
+(1.11.2022) [19:16:16]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:17:06] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:17:06] Vše funguje na localhost:8080
+(1.11.2022) [19:17:09] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:17:09] Data poslána: dashinfo.json
+(1.11.2022) [19:17:26] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:17:26] Vše funguje na localhost:8080
+(1.11.2022) [19:17:30] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:17:44] Autorizační request přijat.
+(1.11.2022) [19:17:44] loginData přečtena.
+(1.11.2022) [19:17:44]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:18:58] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:18:58] Vše funguje na localhost:8080
+(1.11.2022) [19:19:25] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:19:25] Data poslána: dashinfo.json
+(1.11.2022) [19:19:52] Autorizační request přijat.
+(1.11.2022) [19:19:52] loginData přečtena.
+(1.11.2022) [19:19:52]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:20:59] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:20:59] Vše funguje na localhost:8080
+(1.11.2022) [19:21:09] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:21:09] Data poslána: dashinfo.json
+(1.11.2022) [19:21:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:21:48] Autorizační request přijat.
+(1.11.2022) [19:21:48] loginData přečtena.
+(1.11.2022) [19:21:48]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:23:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:23:47] Data poslána: dashinfo.json
+(1.11.2022) [19:23:56] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:24:18] Autorizační request přijat.
+(1.11.2022) [19:24:18] loginData přečtena.
+(1.11.2022) [19:24:19]  Uživatel Adam Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:24:20] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:24:20] Data poslána: dashinfo.json
+(1.11.2022) [19:25:04] Autorizační request přijat.
+(1.11.2022) [19:25:04] loginData přečtena.
+(1.11.2022) [19:25:04]  Uživatel Martin Zaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:25:05] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:25:05] Data poslána: dashinfo.json
+(1.11.2022) [19:25:07] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:25:11] Autorizační request přijat.
+(1.11.2022) [19:25:11] loginData přečtena.
+(1.11.2022) [19:25:11]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:25:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:25:17] Data poslána: dashinfo.json
+(1.11.2022) [19:25:37] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:25:37] Vše funguje na localhost:8080
+(1.11.2022) [19:25:41] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:25:57] Autorizační request přijat.
+(1.11.2022) [19:25:57] loginData přečtena.
+(1.11.2022) [19:25:57]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:25:59] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:25:59] Data poslána: dashinfo.json
+(1.11.2022) [19:26:04] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:29:56] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:29:56] Vše funguje na localhost:8080
+(1.11.2022) [19:30:07] Autorizační request přijat.
+(1.11.2022) [19:30:07] loginData přečtena.
+(1.11.2022) [19:30:07]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:30:44] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:30:44] Vše funguje na localhost:8080
+(1.11.2022) [19:30:48] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:30:48] Data poslána: dashinfo.json
+(1.11.2022) [19:30:49] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:30:51] Autorizační request přijat.
+(1.11.2022) [19:30:51] loginData přečtena.
+(1.11.2022) [19:30:58] Autorizační request přijat.
+(1.11.2022) [19:30:58] loginData přečtena.
+(1.11.2022) [19:30:58]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:31:25] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:31:25] Vše funguje na localhost:8080
+(1.11.2022) [19:31:29] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:31:29] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:31:34] Autorizační request přijat.
+(1.11.2022) [19:31:34] loginData přečtena.
+(1.11.2022) [19:31:34]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:32:34] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:32:34] Data poslána: dashinfo.json
+(1.11.2022) [19:32:36] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:32:50] Autorizační request přijat.
+(1.11.2022) [19:32:50] loginData přečtena.
+(1.11.2022) [19:32:50]  Uživatel adamzaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:32:53] Autorizační request přijat.
+(1.11.2022) [19:32:53] loginData přečtena.
+(1.11.2022) [19:32:53] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:32:53] Data poslána: dashinfo.json
+(1.11.2022) [19:33:00] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:34:20] ______________Inicializace MZISAPI______________
+(1.11.2022) [19:34:20] Vše funguje na localhost:8080
+(1.11.2022) [19:35:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:35:50] Autorizační request přijat.
+(1.11.2022) [19:35:50] loginData přečtena.
+(1.11.2022) [19:35:50]  Uživatel adamzaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:35:50] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:35:50] Data poslána: dashinfo.json
+(1.11.2022) [19:36:13] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:36:26] Autorizační request přijat.
+(1.11.2022) [19:36:26] loginData přečtena.
+(1.11.2022) [19:37:23] Autorizační request přijat.
+(1.11.2022) [19:37:23] loginData přečtena.
+(1.11.2022) [19:37:23]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:37:23] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:37:23] Data poslána: dashinfo.json
+(1.11.2022) [19:38:29] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:38:29] Data poslána: dashinfo.json
+(1.11.2022) [19:38:34] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:38:34] Data poslána: loggedusers.json
+(1.11.2022) [19:38:34] Data poslána: roles.json
+(1.11.2022) [19:38:39] Data poslána: dashinfo.json
+(1.11.2022) [19:38:42] Data poslána: dashinfo.json
+(1.11.2022) [19:38:44] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:38:44] Data poslána: loggedusers.json
+(1.11.2022) [19:38:44] Data poslána: roles.json
+(1.11.2022) [19:38:46] Data poslána: dashinfo.json
+(1.11.2022) [19:38:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:38:57] Autorizační request přijat.
+(1.11.2022) [19:38:57] loginData přečtena.
+(1.11.2022) [19:38:57]  Uživatel adamzaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:38:57] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:38:57] Data poslána: dashinfo.json
+(1.11.2022) [19:39:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:39:01] Data poslána: loggedusers.json
+(1.11.2022) [19:39:01] Data poslána: roles.json
+(1.11.2022) [19:39:27] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:39:30] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:39:58] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [19:40:17] Autorizační request přijat.
+(1.11.2022) [19:40:17] loginData přečtena.
+(1.11.2022) [19:40:17]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:40:17] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [19:40:17] Data poslána: dashinfo.json
+(1.11.2022) [19:40:22] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [19:40:22] Data poslána: loggedusers.json
+(1.11.2022) [19:40:22] Data poslána: roles.json
+(1.11.2022) [19:40:24] Data poslána: dashinfo.json
+(1.11.2022) [19:40:44] Autorizační request přijat.
+(1.11.2022) [19:40:44] loginData přečtena.
+(1.11.2022) [19:40:44]  Uživatel adamzaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:40:44] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:40:44] Data poslána: dashinfo.json
+(1.11.2022) [19:40:49] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [19:40:50] Data poslána: loggedusers.json
+(1.11.2022) [19:40:50] Data poslána: roles.json
+(1.11.2022) [19:40:53] Data poslána: dashinfo.json
+(1.11.2022) [19:41:09] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [19:42:18] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:42:18] Data poslána: loggedusers.json
+(1.11.2022) [19:42:18] Data poslána: roles.json
+(1.11.2022) [19:42:19] Data poslána: dashinfo.json
+(1.11.2022) [19:48:01] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [16:46:10] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [16:46:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [17:03:25] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [17:03:25] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [17:21:17] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [17:21:18] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [17:24:27] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [17:24:28] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [17:27:27] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [17:27:27] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [17:48:42] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [17:48:43] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:12:41] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [18:12:41] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:13:21] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [18:13:21] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:13:57] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [18:13:57] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:50:39] ______________Inicializace MZISAPI______________
+(1.11.2022) [18:50:39] Vše funguje na localhost:8080
+(1.11.2022) [18:50:56] Autorizační request přijat.
+(1.11.2022) [18:50:56] loginData přečtena.
+(1.11.2022) [18:50:56]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [18:50:56] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:50:57] Data poslána: dashinfo.json
+(1.11.2022) [18:51:11] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:51:11] Data poslána: loggedusers.json
+(1.11.2022) [18:51:11] Data poslána: roles.json
+(1.11.2022) [18:51:13] Data poslána: dashinfo.json
+(1.11.2022) [18:51:20] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:52:46] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [18:52:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:55:31] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [18:55:32] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:56:00] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [18:56:01] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:56:54] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [18:56:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:56:59] Přidán nový problém od Testovací uživatel L
+(1.11.2022) [18:57:02] Data poslána: dashinfo.json
+(1.11.2022) [18:58:40] ______________Inicializace MZISAPI______________
+(1.11.2022) [18:58:40] Vše funguje na localhost:8080
+(1.11.2022) [18:58:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:58:47] Data poslána: loggedusers.json
+(1.11.2022) [18:58:47] Data poslána: roles.json
+(1.11.2022) [18:58:51] Data poslána: dashinfo.json
+(1.11.2022) [18:58:52] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [18:59:07] Přidán nový problém od Testovací uživatel L
+(1.11.2022) [18:59:10] Data poslána: dashinfo.json
+(1.11.2022) [19:00:41] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:00:41] Zakázka poslána: 220001
+(1.11.2022) [19:00:41] Zakázka poslána: 220001
+(1.11.2022) [19:00:44] Zakázka poslána: 220001
+(1.11.2022) [19:00:54] Zakázka poslána: 220001
+(1.11.2022) [19:00:56] Zakázka poslána: 220001
+(1.11.2022) [19:00:58] Zakázka poslána: 220001
+(1.11.2022) [19:01:06] Zakázka poslána: 220001
+(1.11.2022) [19:01:08] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:01:08] Data poslána: dashinfo.json
+(1.11.2022) [19:01:11] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:01:11] Zakázka poslána: 220001
+(1.11.2022) [19:01:11] Zakázka poslána: 220001
+(1.11.2022) [19:01:12] Zakázka poslána: 220001
+(1.11.2022) [19:01:14] Zakázka poslána: 220001
+(1.11.2022) [19:01:14] Zakázka poslána: 220001
+(1.11.2022) [19:01:15] Template poslán: optpc.json
+(1.11.2022) [19:01:19] Template poslán: optpc.json
+(1.11.2022) [19:01:21] Template poslán: optpc.json
+(1.11.2022) [19:01:22] Template poslán: optpc.json
+(1.11.2022) [19:01:24] Template poslán: optpc.json
+(1.11.2022) [19:02:10] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:02:11] Data poslána: dashinfo.json
+(1.11.2022) [19:02:12] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:02:12] Data poslána: loggedusers.json
+(1.11.2022) [19:02:12] Data poslána: roles.json
+(1.11.2022) [19:02:13] Data poslána: dashinfo.json
+(1.11.2022) [19:05:14] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [19:06:05] Autorizační request přijat.
+(1.11.2022) [19:06:05] loginData přečtena.
+(1.11.2022) [19:06:37] Autorizační request přijat.
+(1.11.2022) [19:06:37] loginData přečtena.
+(1.11.2022) [19:06:37]  Uživatel adamzaoral se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:06:37] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [19:06:37] Data poslána: dashinfo.json
+(1.11.2022) [19:06:54] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [19:06:54] Data poslána: loggedusers.json
+(1.11.2022) [19:06:54] Data poslána: roles.json
+(1.11.2022) [19:06:57] Data poslána: dashinfo.json
+(1.11.2022) [19:07:00] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:07:02] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [19:07:02] Data poslána: loggedusers.json
+(1.11.2022) [19:07:02] Data poslána: roles.json
+(1.11.2022) [19:07:05] Data poslána: dashinfo.json
+(1.11.2022) [19:09:17] Autorizační request přijat.
+(1.11.2022) [19:09:17] loginData přečtena.
+(1.11.2022) [19:09:17]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [19:09:17] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:09:18] Data poslána: dashinfo.json
+(1.11.2022) [19:09:19] Ping zaznamenán z IP Adresy ::1
+(1.11.2022) [19:09:19] Data poslána: loggedusers.json
+(1.11.2022) [19:09:19] Data poslána: roles.json
+(1.11.2022) [19:09:21] Data poslána: dashinfo.json
+(1.11.2022) [19:09:23] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [19:09:29] Autorizační request přijat.
+(1.11.2022) [19:09:29] loginData přečtena.
+(1.11.2022) [20:30:35] ______________Inicializace MZISAPI______________
+(1.11.2022) [20:30:35] Vše funguje na localhost:8080
+(1.11.2022) [20:31:53] Autorizační request přijat.
+(1.11.2022) [20:31:53] loginData přečtena.
+(1.11.2022) [20:31:53]  Uživatel l se snaží přihlásit. Povedlo se?: false
+(1.11.2022) [20:34:18] ______________Inicializace MZISAPI______________
+(1.11.2022) [20:34:18] Vše funguje na localhost:8080
+(1.11.2022) [20:34:27] Autorizační request přijat.
+(1.11.2022) [20:34:27] loginData přečtena.
+(1.11.2022) [20:34:27]  Uživatel l se snaží přihlásit. Povedlo se?: false
+(1.11.2022) [20:52:47] Autorizační request přijat.
+(1.11.2022) [20:52:47] loginData přečtena.
+(1.11.2022) [20:52:47]  Uživatel l se snaží přihlásit. Povedlo se?: true
+(1.11.2022) [20:52:47] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [20:52:48] Data poslána: dashinfo.json
+(1.11.2022) [20:52:50] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [20:52:51] Zakázka poslána: 220001
+(1.11.2022) [20:52:51] Zakázka poslána: 220001
+(1.11.2022) [20:52:52] Zakázka poslána: 220001
+(1.11.2022) [20:52:55] Zakázka poslána: 220001
+(1.11.2022) [21:00:54] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:00:54] Zakázka poslána: 220001
+(1.11.2022) [21:00:54] Zakázka poslána: 220001
+(1.11.2022) [21:00:57] Zakázka poslána: 220001
+(1.11.2022) [21:01:13] Zakázka poslána: 220001
+(1.11.2022) [21:01:18] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:01:18] Data poslána: dashinfo.json
+(1.11.2022) [21:01:20] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
+(1.11.2022) [21:03:12] Ping zaznamenán z IP Adresy ::ffff:127.0.0.1
