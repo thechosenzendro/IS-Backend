@@ -185,14 +185,18 @@ app.post("/userlogout/:jmeno", (req, res) => {
         loggeddata = JSON.parse(data)
         for (var i = 0; i < loggeddata.length; i++) {
             ld = loggeddata[i]['Přihlášení uživatelé (uživatelské jméno)']
+            console.log(ld)
             if (ld == jmeno) {
+                console.log(true)
                 loggeddata.splice(i)
+                break
             }
-            fs.writeFile("./server/loggedusers.json", JSON.stringify(loggeddata), (err) => {
-                res.status(200).send("Ok")
-            })
-        }
 
+        }
+        console.log(JSON.stringify(loggeddata))
+        fs.writeFile("./server/loggedusers.json", JSON.stringify(loggeddata), (err) => {
+            res.status(200).send("Ok")
+        })
     })
 
 })
@@ -271,7 +275,7 @@ app.patch("/newactivity/:project/:value", (req, res) => {
                 let datum = day + '.' + month + '.' + year
                 obj = decodeURIComponent(value).split('-')
                 newactivity = {}
-                newactivity['Datum'] = datum
+                newactivity['Datum provedení'] = datum
                 newactivity['Popis činnosti'] = obj[0]
                 newactivity['Zapisovatel'] = obj[1]
                 parsedata['provedenecinnosti'][parsedata['provedenecinnosti'].length] = newactivity
@@ -336,7 +340,12 @@ app.post("/datasync/", (req, res) => {
                                             for (var i = 0; i < object.length; i++) {
                                                 otc = object[i]
                                                 if (otc["Číslo zakázky"] == bruh) {
-                                                    otc[tag] = val;
+                                                    if (val != "nodata") {
+                                                        otc[tag] = val;
+                                                    }
+                                                    else {
+                                                        otc[tag] = undefined
+                                                    }
                                                     fs.writeFile('./server/dashinfo.json', JSON.stringify(object), err => {
                                                         if (err) {
                                                             WriteToLog("Error při psaní do DASHINFO. Err: " + err)
