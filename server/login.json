@@ -18,5 +18,10 @@
         "adamzaoral": "532eaabd9574880dbf76b9b8cc00832c20a6ec113d682299550d7a6e0f345e25",
         "role_adamzaoral": "admin",
         "jmeno_adamzaoral": "Adam Zaoral"
+    },
+    {
+        "letadlo": "532eaabd9574880dbf76b9b8cc00832c20a6ec113d682299550d7a6e0f345e25",
+        "role_letadlo": "uzivatel",
+        "jmeno_letadlo": "Letadlo"
     }
 ]
