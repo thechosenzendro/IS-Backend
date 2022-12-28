@@ -1,4 +1,3 @@
-
 //Inicializace všech potřebných modulů + proměnných
 var express = require("express");
 require("dotenv").config();
@@ -7,6 +6,7 @@ var fs = require('fs');
 var cors = require('cors')
 var crypto = require('crypto-js')
 var port = 8080;
+let date = new Date();
 var frontend = "http://127.0.0.1:5500/"
 WriteToLog("______________Inicializace MZISAPI______________")
 app.listen(port, () => WriteToLog("Vše funguje na localhost:" + port));
@@ -21,7 +21,6 @@ var corsOptions = {
 
 //Setup časovače
 function Timestamp() {
-    let date = new Date();
     let hh = date.getHours();
     let mm = checkTime(date.getMinutes());
     let ss = checkTime(date.getSeconds());
@@ -35,10 +34,10 @@ function checkTime(i) {
     if (i < 10) { i = "0" + i };
     return i;
 }
-//Logování do server.log
+//Logování do ../Backend_Assets/server.log
 function WriteToLog(msg) {
     const msgwts = Timestamp() + msg + "\n";
-    fs.appendFile('server.log', msgwts, function (err) {
+    fs.appendFile('../Backend_Assets/server.log', msgwts, function (err) {
         if (err) throw err;
         if (err) { WriteToLog('Error! Nejde psát do logu! Error: ' + err) }
     });
@@ -55,10 +54,10 @@ app.get("/ping", (req, res) => {
     WriteToLog("Ping zaznamenán z IP Adresy " + req.ip);
 })
 
-//Request souboru z ./server
+//Request souboru z ../Backend_Assets/server/
 app.get("/file/:filename", (req, res) => {
     const { filename } = req.params
-    fs.readFile("./server/" + filename, "utf8", (err, data) => {
+    fs.readFile("../Backend_Assets/server/" + filename, "utf8", (err, data) => {
         if (err) {
             res.status(400).send(err);
             WriteToLog("Error při čtení souboru: " + filename + "\n Error: " + err)
@@ -69,10 +68,10 @@ app.get("/file/:filename", (req, res) => {
 
     })
 })
-//Request templatu z ./template
+//Request templatu z ../Backend_Assets/template/
 app.get("/template/:templatename", (req, res) => {
     const { templatename } = req.params
-    fs.readFile("./templates/" + templatename, "utf8", (err, data) => {
+    fs.readFile("../Backend_Assets/templates/" + templatename, "utf8", (err, data) => {
         if (err) {
             res.status(400).send(err);
             WriteToLog("Error při čtení templatu: " + templatename + "\n Error: " + err)
@@ -83,16 +82,16 @@ app.get("/template/:templatename", (req, res) => {
 
     })
 })
-//Request zakázky z ./server/-----/ui.json
+//Request zakázky z ../Backend_Assets/server/-----/ui.json
 app.get("/getcontract/:id/", (req, res) => {
     const { id } = req.params
-    fs.readFile("./server/" + id + "/ui.json", "utf8", (err, uidata) => {
+    fs.readFile("../Backend_Assets/server/" + id + "/ui.json", "utf8", (err, uidata) => {
         if (err) {
             res.status(400).send(err);
             WriteToLog("Error při čtení UI zakázky: " + id + "\n Error: " + err)
             return;
         }
-        fs.readFile("./server/" + id + "/data.json", "utf8", (err, data) => {
+        fs.readFile("../Backend_Assets/server/" + id + "/data.json", "utf8", (err, data) => {
             if (err) {
                 res.status(400).send(err);
                 WriteToLog("Error při čtení dat zakázky: " + id + "\n Error: " + err)
@@ -128,7 +127,7 @@ app.post("/auth", (req, res) => {
     }
     //Přečtení logindata
     let logindata;
-    fs.readFile("./server/login.json", "utf8", (err, loginjsondata) => {
+    fs.readFile("../Backend_Assets/server/login.json", "utf8", (err, loginjsondata) => {
         if (err) {
             res.status(500).send(err);
             WriteToLog("Error při přečtení LOGIN dat: " + err)
@@ -157,14 +156,14 @@ app.post("/auth", (req, res) => {
             datinka = { "Auth": ans, "Role": logindata["role_" + name], "Jmeno": logindata["jmeno_" + name] }
             easteregg = logindata["jmeno_" + name]
 
-            fs.readFile("./server/loggedusers.json", "utf8", (err, data) => {
+            fs.readFile("../Backend_Assets/server/loggedusers.json", "utf8", (err, data) => {
                 obj = JSON.parse(data);
                 loggedusers = obj
                 newuserlogged = {}
                 newuserlogged['Přihlášení uživatelé (uživatelské jméno)'] = easteregg
                 console.log(newuserlogged)
                 loggedusers.push(newuserlogged)
-                fs.writeFile("./server/loggedusers.json", JSON.stringify(loggedusers), (err) => {
+                fs.writeFile("../Backend_Assets/server/loggedusers.json", JSON.stringify(loggedusers), (err) => {
                     res.status(200).send(datinka)
                 })
             })
@@ -181,11 +180,10 @@ app.post("/auth", (req, res) => {
 //Odhlášení uživatele
 app.post("/userlogout/:jmeno", (req, res) => {
     const { jmeno } = req.params
-    fs.readFile("./server/loggedusers.json", "utf8", (err, data) => {
+    fs.readFile("../Backend_Assets/server/loggedusers.json", "utf8", (err, data) => {
         loggeddata = JSON.parse(data)
         for (var i = 0; i < loggeddata.length; i++) {
             ld = loggeddata[i]['Přihlášení uživatelé (uživatelské jméno)']
-            console.log(ld)
             if (ld == jmeno) {
                 console.log(true)
                 loggeddata.splice(i)
@@ -194,7 +192,7 @@ app.post("/userlogout/:jmeno", (req, res) => {
 
         }
         console.log(JSON.stringify(loggeddata))
-        fs.writeFile("./server/loggedusers.json", JSON.stringify(loggeddata), (err) => {
+        fs.writeFile("../Backend_Assets/server/loggedusers.json", JSON.stringify(loggeddata), (err) => {
             res.status(200).send("Ok")
         })
     })
@@ -202,27 +200,27 @@ app.post("/userlogout/:jmeno", (req, res) => {
 })
 //Vytvoření nové zakázky
 app.post("/newcontract/", (req, res) => {
-    fs.readFile("./templates/newcontract.json", "utf8", (err, data) => {
+    fs.readFile("../Backend_Assets/templates/newcontract.json", "utf8", (err, data) => {
         psdata = data
-        fs.readFile("./templates/idname.json", "utf8", (err, data) => {
+        fs.readFile("../Backend_Assets/templates/idname.json", "utf8", (err, data) => {
             parsedata = JSON.parse(data)
             id = parsedata["id"]
             lastitem = id[id.length - 1]
             const newid = lastitem + 1
             id.push(newid)
             parsedata["id"] = id
-            fs.writeFile('./templates/idname.json', JSON.stringify(parsedata), function (err) {
+            fs.writeFile('../Backend_Assets/templates/idname.json', JSON.stringify(parsedata), function (err) {
                 if (err) throw err;
                 WriteToLog("Error při přečtení IDNAME. Error: " + err)
             });
-            wowfile = './server/' + newid.toString() + '/ui.json'
-            wowfile2 = './server/' + newid.toString() + '/data.json'
-            if (!fs.existsSync("./server/" + newid.toString())) {
-                fs.mkdirSync("./server/" + newid.toString(), { recursive: true });
+            wowfile = '../Backend_Assets/server/' + newid.toString() + '/ui.json'
+            wowfile2 = '../Backend_Assets/server/' + newid.toString() + '/data.json'
+            if (!fs.existsSync("../Backend_Assets/server/" + newid.toString())) {
+                fs.mkdirSync("../Backend_Assets/server/" + newid.toString(), { recursive: true });
             }
             fs.writeFile(wowfile, psdata, function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení UI nové zakázky. Error: " + err) }; });
             fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar", "stavebnici": [] }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
-            fs.readFile("./server/dashinfo.json", "utf8", (err, data) => {
+            fs.readFile("../Backend_Assets/server/dashinfo.json", "utf8", (err, data) => {
                 if (err) throw err
                 dashdata = JSON.parse(data)
                 dashdata.push(
@@ -230,7 +228,7 @@ app.post("/newcontract/", (req, res) => {
                         "Číslo zakázky": newid
                     },
                 )
-                fs.writeFile("./server/dashinfo.json", JSON.stringify(dashdata), function (err) {
+                fs.writeFile("../Backend_Assets/server/dashinfo.json", JSON.stringify(dashdata), function (err) {
                     if (err) throw err;
                     res.status(200).send(newid.toString())
                 });
@@ -244,7 +242,7 @@ app.patch("/newdata/:project/:element/:value", (req, res) => {
     const { project } = req.params
     const { element } = req.params
     const { value } = req.params
-    file = "./server/" + project + "/data.json"
+    file = "../Backend_Assets/server/" + project + "/data.json"
     fs.readFile(file, "utf8", (err, data) => {
         if (err) throw err
         filedata = JSON.parse(data)
@@ -261,7 +259,7 @@ app.patch("/newdata/:project/:element/:value", (req, res) => {
 app.patch("/newactivity/:project/:value", (req, res) => {
     const { project } = req.params
     const { value } = req.params
-    file = "./server/" + project + "/data.json"
+    file = "../Backend_Assets/server/" + project + "/data.json"
     Check()
     function Check() {
         fs.readFile(file, "utf8", (err, data) => {
@@ -305,7 +303,7 @@ app.post("/issue/:name/:title/:body", (req, res) => {
     const { title } = req.params
     const { body } = req.params
     const data = "Jméno: " + name + "\nTitle:" + decodeURIComponent(title) + "\nBody:" + decodeURIComponent(body) + "\n" + "______________________\n"
-    fs.appendFile("./issues.txt", data, () => {
+    fs.appendFile("../Backend_Assets/issues.txt", data, () => {
         WriteToLog('Přidán nový problém od ' + name)
         res.status(200).send('Ok')
     })
@@ -313,11 +311,11 @@ app.post("/issue/:name/:title/:body", (req, res) => {
 app.post("/datasync/", (req, res) => {
     index = ["nazevzakazky", "katastralniuzemi", "stavebnik", "status", "studie", "projekt", "inzenyring", "archivace"]
     formattedindex = ["Název Zakázky", "Katastr", "Stavebník", "Status", "Studie", "Projekt", "Inženýring", "Archivace"]
-    fs.readFile("./templates/idname.json", "utf8", (err, data) => {
+    fs.readFile("../Backend_Assets/templates/idname.json", "utf8", (err, data) => {
         obj = JSON.parse(data)
         object = obj['id']
         for (var i = 1; i < object.length; i++) {
-            jmeno = './server/' + object[i] + '/data.json'
+            jmeno = '../Backend_Assets/server/' + object[i] + '/data.json'
             bruh = object[i]
             RF1(jmeno, bruh)
             function RF1(jmeno, bruh) {
@@ -334,7 +332,7 @@ app.post("/datasync/", (req, res) => {
                                     RF4(bruh, val)
                                     function RF4(bruh, val) {
                                         result = compare;
-                                        fs.readFile("./server/dashinfo.json", "utf8", (err, dashdata) => {
+                                        fs.readFile("../Backend_Assets/server/dashinfo.json", "utf8", (err, dashdata) => {
                                             object = JSON.parse(dashdata)
                                             tag = formattedindex[index.indexOf(result)]
                                             for (var i = 0; i < object.length; i++) {
@@ -346,7 +344,7 @@ app.post("/datasync/", (req, res) => {
                                                     else {
                                                         otc[tag] = undefined
                                                     }
-                                                    fs.writeFile('./server/dashinfo.json', JSON.stringify(object), err => {
+                                                    fs.writeFile('../Backend_Assets/server/dashinfo.json', JSON.stringify(object), err => {
                                                         if (err) {
                                                             WriteToLog("Error při psaní do DASHINFO. Err: " + err)
                                                         }
@@ -370,7 +368,7 @@ app.post("/newuser/:jmeno/:role/:heslo", (req, res) => {
     const { jmeno } = req.params
     const { role } = req.params
     const { heslo } = req.params
-    fs.readFile("./server/login.json", "utf8", (err, data) => {
+    fs.readFile("../Backend_Assets/server/login.json", "utf8", (err, data) => {
         obj = JSON.parse(data)
         newuser = {}
         newjmeno = jmeno.toLowerCase().replace(/\s/g, '')
@@ -379,8 +377,41 @@ app.post("/newuser/:jmeno/:role/:heslo", (req, res) => {
         newuser['role_' + newjmeno] = role
         newuser['jmeno_' + newjmeno] = jmeno
         obj.push(newuser)
-        fs.writeFile('./server/login.json', JSON.stringify(obj), err => {
+        fs.writeFile('../Backend_Assets/server/login.json', JSON.stringify(obj), err => {
             res.status(200).send("Ok")
         })
+    })
+})
+app.post("/newadressbookentry/", (req, res) => {
+    fs.readFile("../Backend_Assets/server/adressbook.json", "utf8", (err, data) => {
+        data = JSON.parse(data)
+        newdata = {}
+        data.push(newdata)
+        fs.writeFile("../Backend_Assets/server/adressbook.json", JSON.stringify(data), err => {
+            if (err) {
+                WriteToLog(err);
+            }
+            res.status(200).send()
+        });
+    })
+})
+app.post("/newadressbookdata/:isNew/:element/:value", (req, res) => {
+    const { isNew } = req.params
+    const { element } = req.params
+    const { value } = req.params
+    fs.readFile("../Backend_Assets/server/adressbook.json", "utf8", (err, data) => {
+        data = JSON.parse(data)
+        if (isNew == "true") {
+            data[data.length - 1][element.toString()] = value
+        }
+        else {
+            data[isNew][element.toString()] = value
+        }
+        fs.writeFile("adressbook.json", JSON.stringify(data), err => {
+            if (err) {
+                WriteToLog(err);
+            }
+            res.status(200).send()
+        });
     })
 })
