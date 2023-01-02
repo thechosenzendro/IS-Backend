@@ -24,8 +24,8 @@ function Timestamp() {
     let hh = date.getHours();
     let mm = checkTime(date.getMinutes());
     let ss = checkTime(date.getSeconds());
-    let day = date.getDay()
-    let month = date.getMonth()
+    let day = date.getDate()
+    let month = date.getMonth() + 1
     let year = date.getFullYear()
     let time = "(" + day + "." + month + "." + year + ") " + "[" + hh + ":" + mm + ":" + ss + "] ";
     return time;
@@ -395,19 +395,19 @@ app.post("/newadressbookentry/", (req, res) => {
         });
     })
 })
-app.post("/newadressbookdata/:isNew/:element/:value", (req, res) => {
-    const { isNew } = req.params
+app.post("/newadressbookdata/:index/:element/:value", (req, res) => {
+    const { index } = req.params
     const { element } = req.params
     const { value } = req.params
     fs.readFile("../Backend_Assets/server/adressbook.json", "utf8", (err, data) => {
-        data = JSON.parse(data)
-        if (isNew == "true") {
-            data[data.length - 1][element.toString()] = value
+        parseddata = JSON.parse(data)
+        if (index == "true") {
+            parseddata[parseddata.length - 1][element.toString()] = value
         }
         else {
-            data[isNew][element.toString()] = value
+            parseddata[parseInt(index)][element.toString()] = value
         }
-        fs.writeFile("adressbook.json", JSON.stringify(data), err => {
+        fs.writeFile("../Backend_Assets/server/adressbook.json", JSON.stringify(parseddata), err => {
             if (err) {
                 WriteToLog(err);
             }
