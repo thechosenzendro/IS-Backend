@@ -57,41 +57,44 @@ app.get("/ping", (req, res) => {
 //Request souboru z ../Backend_Assets/server/
 app.get("/file/:filename", (req, res) => {
     const { filename } = req.params
-    fs.readFile("../Backend_Assets/server/" + filename, "utf8", (err, data) => {
+    let replacedfilename = filename.replace('Æ', '/')
+    fs.readFile("../Backend_Assets/server/" + replacedfilename, "utf8", (err, data) => {
         if (err) {
             res.status(400).send(err);
-            WriteToLog("Error při čtení souboru: " + filename + "\n Error: " + err)
+            WriteToLog("Error při čtení souboru: " + replacedfilename + "\n Error: " + err)
             return;
         }
         res.status(200).send(data)
-        WriteToLog("Data poslána: " + filename)
+        WriteToLog("Data poslána: " + replacedfilename)
 
     })
 })
 //Request templatu z ../Backend_Assets/template/
 app.get("/template/:templatename", (req, res) => {
     const { templatename } = req.params
-    fs.readFile("../Backend_Assets/templates/" + templatename, "utf8", (err, data) => {
+    let replacedtemplatename = templatename.replace('Æ', '/')
+    fs.readFile("../Backend_Assets/templates/" + replacedtemplatename, "utf8", (err, data) => {
         if (err) {
             res.status(400).send(err);
-            WriteToLog("Error při čtení templatu: " + templatename + "\n Error: " + err)
+            WriteToLog("Error při čtení templatu: " + replacedtemplatename + "\n Error: " + err)
             return;
         }
         res.status(200).send(data)
-        WriteToLog("Template poslán: " + templatename)
+        WriteToLog("Template poslán: " + replacedtemplatename)
 
     })
 })
 //Request zakázky z ../Backend_Assets/server/-----/ui.json
-app.get("/getcontract/:id/", (req, res) => {
+app.get("/getcontract/:odberatel/:id/", (req, res) => {
     const { id } = req.params
-    fs.readFile("../Backend_Assets/server/" + id + "/ui.json", "utf8", (err, uidata) => {
+    const { odberatel } = req.params
+    fs.readFile("../Backend_Assets/server/" + odberatel + "/" + id + "/ui.json", "utf8", (err, uidata) => {
         if (err) {
             res.status(400).send(err);
             WriteToLog("Error při čtení UI zakázky: " + id + "\n Error: " + err)
             return;
         }
-        fs.readFile("../Backend_Assets/server/" + id + "/data.json", "utf8", (err, data) => {
+        fs.readFile("../Backend_Assets/server/" + odberatel + "/" + id + "/data.json", "utf8", (err, data) => {
             if (err) {
                 res.status(400).send(err);
                 WriteToLog("Error při čtení dat zakázky: " + id + "\n Error: " + err)
@@ -161,7 +164,6 @@ app.post("/auth", (req, res) => {
                 loggedusers = obj
                 newuserlogged = {}
                 newuserlogged['Přihlášení uživatelé (uživatelské jméno)'] = easteregg
-                console.log(newuserlogged)
                 loggedusers.push(newuserlogged)
                 fs.writeFile("../Backend_Assets/server/loggedusers.json", JSON.stringify(loggedusers), (err) => {
                     res.status(200).send(datinka)
@@ -185,13 +187,11 @@ app.post("/userlogout/:jmeno", (req, res) => {
         for (var i = 0; i < loggeddata.length; i++) {
             ld = loggeddata[i]['Přihlášení uživatelé (uživatelské jméno)']
             if (ld == jmeno) {
-                console.log(true)
                 loggeddata.splice(i)
                 break
             }
 
         }
-        console.log(JSON.stringify(loggeddata))
         fs.writeFile("../Backend_Assets/server/loggedusers.json", JSON.stringify(loggeddata), (err) => {
             res.status(200).send("Ok")
         })
@@ -199,38 +199,38 @@ app.post("/userlogout/:jmeno", (req, res) => {
 
 })
 //Vytvoření nové zakázky
-app.post("/newcontract/", (req, res) => {
+app.post("/newcontract/:odberatel:/idname", (req, res) => {
+    const { odberatel } = req.params
+    const { idname } = req.params
     fs.readFile("../Backend_Assets/templates/newcontract.json", "utf8", (err, data) => {
         psdata = data
         fs.readFile("../Backend_Assets/templates/idname.json", "utf8", (err, data) => {
             parsedata = JSON.parse(data)
-            id = parsedata["id"]
-            lastitem = id[id.length - 1]
-            const newid = lastitem + 1
-            id.push(newid)
-            parsedata["id"] = id
+            id = parsedata[odberatel.toString()]
+            id.push(idname)
+            parsedata[odberatel.toString()] = id
             fs.writeFile('../Backend_Assets/templates/idname.json', JSON.stringify(parsedata), function (err) {
                 if (err) throw err;
                 WriteToLog("Error při přečtení IDNAME. Error: " + err)
             });
-            wowfile = '../Backend_Assets/server/' + newid.toString() + '/ui.json'
-            wowfile2 = '../Backend_Assets/server/' + newid.toString() + '/data.json'
-            if (!fs.existsSync("../Backend_Assets/server/" + newid.toString())) {
-                fs.mkdirSync("../Backend_Assets/server/" + newid.toString(), { recursive: true });
+            wowfile = '../Backend_Assets/server/' + idname.toString() + '/ui.json'
+            wowfile2 = '../Backend_Assets/server/' + idname.toString() + '/data.json'
+            if (!fs.existsSync("../Backend_Assets/server/" + idname.toString())) {
+                fs.mkdirSync("../Backend_Assets/server/" + idname.toString(), { recursive: true });
             }
             fs.writeFile(wowfile, psdata, function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení UI nové zakázky. Error: " + err) }; });
             fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar", "stavebnici": [] }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
-            fs.readFile("../Backend_Assets/server/dashinfo.json", "utf8", (err, data) => {
+            fs.readFile("../Backend_Assets/server/" + odberatel.toString() + "/dashinfo.json", "utf8", (err, data) => {
                 if (err) throw err
                 dashdata = JSON.parse(data)
                 dashdata.push(
                     {
-                        "Číslo zakázky": newid
+                        "Číslo zakázky": idname.toString()
                     },
                 )
-                fs.writeFile("../Backend_Assets/server/dashinfo.json", JSON.stringify(dashdata), function (err) {
+                fs.writeFile("../Backend_Assets/server/" + odberatel.toString() + "/dashinfo.json", JSON.stringify(dashdata), function (err) {
                     if (err) throw err;
-                    res.status(200).send(newid.toString())
+                    res.status(200).send(idname.toString())
                 });
 
             })
@@ -238,11 +238,12 @@ app.post("/newcontract/", (req, res) => {
     })
 })
 //Vytvoření či změna dat v zakázce
-app.patch("/newdata/:project/:element/:value", (req, res) => {
+app.patch("/newdata/:odberatel/:project/:element/:value", (req, res) => {
+    const { odberatel } = req.params
     const { project } = req.params
     const { element } = req.params
     const { value } = req.params
-    file = "../Backend_Assets/server/" + project + "/data.json"
+    file = "../Backend_Assets/server/" + "/" + odberatel + "/" + project + "/data.json"
     fs.readFile(file, "utf8", (err, data) => {
         if (err) throw err
         filedata = JSON.parse(data)
@@ -256,10 +257,11 @@ app.patch("/newdata/:project/:element/:value", (req, res) => {
 
 
 })
-app.patch("/newactivity/:project/:value", (req, res) => {
+app.patch("/newactivity/:odberatel/:project/:value", (req, res) => {
+    const { odberatel } = req.params
     const { project } = req.params
     const { value } = req.params
-    file = "../Backend_Assets/server/" + project + "/data.json"
+    file = "../Backend_Assets/server/" + odberatel + "/" + project + "/data.json"
     Check()
     function Check() {
         fs.readFile(file, "utf8", (err, data) => {
@@ -287,7 +289,6 @@ app.patch("/newactivity/:project/:value", (req, res) => {
             }
             else {
                 parsedata['provedenecinnosti'] = []
-                console.log(parsedata)
                 fs.writeFile(file, JSON.stringify(parsedata), err => {
                     if (err) {
                         WriteToLog(err);
@@ -308,14 +309,15 @@ app.post("/issue/:name/:title/:body", (req, res) => {
         res.status(200).send('Ok')
     })
 })
-app.post("/datasync/", (req, res) => {
+app.post("/datasync/:odberatel", (req, res) => {
+    const { odberatel } = req.params
     index = ["nazevzakazky", "katastralniuzemi", "stavebnik", "status", "studie", "projekt", "inzenyring", "archivace"]
     formattedindex = ["Název Zakázky", "Katastr", "Stavebník", "Status", "Studie", "Projekt", "Inženýring", "Archivace"]
     fs.readFile("../Backend_Assets/templates/idname.json", "utf8", (err, data) => {
         obj = JSON.parse(data)
-        object = obj['id']
+        object = obj[odberatel.toString()]
         for (var i = 1; i < object.length; i++) {
-            jmeno = '../Backend_Assets/server/' + object[i] + '/data.json'
+            jmeno = '../Backend_Assets/server/' + odberatel + "/" + object[i] + '/data.json'
             bruh = object[i]
             RF1(jmeno, bruh)
             function RF1(jmeno, bruh) {
@@ -332,7 +334,7 @@ app.post("/datasync/", (req, res) => {
                                     RF4(bruh, val)
                                     function RF4(bruh, val) {
                                         result = compare;
-                                        fs.readFile("../Backend_Assets/server/dashinfo.json", "utf8", (err, dashdata) => {
+                                        fs.readFile("../Backend_Assets/server/" + odberatel.toString() + "/dashinfo.json", "utf8", (err, dashdata) => {
                                             object = JSON.parse(dashdata)
                                             tag = formattedindex[index.indexOf(result)]
                                             for (var i = 0; i < object.length; i++) {
@@ -344,7 +346,7 @@ app.post("/datasync/", (req, res) => {
                                                     else {
                                                         otc[tag] = undefined
                                                     }
-                                                    fs.writeFile('../Backend_Assets/server/dashinfo.json', JSON.stringify(object), err => {
+                                                    fs.writeFile('../Backend_Assets/server/' + odberatel.toString() + '/dashinfo.json', JSON.stringify(object), err => {
                                                         if (err) {
                                                             WriteToLog("Error při psaní do DASHINFO. Err: " + err)
                                                         }
