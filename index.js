@@ -219,7 +219,7 @@ app.post("/newcontract/:odberatel:/idname", (req, res) => {
                 fs.mkdirSync("../Backend_Assets/server/" + idname.toString(), { recursive: true });
             }
             fs.writeFile(wowfile, psdata, function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení UI nové zakázky. Error: " + err) }; });
-            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar", "stavebnici": [] }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
+            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar", "stavebnici": [], "inzenyring": { "uzemneplanovaciinformace": [], "vyjadrenioexistencisiti": [], "posudky": [], "zadostopripojenikds": [], "sitari-souhlasspd": [], "vyjadrenikpd": [], "smlouvaopravustavbynacizimpozemku": [], "souhlassouseduspovolenimstavby": [], "stavebniurad": [] } }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
             fs.readFile("../Backend_Assets/server/" + odberatel.toString() + "/dashinfo.json", "utf8", (err, data) => {
                 if (err) throw err
                 dashdata = JSON.parse(data)
@@ -415,5 +415,26 @@ app.post("/newadressbookdata/:index/:element/:value", (req, res) => {
             }
             res.status(200).send()
         });
+    })
+})
+app.post("/newexpression/:odberatel/:id/:header/:nazev_vyjadreni/:kontakt:/:datum_podani/:zpusob_podani/:datum_urgence/:datum_vyrizeni/:stav_zadosti/:poznamka/", (req, res) => {
+    const { odberatel } = req.params
+    const { id } = req.params
+    const { header } = req.params
+    const { nazev_vyjadreni } = req.params
+    const { kontakt } = req.params
+    const { datum_podani } = req.params
+    const { zpusob_podani } = req.params
+    const { datum_urgence } = req.params
+    const { datum_vyrizeni } = req.params
+    const { stav_zadosti } = req.params
+    const { poznamka } = req.params
+    fs.readFile("../Backend_Assets/server/" + odberatel.toString() + "/" + id + "/data.json", "utf8", (err, data) => {
+        parseddata = JSON.parse(data)
+        obj = parseddata['inzenyring']
+        obj = obj[header.toString()]
+        obj.push({ "nazev_vyjadreni": nazev_vyjadreni, "kontakt": kontakt, "datum_podani": datum_podani, "zpusob_podani": zpusob_podani, "datum_urgence": datum_urgence, "datum_vyrizeni": datum_vyrizeni, "stav_zadosti": stav_zadosti, "poznamka": poznamka })
+        fs.writeFile("../Backend_Assets/server/" + odberatel.toString() + "/" + id + "/data.json", JSON.stringify(obj), err => {
+        })
     })
 })
