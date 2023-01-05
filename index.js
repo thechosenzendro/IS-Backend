@@ -219,7 +219,7 @@ app.post("/newcontract/:odberatel:/idname", (req, res) => {
                 fs.mkdirSync("../Backend_Assets/server/" + idname.toString(), { recursive: true });
             }
             fs.writeFile(wowfile, psdata, function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení UI nové zakázky. Error: " + err) }; });
-            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar", "stavebnici": [], "inzenyring": { "uzemneplanovaciinformace": [], "vyjadrenioexistencisiti": [], "posudky": [], "zadostopripojenikds": [], "sitari-souhlasspd": [], "vyjadrenikpd": [], "smlouvaopravustavbynacizimpozemku": [], "souhlassouseduspovolenimstavby": [], "stavebniurad": [] } }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
+            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar", "stavebnici": [], "inzenyring": { "uzemneplanovaciinformace": [], "vyjadrenioexistencisiti": [], "posudky": [], "zadostopripojenikds": [], "spravcisiti-souhlasspd": [], "vyjadrenikpd": [], "smlouvaopravustavbynacizimpozemku": [], "souhlassouseduspovolenimstavby": [], "stavebniurad": [], "archivace": [] } }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
             fs.readFile("../Backend_Assets/server/" + odberatel.toString() + "/dashinfo.json", "utf8", (err, data) => {
                 if (err) throw err
                 dashdata = JSON.parse(data)
@@ -257,10 +257,11 @@ app.patch("/newdata/:odberatel/:project/:element/:value", (req, res) => {
 
 
 })
-app.patch("/newactivity/:odberatel/:project/:value", (req, res) => {
+app.patch("/newactivity/:odberatel/:project/:value/:jmeno", (req, res) => {
     const { odberatel } = req.params
     const { project } = req.params
     const { value } = req.params
+    const { jmeno } = req.params
     file = "../Backend_Assets/server/" + odberatel + "/" + project + "/data.json"
     Check()
     function Check() {
@@ -269,21 +270,21 @@ app.patch("/newactivity/:odberatel/:project/:value", (req, res) => {
             parsedata = JSON.parse(data)
             if (parsedata.hasOwnProperty('provedenecinnosti')) {
                 let date = new Date();
-                let day = date.getDay()
-                let month = date.getMonth()
+                let day = date.getDate()
+                let month = date.getMonth() + 1
                 let year = date.getFullYear()
                 let datum = day + '.' + month + '.' + year
-                obj = decodeURIComponent(value).split('-')
+                obj = decodeURIComponent(value)
                 newactivity = {}
                 newactivity['Datum provedení'] = datum
-                newactivity['Popis činnosti'] = obj[0]
-                newactivity['Zapisovatel'] = obj[1]
+                newactivity['Popis činnosti'] = obj.replace("͛Ԡ", "-")
+                newactivity['Zapisovatel'] = jmeno
                 parsedata['provedenecinnosti'][parsedata['provedenecinnosti'].length] = newactivity
                 fs.writeFile(file, JSON.stringify(parsedata), err => {
                     if (err) {
                         WriteToLog(err);
                     }
-                    WriteToLog('Přidána nová činnost pro projekt ' + project + ' od uživatele ' + obj[1])
+                    WriteToLog('Přidána nová činnost pro projekt ' + project + ' od uživatele ' + jmeno)
                     res.status(200).send()
                 });
             }
@@ -417,24 +418,13 @@ app.post("/newadressbookdata/:index/:element/:value", (req, res) => {
         });
     })
 })
-app.post("/newexpression/:odberatel/:id/:header/:nazev_vyjadreni/:kontakt:/:datum_podani/:zpusob_podani/:datum_urgence/:datum_vyrizeni/:stav_zadosti/:poznamka/", (req, res) => {
+app.post("/newexpression/:odberatel/:id/:header/:nazev_vyjadreni/:datum_podani", (req, res) => {
     const { odberatel } = req.params
     const { id } = req.params
     const { header } = req.params
     const { nazev_vyjadreni } = req.params
     const { kontakt } = req.params
     const { datum_podani } = req.params
-    const { zpusob_podani } = req.params
-    const { datum_urgence } = req.params
-    const { datum_vyrizeni } = req.params
-    const { stav_zadosti } = req.params
-    const { poznamka } = req.params
-    fs.readFile("../Backend_Assets/server/" + odberatel.toString() + "/" + id + "/data.json", "utf8", (err, data) => {
-        parseddata = JSON.parse(data)
-        obj = parseddata['inzenyring']
-        obj = obj[header.toString()]
-        obj.push({ "nazev_vyjadreni": nazev_vyjadreni, "kontakt": kontakt, "datum_podani": datum_podani, "zpusob_podani": zpusob_podani, "datum_urgence": datum_urgence, "datum_vyrizeni": datum_vyrizeni, "stav_zadosti": stav_zadosti, "poznamka": poznamka })
-        fs.writeFile("../Backend_Assets/server/" + odberatel.toString() + "/" + id + "/data.json", JSON.stringify(obj), err => {
-        })
-    })
+    console.log("odberatel " + odberatel + " id " + id + " header " + header + " nazev_vyjadreni " + nazev_vyjadreni + + " datum_podani " + datum_podani)
+    res.status(200).send()
 })
