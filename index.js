@@ -219,7 +219,7 @@ app.post("/newcontract/:odberatel:/idname", (req, res) => {
                 fs.mkdirSync("../Backend_Assets/server/" + idname.toString(), { recursive: true });
             }
             fs.writeFile(wowfile, psdata, function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení UI nové zakázky. Error: " + err) }; });
-            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar", "stavebnici": [], "inzenyring": { "uzemneplanovaciinformace": [], "vyjadrenioexistencisiti": [], "posudky": [], "zadostopripojenikds": [], "spravcisiti-souhlasspd": [], "vyjadrenikpd": [], "smlouvaopravustavbynacizimpozemku": [], "souhlassouseduspovolenimstavby": [], "stavebniurad": [], "archivace": [] } }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
+            fs.writeFile(wowfile2, JSON.stringify({ "foo": "bar", "stavebnici": [], "inzenyringdata": { "uzemneplanovaciinformace": [], "vyjadrenioexistencisiti": [], "posudky": [], "zadostopripojenikds": [], "spravcisiti-souhlasspd": [], "vyjadrenikpd": [], "smlouvaopravustavbynacizimpozemku": [], "souhlassouseduspovolenimstavby": [], "stavebniurad": [] } }), function (err) { if (err) throw err; if (err) { WriteToLog("Error při přečtení dat nové zakázky. Error: " + err) }; });
             fs.readFile("../Backend_Assets/server/" + odberatel.toString() + "/dashinfo.json", "utf8", (err, data) => {
                 if (err) throw err
                 dashdata = JSON.parse(data)
