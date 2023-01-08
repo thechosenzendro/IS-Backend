@@ -9,13 +9,17 @@ var port = 8080;
 let date = new Date();
 var frontend = "http://127.0.0.1:5500/"
 WriteToLog("______________Inicializace MZISAPI______________")
-app.listen(port, () => WriteToLog("Vše funguje na localhost:" + port));
+const key = fs.readFileSync('./key.pem');
+const cert = fs.readFileSync('./cert.pem');
+var https = require('https')
+const server = https.createServer({ key: key, cert: cert }, app);
+server.listen(port, () => { WriteToLog('Vše připraveno na portu ' + port) });
 //Middleware
 app.use(express.json());
 app.use(cors(corsOptions));
 app.options('*', cors());
 var corsOptions = {
-    origin: 'http://127.0.0.1:5500/',
+    origin: 'mzprojekt.cz',
     optionsSuccessStatus: 200
 }
 
