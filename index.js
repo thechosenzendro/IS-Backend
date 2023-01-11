@@ -7,13 +7,11 @@ var cors = require('cors')
 var crypto = require('crypto-js')
 var port = 8080;
 let date = new Date();
-var frontend = "http://127.0.0.1:5500/"
 WriteToLog("______________Inicializace MZISAPI______________")
 const key = fs.readFileSync('./key.pem');
 const cert = fs.readFileSync('./cert.pem');
 var https = require('https')
-const server = https.createServer({ key: key, cert: cert }, app);
-server.listen(port, () => { WriteToLog('Vše připraveno na portu ' + port) });
+
 //Middleware
 app.use(express.json());
 app.use(cors(corsOptions));
@@ -432,3 +430,5 @@ app.post("/newexpression/:odberatel/:id/:header/:nazev_vyjadreni/:datum_podani",
     console.log("odberatel " + odberatel + " id " + id + " header " + header + " nazev_vyjadreni " + nazev_vyjadreni + + " datum_podani " + datum_podani)
     res.status(200).send()
 })
+const server = https.createServer({ key: key, cert: cert }, app);
+server.listen(port, () => { WriteToLog('Vše připraveno na portu ' + port) });
